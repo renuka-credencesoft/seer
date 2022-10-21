@@ -1,0 +1,80 @@
+.NavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%); */
+    padding: 8px 5px;
+    /* transform: translateY(-500px); */
+}
+
+.NavbarContainer > svg{
+    margin: 0 10px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.NavbarLogo{
+    width: 10%;
+}
+
+.NavbarLogo > img{
+    width: 100%;
+}
+
+.NavbarLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 40px;
+}
+
+.NavbarLinks > li{
+    list-style: none;
+}
+
+.NavbarLinks > li > a{
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 10px 10px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.NavbarLinks > li > a:hover{
+    border: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {     
+    .NavbarLinks > li > a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 790px) {    
+        
+    .NavbarLinks{
+        width: 60%;
+        margin-right: 30px;
+    } 
+
+    .NavbarLinks > li > a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {        
+    .NavbarLogo{
+        width: 15%;
+    }    
+    
+    .NavbarLinks{
+        display: none;
+    }
+
+    .NavbarContainer > svg{
+        display: block;
+    }
+}
