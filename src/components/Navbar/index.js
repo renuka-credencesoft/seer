@@ -1,9 +1,10 @@
 import React from 'react';
 import SeerLogo from '../../assets/images/SeerLogo.svg';
 import {RiMenu2Fill} from 'react-icons/ri';
+import {ImCross} from 'react-icons/im';
 import './index.css';
 
-const Navbar = ({setShowResponsiveNav,showResponsiveNav}) => {
+const Navbar = ({setShowResponsiveNav,showResponsiveNav,responsiveNav}) => {
   return (
     <div className='NavbarContainer'>
         <div className="NavbarLogo">
@@ -26,7 +27,8 @@ const Navbar = ({setShowResponsiveNav,showResponsiveNav}) => {
                 <a href="">Contact</a>
             </li>
         </ul>
-        <RiMenu2Fill size={30} onClick={()=>{setShowResponsiveNav(!showResponsiveNav);console.log("func")}} />
+        {!responsiveNav ? <RiMenu2Fill size={30} onClick={()=>{setShowResponsiveNav(!showResponsiveNav)}} /> :
+        <ImCross size={30} onClick={()=>{setShowResponsiveNav(!showResponsiveNav)}} /> }
     </div>
   )
 }

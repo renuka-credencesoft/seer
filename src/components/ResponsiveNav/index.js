@@ -6,7 +6,7 @@ const ResponsiveNav = ({setShowResponsiveNav,showResponsiveNav}) => {
     console.log(showResponsiveNav)
   return (
     <div className="responsiveMenu" style={showResponsiveNav ? {opacity: "1", transform: 'translateX(0px)'} : null}>
-        <Navbar />
+        <Navbar setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} responsiveNav={true} />
         <ul className="responsiveMenuNavbarLinks">
             <li className="responsiveMenuNavbarLink">
                 <a href="">Home</a>
