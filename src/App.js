@@ -1,20 +1,29 @@
 import { useState } from 'react';
 import './App.css';
-import MeetTheTeam from './components/MeetTheTeam';
 import Navbar from './components/Navbar';
 import ResponsiveNav from './components/ResponsiveNav';
 import Home from './pages/Home';
-import About from "./pages/About"
+import About from "./pages/About";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const [showResponsiveNav, setShowResponsiveNav] = useState(false);
+
   return (
-    <div className="AppContainer">
-      <Navbar setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} />
-      <ResponsiveNav setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} />
-      {/* <Home /> */}
-      <About />
-    </div>
+      <Router>
+        <div className="AppContainer">
+          <Navbar setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} />
+          <ResponsiveNav setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} />
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route exact path='/about' element={<About />} />
+          </Routes>
+        </div>
+      </Router>
   );
 }
 

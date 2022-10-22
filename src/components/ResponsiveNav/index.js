@@ -1,21 +1,23 @@
 import React from 'react';
 import Navbar from '../Navbar';
 import './index.css';
+import {
+    Link
+  } from "react-router-dom";
 
 const ResponsiveNav = ({setShowResponsiveNav,showResponsiveNav}) => {
-    console.log(showResponsiveNav)
   return (
-    <div className="responsiveMenu" style={showResponsiveNav ? {opacity: "1", transform: 'translateX(0px)'} : null}>
+    <div className="responsiveMenu" style={showResponsiveNav ? {opacity: "1", transform: 'translateX(0px)',display: "block"} : null}>
         <Navbar setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} responsiveNav={true} />
         <ul className="responsiveMenuNavbarLinks">
             <li className="responsiveMenuNavbarLink">
-                <a href="">Home</a>
+                <Link to="/">Home</Link>
             </li>
             <li className="responsiveMenuNavbarLink">
                 <a href="">Solutions</a>
             </li>
             <li className="responsiveMenuNavbarLink">
-                <a href="">About Us</a>
+                <Link to="/about">About Us</Link>
             </li>
             <li className="responsiveMenuNavbarLink">
                 <a href="">Blog</a>

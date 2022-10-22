@@ -5,6 +5,11 @@
     background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%);
     padding: 8px 5px;
     /* transform: translateY(-500px); */
+    position: sticky;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .NavbarContainer > svg{

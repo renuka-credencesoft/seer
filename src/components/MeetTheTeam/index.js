@@ -29,9 +29,9 @@ const MeetTheTeam = () => {
   ];
   return (
     <div className="grid lg:grid-cols-3 lg:gap-16 mt-10 gap-5 mx-3 lg:mx-10">
-      {details.map((s) => {
+      {details.map((s,i) => {
         return (
-          <div className="w-96 lg:px-0 px-10 ">
+          <div key={i} className="w-96 lg:px-0 px-10 ">
             <div>
               <img src={s.image} className=" w-full mx-auto" />
             </div>
