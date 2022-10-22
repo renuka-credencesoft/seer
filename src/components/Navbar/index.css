@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%); */
+    background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%);
     padding: 8px 5px;
     /* transform: translateY(-500px); */
 }

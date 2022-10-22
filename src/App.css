@@ -1,6 +1,6 @@
 .AppContainer{
     position: relative;
     /* margin: auto; */
-    background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%);
+    /* background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%); */
     overflow: hidden !important;
 }
