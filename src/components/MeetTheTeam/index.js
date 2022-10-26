@@ -28,10 +28,12 @@ const MeetTheTeam = () => {
     },
   ];
   return (
-    <div className="grid lg:grid-cols-3 lg:gap-16 mt-10 gap-5 mx-3 lg:mx-10">
+    <div>
+      <p className="text-5xl text-center font-bold mt-3" style={{fontFamily:"serif"}}>Meet The Team</p>
+    <div className="grid md:grid-cols-3 md:gap-16 mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
       {details.map((s,i) => {
         return (
-          <div key={i} className="w-96 lg:px-0 px-10 ">
+          <div key={i} className="lg:w-full md:px-0 px-10 ">
             <div>
               <img src={s.image} className=" w-full mx-auto" />
             </div>
@@ -45,6 +47,7 @@ const MeetTheTeam = () => {
           </div>
         );
       })}
+    </div>
     </div>
   );
 };
