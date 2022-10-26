@@ -9,6 +9,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from './components/Footer';
+import Solution from './pages/Solution';
 
 function App() {
   const [showResponsiveNav, setShowResponsiveNav] = useState(false);
@@ -21,7 +23,9 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/about' element={<About />} />
+            <Route exact path='/solutions' element={<Solution />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
   );

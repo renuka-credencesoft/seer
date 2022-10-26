@@ -1,0 +1,40 @@
+.ClientsCarouselContainer{
+    padding: 80px 10px;
+    background: #EDEEFF;
+}
+
+.ClientsCarouselContainer > h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 45px;
+}
+
+.ClientsCarouselContainer > h1 > span {
+    border-top: 5px solid black;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
+.carousel-inner{
+    width: 95%;
+    margin: auto;
+}
+
+.carousel-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-inner-cards{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carousel-control-prev{
+    justify-content: left;
+}
+
+.carousel-control-next{
+    justify-content: end;
+}

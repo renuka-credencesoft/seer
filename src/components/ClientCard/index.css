@@ -1,0 +1,31 @@
+.ClientCard{
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px 10px;
+}
+
+.ClientCard > img{
+    width: 100%;
+}
+
+.ClientCardContent {
+    background: #fff;
+    padding: 10px 10px;
+}
+
+.ClientCardContent > h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ClientCardContent > h4{
+    color: #868686;
+    font-size: 20px;
+}
+
+.ClientCardContent > p{
+    color: #868686;
+    padding: 10px 0;
+    font-size: 15px;
+}

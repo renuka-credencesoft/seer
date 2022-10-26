@@ -1,0 +1,49 @@
+.videoSectionContainer{
+    display: flex;
+    padding: 80px 10px;
+    background: #EDEEFF;
+}
+
+.videoSectionContainer > div{
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.videoSectionLeftSection{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: center;
+    color: #616161;
+    padding: 10px 30px;
+    margin: 0 20px;
+}
+
+.videoSectionLeftSection > p > span{
+    color:#363636;
+    font-weight: 700;
+}
+
+.videoSectionRightSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .videoSectionContainer{
+        flex-direction: column-reverse;
+        padding: 10px 0px;
+    }
+
+    .videoSectionContainer > div{
+        width: 100%;
+    }
+        
+    .videoSectionLeftSection{
+        padding: 5px 5px;
+        margin: 0 0px;
+    }
+}

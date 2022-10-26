@@ -1,17 +1,15 @@
 import React from 'react';
 import ClientsCarousel from '../../components/ClientsCarousel';
-import HeroSection from '../../components/HeroSection';
 import VideoSection from '../../components/VideoSection';
 import './index.css';
 
-const Home = () => {
+const Solution = () => {
   return (
-    <div className='HomePageContainer'>
-        <HeroSection />
+    <div className='SolutionContainer'>
         <VideoSection />
         <ClientsCarousel />
     </div>
   )
 }
 
-export default Home
+export default Solution
