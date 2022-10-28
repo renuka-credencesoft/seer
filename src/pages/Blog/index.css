@@ -38,3 +38,26 @@
     font-weight: 400;
     padding: 20px 70px;
 }
+
+@media screen and (max-width: 750px) {
+
+    .BlogContainer{
+        padding: 25px 10px;
+    }
+
+    .BlogTopText{
+        width: 95%;
+    }
+
+    .BlogTopText > p{
+        padding: 10px 20px;
+    }
+
+    .BlogBottomText{
+        width: 95%;
+    }
+
+    .BlogBottomText > p:nth-child(2){
+        padding: 10px 20px;
+    }
+}
