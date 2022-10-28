@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Footer from './components/Footer';
 import Solution from './pages/Solution';
+import Contact from './pages/Contact';
 
 function App() {
   const [showResponsiveNav, setShowResponsiveNav] = useState(false);
@@ -24,6 +25,7 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route exact path='/about' element={<About />} />
             <Route exact path='/solutions' element={<Solution />} />
+            <Route exact path='/contact' element={<Contact />} />
           </Routes>
           <Footer />
         </div>

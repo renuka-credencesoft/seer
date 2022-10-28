@@ -28,7 +28,7 @@ const Navbar = ({setShowResponsiveNav,showResponsiveNav,responsiveNav}) => {
                 <a href="">Blog</a>
             </li>
             <li className="NavbarLink">
-                <a href="">Contact</a>
+                <a href="/contact">Contact</a>
             </li>
         </ul>
         {!responsiveNav ? <RiMenu2Fill size={30} onClick={()=>{setShowResponsiveNav(true)}} /> :
