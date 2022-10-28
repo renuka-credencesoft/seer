@@ -10,20 +10,20 @@ const ResponsiveNav = ({setShowResponsiveNav,showResponsiveNav}) => {
     <div className="responsiveMenu" style={showResponsiveNav ? {opacity: "1", transform: 'translateX(0px)',display: "block"} : null}>
         <Navbar setShowResponsiveNav={setShowResponsiveNav} showResponsiveNav={showResponsiveNav} responsiveNav={true} />
         <ul className="responsiveMenuNavbarLinks">
-            <li className="responsiveMenuNavbarLink">
+            <li className="NavbarLink">
                 <Link to="/">Home</Link>
             </li>
-            <li className="responsiveMenuNavbarLink">
-                <a href="">Solutions</a>
+            <li className="NavbarLink">
+                <Link to="/solutions">Solutions</Link>
             </li>
-            <li className="responsiveMenuNavbarLink">
+            <li className="NavbarLink">
                 <Link to="/about">About Us</Link>
             </li>
-            <li className="responsiveMenuNavbarLink">
-                <a href="">Blog</a>
+            <li className="NavbarLink">
+                <Link to="/blog">Blog</Link>
             </li>
-            <li className="responsiveMenuNavbarLink">
-                <a href="">Contact</a>
+            <li className="NavbarLink">
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
     </div>

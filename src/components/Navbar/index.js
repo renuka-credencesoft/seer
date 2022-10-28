@@ -15,20 +15,20 @@ const Navbar = ({setShowResponsiveNav,showResponsiveNav,responsiveNav}) => {
             <img src={SeerLogo} alt="Logo" />
         </div>
         <ul className="NavbarLinks">
-            <li className="NavbarLink">
+        <li className="NavbarLink">
                 <Link to="/">Home</Link>
             </li>
             <li className="NavbarLink">
-                <a href="/solutions">Solutions</a>
+                <Link to="/solutions">Solutions</Link>
             </li>
             <li className="NavbarLink">
                 <Link to="/about">About Us</Link>
             </li>
             <li className="NavbarLink">
-                <a href="/blog">Blog</a>
+                <Link to="/blog">Blog</Link>
             </li>
             <li className="NavbarLink">
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>
         {!responsiveNav ? <RiMenu2Fill size={30} onClick={()=>{setShowResponsiveNav(true)}} /> :
