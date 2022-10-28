@@ -25,7 +25,7 @@ const Navbar = ({setShowResponsiveNav,showResponsiveNav,responsiveNav}) => {
                 <Link to="/about">About Us</Link>
             </li>
             <li className="NavbarLink">
-                <a href="">Blog</a>
+                <a href="/blog">Blog</a>
             </li>
             <li className="NavbarLink">
                 <a href="/contact">Contact</a>

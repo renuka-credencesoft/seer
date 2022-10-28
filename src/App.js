@@ -12,6 +12,7 @@ import {
 import Footer from './components/Footer';
 import Solution from './pages/Solution';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
 
 function App() {
   const [showResponsiveNav, setShowResponsiveNav] = useState(false);
@@ -26,6 +27,7 @@ function App() {
             <Route exact path='/about' element={<About />} />
             <Route exact path='/solutions' element={<Solution />} />
             <Route exact path='/contact' element={<Contact />} />
+            <Route exact path='/blog' element={<Blog />} />
           </Routes>
           <Footer />
         </div>
