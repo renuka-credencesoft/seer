@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e4775df.css",
+    "main.js": "/static/js/main.f09a962d.js",
+    "static/media/SeerHeroImg.svg": "/static/media/SeerHeroImg.a61b884b460ac0f2ff666ea433cade83.svg",
+    "static/media/aboutUsCircle.png": "/static/media/aboutUsCircle.c6fac873316bd25cc28a.png",
+    "static/media/aboutUsLogo.png": "/static/media/aboutUsLogo.7603f76cecc1de69d200.png",
+    "static/media/processLogo.png": "/static/media/processLogo.c45f1cad355d40f77329.png",
+    "static/media/Insights.png": "/static/media/Insights.52f6de83540c8cae1780.png",
+    "static/media/damien.webp": "/static/media/damien.696d5bbb9852f049b997.webp",
+    "static/media/Roland.webp": "/static/media/Roland.d1b2b0489f4f1ef74c1e.webp",
+    "static/media/SeerLogo.svg": "/static/media/SeerLogo.2d052f12815bdfae049db78b69799093.svg",
+    "static/media/365.png": "/static/media/365.8048dd7baf7e07b3b34a.png",
+    "static/media/Joshua.webp": "/static/media/Joshua.9e0f57450012e733d792.webp",
+    "index.html": "/index.html",
+    "main.4e4775df.css.map": "/static/css/main.4e4775df.css.map",
+    "main.f09a962d.js.map": "/static/js/main.f09a962d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4775df.css",
+    "static/js/main.f09a962d.js"
+  ]
+}
