@@ -27,7 +27,7 @@
 
 .carousel-inner-cards{
     display: flex !important;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 

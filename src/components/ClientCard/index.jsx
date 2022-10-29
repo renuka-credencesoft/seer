@@ -9,7 +9,7 @@ const ClientCard = () => {
         <div className="ClientCardContent">
             <h3>Name</h3>
             <h4>Designation</h4>
-            <p>Description Description Description Description Description Description Description Description Description Description Description Description</p>
+            <p>Description Description Description Description</p>
         </div>
     </div>
   )
