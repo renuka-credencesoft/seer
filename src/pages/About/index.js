@@ -1,5 +1,6 @@
 import React from "react";
 import MeetTheTeam from "../../components/MeetTheTeam";
+import Methodology from "../../components/Methodology";
 
 const index = () => {
   return (
@@ -16,6 +17,7 @@ const index = () => {
         embarked on creating Stock Seer and Seer Insights.
       </p>
       <MeetTheTeam />
+      <Methodology />
     </div>
   );
 };

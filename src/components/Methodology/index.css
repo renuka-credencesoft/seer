@@ -1,0 +1,48 @@
+.MethodologyContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MethodologyLeftSection {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3d4657;
+    color: #fff;
+}
+
+.MethodologyLeftSectionContent > img,p {
+    padding: 30px 0;
+}
+
+.MethodologyLeftSectionContent > p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.MethodologyLeftSectionContent{
+    width: 80%;
+    margin: auto;
+}
+
+.MethodologyRightSection{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+    .MethodologyContainer{
+        flex-direction: column;
+    }
+
+    .MethodologyLeftSection {
+        width: 100%;
+    }
+
+    .MethodologyRightSection{
+        width: 100%;
+    }
+}
