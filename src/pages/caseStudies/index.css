@@ -1,0 +1,79 @@
+.glassons {
+    height: 253px;
+}
+
+.glassonsView {
+    margin-top: 87px;
+}
+
+.glassonsView2 {
+    margin-top: 87px;
+}
+.glassonsTwo2 {
+    margin-top: -13px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 76px;
+}
+
+.glassonsOne {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.glassonsTwo {
+    margin-top: -13px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (min-width:1024px) {
+    .sectionTwo {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1023px) {
+.sectionOne {
+    display: none;
+}
+
+.glassonsOneSectionTwo {
+    margin-top: 27px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.glassonsTwoSectionTwo {
+    font-size: 16px;
+    margin-top: -13px;
+    text-align: justify;
+}
+}
+
+@media (max-width: 575px) {
+    .sectionOne {
+        display: none;
+    }
+
+    .sectionTwo {
+        display: none;
+    }
+
+    .glassonsViewThree {
+        margin-top: 30px;
+    }
+
+    .glassonsOneSectionThree {
+        text-align: justify;
+        padding: 20px;
+        
+    }
+
+    .glassonsThree {
+        height: 253px;
+       padding: 20px;
+       
+    }
+}
