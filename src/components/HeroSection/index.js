@@ -12,6 +12,19 @@ const HeroSection = () => {
               Learn more
             </button>
         </div>
+        <div className="ContactRightSectionHome">
+            <p>Name:</p>
+            <input type="text" />
+            <p>Email:</p>
+            <input type="email" />
+            <p>Phone:</p>
+            <input type="text" />
+            <p>Enquiry:</p>
+            <textarea name="" cols="30" rows="5"></textarea>
+            <button className='lg:text-lg text-white lg:bg-blue-400 lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block '>
+              Submit
+            </button>
+        </div>
         <div className="HeroSectionBgImg">
             <img src={HeroImg} alt="hero" />
         </div>

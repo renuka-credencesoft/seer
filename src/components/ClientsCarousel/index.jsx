@@ -8,10 +8,10 @@ import ClientCard4 from '../ClientCard4';
 
 const ClientsCarousel = () => {
   return (
-    <div className='ClientsCarouselContainer'>
-        <h1><span>Clients</span></h1>
-    <Carousel variant="dark">
-        <Carousel.Item>
+    <div>
+        <p className='heading'>Partners Predicting Preparing and Prospering - With SEER</p>
+    <Carousel variant="dark" >
+        <Carousel.Item> 
             <div className="carousel-inner-cards">
                 <ClientCard />
                 <ClientCard2 />

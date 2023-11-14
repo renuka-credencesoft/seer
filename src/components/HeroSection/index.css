@@ -47,6 +47,44 @@
     margin: 0;
 }
 
+.ContactRightSectionHome{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 10px 10px;
+    margin-top: 60px;
+    margin-left: 1050px;
+    width: 30%;
+}
+
+
+.ContactRightSectionHome > p{
+    color: #4b5971;
+    font-weight: 500;
+    font-size: 20px; 
+    padding: 2px 0;
+}
+
+.ContactRightSectionHome > input{
+    border: 1px solid #808080;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+
+.ContactRightSectionHome > textarea{
+    border: 1px solid #808080;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 20px;
+} 
+
+
+
 @media screen and (max-width: 1200px) {
         
     .HeroSectionLeftText > h1{

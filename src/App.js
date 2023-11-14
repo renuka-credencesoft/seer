@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Solution from "./pages/Solution";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import CaseStudies from "./pages/caseStudies"
 import ReactDOM from "react-dom/client";
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
           <Route exact path="/solutions" element={<Solution />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/caseStudies" element={<CaseStudies />} />
         </Routes>
         <Footer />
       </div>

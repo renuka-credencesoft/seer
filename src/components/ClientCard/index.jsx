@@ -6,11 +6,11 @@ const ClientCard = () => {
   return (
     <div className={`${ClientCard} border shadow rounded-lg border-gray-900`}>
         <img src={SeerLogo} alt="Logo" />
-        <div className="ClientCardContent">
+        {/* <div className="ClientCardContent">
             <h3>Name</h3>
             <h4>Designation</h4>
             <p>Description Description Description Description</p>
-        </div>
+        </div> */}
     </div>
   )
 }
