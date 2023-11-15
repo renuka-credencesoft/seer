@@ -4,7 +4,6 @@ import HeroSection from '../../components/HeroSection';
 import VideoSection from '../../components/VideoSection';
 import './index.css';
 import Demo from '../../components/Demos/demo';
-import App from '../../components/apppp/App';
 
 const Home = () => {
   return (
@@ -13,7 +12,6 @@ const Home = () => {
         <ClientsCarousel />
         <VideoSection />
         <Demo />
-        <App />
     </div>
   )
 }
