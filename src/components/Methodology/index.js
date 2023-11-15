@@ -3,6 +3,7 @@ import './index.css';
 import aboutUsCircle from '../../assets/images/aboutUsCircle.png'; 
 import aboutUsLogo from '../../assets/images/aboutUsLogo.png'; 
 import processLogo from '../../assets/images/processLogo.png'; 
+import App from '../apppp/App';
 
 function Methodology() {
   return (
@@ -18,7 +19,8 @@ function Methodology() {
       </div>
       <div className="MethodologyRightSection">
           <div className="MethodologyRightSectionImg">
-            <img src={aboutUsCircle} alt="logo" />
+            {/* <img src={aboutUsCircle} alt="logo" /> */}
+            <App />
           </div>
       </div>
     </div>

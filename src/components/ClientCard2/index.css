@@ -1,5 +1,5 @@
 .ClientCard{
-    width: 300px;
+    width: 200px;
     border-radius: 8px;
     overflow: hidden;
     margin: 10px 10px;
@@ -7,6 +7,14 @@
 
 .ClientCard > img{
     width: 100%;
+    display: flex;
+}
+
+.image{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ClientCardContent {

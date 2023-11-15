@@ -3,12 +3,15 @@ import './index.css';
 import VideoSection from '../../assets/images/VideoSection.png';
 import calendar1 from '../../assets/images/365.png';
 import calendar2 from '../../assets/images/7.png';
+import ReactPlayer from "react-player";
 
 const SolutionVideo = () => {
   return (
     <div className='SolutionVideoContainer'>
         <div className="SolutionVideoLeftSection">
-            <img src={VideoSection} alt="Video section" />
+        <div className="videoSectionRightSection">
+          <ReactPlayer url="https://www.youtube.com/watch?v=9uXpgjIF-3c"  />
+        </div>
         </div>
         <div className="SolutionVideoRightSection">
             <div className="SolutionVideoRightSectionCard">

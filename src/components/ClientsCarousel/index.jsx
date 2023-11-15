@@ -13,26 +13,17 @@ const ClientsCarousel = () => {
     <Carousel variant="dark" >
         <Carousel.Item> 
             <div className="carousel-inner-cards">
-                <ClientCard />
-                <ClientCard2 />
                 <ClientCard3 />
-                <ClientCard4 />
             </div>
         </Carousel.Item>
         <Carousel.Item>
             <div className="carousel-inner-cards">
                 <ClientCard />
-                <ClientCard2 />
-                <ClientCard3 />
-                <ClientCard4 />
             </div>
         </Carousel.Item>
         <Carousel.Item>
             <div className="carousel-inner-cards">
-                <ClientCard />
                 <ClientCard2 />
-                <ClientCard3 />
-                <ClientCard4 />
             </div>
         </Carousel.Item>
     </Carousel>

@@ -16,7 +16,7 @@
 }
 
 .carousel-inner {
-    width: 95%;
+    width: 65%;
     margin: auto;
 }
 
@@ -27,16 +27,18 @@
 
 .carousel-inner-cards {
     display: flex !important;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
+    justify-content: center !important;
+    justify-items: center !important;
 }
 
 .carousel-control-prev {
-    justify-content: left;
+    justify-items: center !important;
+    justify-content: center !important;
 }
 
 .carousel-control-next {
-    justify-content: end;
+    justify-items: center !important;
+    justify-content: center !important;
 }
 
 .heading {

@@ -1,7 +1,7 @@
 .videoSectionContainer{
     display: flex;
     padding: 80px 10px;
-    background: #EDEEFF;
+    background: #000000;
 }
 
 .videoSectionContainer > div{
@@ -13,17 +13,17 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    font-size: 25px;
     line-height: 42px;
-    text-align: center;
-    color: #616161;
+    text-align: left;
+    color: #2d2c2c;
     padding: 10px 30px;
     margin: 0 20px;
 }
 
 .videoSectionLeftSection > p > span{
-    color:#363636;
+    color:#464646;
     font-weight: 700;
+    font-size: 15px !important;
 }
 
 .videoSectionRightSection{

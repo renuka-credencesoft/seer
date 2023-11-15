@@ -171,3 +171,9 @@
         padding: 0px 0px;
     }
 }
+
+.videoSectionRightSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
