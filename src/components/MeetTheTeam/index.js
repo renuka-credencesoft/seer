@@ -39,10 +39,10 @@ const MeetTheTeam = () => {
             </div>
             <div className="text-center mt-3">
               <p className="text-4xl font-bold">{s.name}</p>
-              <p className="text-lg text-gray-700 font-semibold mt-2">
+              <p className="text-lg text-gray-700 font-semibold -mt-8 ">
                 {s.designation}
               </p>
-              <p className="text-base text-gray-500 mt-2">{s.description}</p>
+              <p className="text-base text-gray-500 -mt-8">{s.description}</p>
             </div>
           </div>
         );

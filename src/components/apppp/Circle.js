@@ -4,14 +4,14 @@ import { FaArrowRight } from 'react-icons/fa'; // Import the arrow icon from a l
 
 const Circle = () => {
   const descriptions = [
-    'Description 1',
-    'Description 2',
-    'Description 3',
-    'Description 4',
-    'Description 5',
-    'Description 6',
-    'Description 7',
-    'Description 8',
+    "We extract your data into your tenancy in our cloud solution using our secure API's.",
+    'We annotate and enhance your data per your blueprint.',
+    'Using our Rapid Application Development environment, we build your application set according to your blueprint.',
+    'We release in a restricted deployment environment where you can use the solution to build confidence in Stock Seer and Seer insights.',
+    'We go live.',
+    'We repeat the process for new opportunities, creating a culture of innovation.',
+    'We understand your requirements and the opportunities within your business that give you the greatest return.',
+    'We craft and implementation blueprint that is customized to your exact needs and get your sign-off.',
   ];
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -67,8 +67,18 @@ const Circle = () => {
         onMouseEnter={() => handleHover(index)}
         onMouseLeave={handleLeave}
       >
-        {index == 6 ? <p className='text-white'>wsderftgy</p> : 'sdfg'}
+          <div  key={index} className={`smallCircle  ${hoveredIndex === index ? 'hovered' : ''}`}  onMouseEnter={() => handleHover(index)}
+        onMouseLeave={handleLeave}>
         
+        {index == 6 ? <p className='text-white text-sm -mt-2 text-center'>1.<br /> Identify Opportunity</p> : ''}
+        {index == 7 ? <p className='text-white text-sm -mt-2  text-center'>2.<br /> Create your Blueprint</p> : ''}
+        {index == 0 ? <p className='text-white text-sm -mt-2  text-center'>3.<br /> Extract your Data</p> : ''}
+        {index == 1 ? <p className='text-white text-sm -mt-2  text-center'>4.<br /> Enhance your Data</p> : ''}
+        {index == 2 ? <p className='text-white text-sm -mt-6 text-center'>5.<br /> Implement your Algorithm</p> : ''}
+        {index == 3 ? <p className='text-white text-sm -mt-2 text-center'>6.<br /> Establish Confidence</p> : ''}
+        {index == 4 ? <p className='text-white text-sm  text-center'>7.<br /> Go Live</p> : ''}
+        {index == 5 ? <p className='text-white text-sm -mt-2 text-center'>8.<br /> Refine and Repeat</p> : ''}
+        </div>
       </div>
     );
   });
@@ -77,9 +87,9 @@ const Circle = () => {
     <div className="main-circle" onMouseLeave={handleLeave}>
       {/* {arrows} */}
       {circles}
-      {hoveredIndex !== null && (
-        <div className="description">{descriptions[hoveredIndex]}</div>
-      )}
+      {hoveredIndex !== null ? (
+        <div className="description text-lg px-20">{descriptions[hoveredIndex]}</div>
+      ) : <p className="description2 text-3xl font-bold  px-20" style={{color:"#35435F"}}>SSR Methodology</p>}
     </div>
   );
 };
