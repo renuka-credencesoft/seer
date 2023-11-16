@@ -13,7 +13,6 @@ const Home = () => {
         <ClientsCarousel />
         <VideoSection />
         <Demo />
-        <App />
     </div>
   )
 }

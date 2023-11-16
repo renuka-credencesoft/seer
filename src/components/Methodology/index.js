@@ -1,7 +1,8 @@
 import React from 'react';
 import './index.css';
 import aboutUsCircle from '../../assets/images/aboutUsCircle.png'; 
-import aboutUsLogo from '../../assets/images/aboutUsLogo.png'; 
+import aboutUsLogo from '../../assets/images/Seer.png'; 
+import methodologyLogo from '../../assets/images/METHODOLOGY.png'; 
 import processLogo from '../../assets/images/processLogo.png'; 
 import App from '../apppp/App';
 
@@ -12,6 +13,7 @@ function Methodology() {
         <div className="MethodologyLeftSectionContent">
           {/* <div className="MethodologyLeftSectionContentImg"> */}
             <img src={aboutUsLogo} alt="logo" />
+            <img src={methodologyLogo} alt="logo" className="-mt-40" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse sapiente fuga eius sint reprehenderit natus perspiciatis ipsam facilis vel modi adipisci, deserunt amet voluptates quos autem veritatis! Iusto, sunt!</p>
             <img src={processLogo} alt="process" />
           {/* </div> */}
