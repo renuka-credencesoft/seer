@@ -1,31 +1,31 @@
-.SolutionVideoContainer{
+.SolutionVideoContainer {
     display: flex;
     padding: 20px 20px;
 }
 
-.SolutionVideoContainer > div{
+.SolutionVideoContainer>div {
     width: 50%;
     margin: 30px 30px;
 }
 
-.SolutionVideoLeftSection > img{
+.SolutionVideoLeftSection>img {
     width: 100%;
 }
 
-.SolutionVideoLeftSection{
+.SolutionVideoLeftSection {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.SolutionVideoRightSection{
+.SolutionVideoRightSection {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
 }
 
-.SolutionVideoRightSectionCard{
+.SolutionVideoRightSectionCard {
     background: #2C3C57;
     padding: 20px 20px;
     border-radius: 8px;
@@ -34,12 +34,12 @@
 
 }
 
-.SolutionVideoRightSectionCardTopContent{
+.SolutionVideoRightSectionCardTopContent {
     display: flex;
     align-items: center;
 }
 
-.SolutionVideoRightSectionCard:hover{
+.SolutionVideoRightSectionCard:hover {
     z-index: 1;
     position: absolute;
     display: flex;
@@ -51,15 +51,15 @@
     bottom: 0;
 }
 
-.SolutionVideoRightSectionCard:hover > .SolutionVideoRightSectionCardBottomContent {
+.SolutionVideoRightSectionCard:hover>.SolutionVideoRightSectionCardBottomContent {
     display: block;
 }
 
-.SolutionVideoRightSectionCard:hover > .SolutionVideoRightSectionCardTopContent {
+.SolutionVideoRightSectionCard:hover>.SolutionVideoRightSectionCardTopContent {
     flex-direction: column;
 }
 
-.SolutionVideoRightSectionCardTopContent > p{
+.SolutionVideoRightSectionCardTopContent>p {
     padding: 10px 10px;
     padding-right: 10px;
     font-size: 30px;
@@ -69,15 +69,15 @@
     text-align: center;
 }
 
-.SolutionVideoRightSectionCardImg{
+.SolutionVideoRightSectionCardImg {
     width: 25%;
 }
 
-.SolutionVideoRightSectionCardImg > img{
+.SolutionVideoRightSectionCardImg>img {
     width: 100%;
 }
 
-.SolutionVideoRightSectionCardBottomContent{
+.SolutionVideoRightSectionCardBottomContent {
     text-align: center;
     line-height: 40px;
     font-size: 25px;
@@ -87,43 +87,43 @@
 }
 
 @media screen and (max-width: 1100px) {
-        
-    .SolutionVideoRightSectionCardTopContent > p{
+
+    .SolutionVideoRightSectionCardTopContent>p {
         font-size: 30px;
         font-weight: 600;
     }
-        
-    .SolutionVideoRightSectionCardBottomContent{
+
+    .SolutionVideoRightSectionCardBottomContent {
         line-height: 30px;
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 1000px) {
-        
-    .SolutionVideoRightSectionCardTopContent > p{
+
+    .SolutionVideoRightSectionCardTopContent>p {
         font-size: 30px;
         font-weight: 600;
         line-height: 28px;
         padding: 2px 2px;
     }
-        
-    .SolutionVideoRightSectionCardBottomContent{
+
+    .SolutionVideoRightSectionCardBottomContent {
         line-height: 30px;
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 900px) {
-        
-    .SolutionVideoRightSectionCardTopContent > p{
+
+    .SolutionVideoRightSectionCardTopContent>p {
         font-size: 20px;
         font-weight: 600;
         line-height: 28px;
         padding: 2px 2px;
     }
-        
-    .SolutionVideoRightSectionCardBottomContent{
+
+    .SolutionVideoRightSectionCardBottomContent {
         line-height: 25px;
         font-size: 15px;
         padding: 2px 2px;
@@ -131,25 +131,26 @@
 }
 
 @media screen and (max-width: 750px) {
-    .SolutionVideoContainer{
+    .SolutionVideoContainer {
         flex-direction: column;
     }
-    .SolutionVideoContainer > div{
+
+    .SolutionVideoContainer>div {
         width: 100%;
         margin: 0px 0px;
     }
 }
 
 @media screen and (max-width: 380px) {
-        
-    .SolutionVideoRightSectionCardTopContent > p{
+
+    .SolutionVideoRightSectionCardTopContent>p {
         font-size: 15px;
         font-weight: 600;
         line-height: 28px;
         padding: 2px 2px;
     }
-        
-    .SolutionVideoRightSectionCardBottomContent{
+
+    .SolutionVideoRightSectionCardBottomContent {
         line-height: 25px;
         font-size: 10px;
         padding: 2px 2px;
@@ -157,23 +158,26 @@
 }
 
 @media screen and (max-width: 290px) {
-        
-    .SolutionVideoRightSectionCardTopContent > p{
+
+    .SolutionVideoRightSectionCardTopContent>p {
         font-size: 15px;
         font-weight: 600;
         line-height: 25px;
         padding: 0px 0px;
     }
-        
-    .SolutionVideoRightSectionCardBottomContent{
+
+    .SolutionVideoRightSectionCardBottomContent {
         line-height: 25px;
         font-size: 10px;
         padding: 0px 0px;
     }
 }
 
-.videoSectionRightSection{
+.videoSectionRightSection {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
+
 }
