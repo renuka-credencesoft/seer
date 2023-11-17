@@ -21,9 +21,9 @@
     position: absolute;
     content: "";
     height: 10px;
-    width: 200px;
+    width: 22x0px;
     margin: auto;
-    left: 30px;
+    left: 10px;
     border-radius: 10px;
     bottom: 0;
     background: #DD491A;
@@ -107,9 +107,55 @@
     }
 
     .ContactLeftSection > p{
-        font-size: 25px;
+        font-size: 15px;
         padding: 5px 0;
     }
+
+    .ContactLeftSectionContactDetails > p{
+        color: #4b5971;
+        font-weight: 500;
+        font-size: 15px; 
+        padding: 2px 0;;
+    }
+    
+    .ContactLeftSectionContactDetails > p > span{
+        font-weight: 700;
+        padding-right: 1px;
+    }
+    .ContactLeftSectionIcons > img{
+        width: 35px;
+        cursor: pointer;
+    }
+    .ContactLeftSectionIcons{
+        display: flex;
+        padding: 10px 0;
+        flex-wrap: wrap;
+    }
+    .ContactRightSection > p{
+        color: #4b5971;
+        font-weight: 500;
+        font-size: 15px; 
+        padding: 2px 0;
+    }
+    .ContactRightSection{
+        margin-top: -30px;
+    }
+    
+    .ContactRightSection > input{
+        border: 1px solid #808080;
+        border-radius: 5px;
+        width: 100%;
+        padding: 2px 2px;
+        font-size: 15px;
+    }
+    
+    .ContactRightSection > textarea{
+        border: 1px solid #808080;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px 10px;
+        font-size: 15px;
+    } 
 }
 
 @media screen and (max-width: 470px) {

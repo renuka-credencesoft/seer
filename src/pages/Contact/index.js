@@ -33,6 +33,9 @@ const Contact = () => {
             <input type="text" />
             <p>Enquiry:</p>
             <textarea name="" cols="30" rows="5"></textarea>
+            <button className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3  ">
+            Submit
+          </button>
         </div>
     </div>
   )

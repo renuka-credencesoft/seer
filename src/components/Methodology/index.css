@@ -1,6 +1,8 @@
 .MethodologyContainer{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
 }
 
 .MethodologyLeftSection {
@@ -10,6 +12,7 @@
     justify-content: center;
     background: #3d4657;
     color: #fff;
+    
 }
 
 .MethodologyLeftSectionContent > img,p {
@@ -37,7 +40,9 @@
 
 @media screen and (max-width: 750px) {
     .MethodologyContainer{
-        flex-direction: column;
+        flex-direction: column; 
+        position: absolute;
+        width: 100%;
     }
 
     .MethodologyLeftSection {
@@ -46,5 +51,31 @@
 
     .MethodologyRightSection{
         width: 100%;
+        padding: 70px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600 pixels wide (typical for mobile devices) */
+    .main-circle {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .sub-circle {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .arrow-icon {
+      width: 15px;
+      height: 15px;
+      top: 0;
+      left: 0;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  }
+  

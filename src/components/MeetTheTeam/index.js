@@ -38,7 +38,7 @@ const MeetTheTeam = () => {
               <img src={s.image} className=" w-full mx-auto" />
             </div>
             <div className="text-center mt-3">
-              <p className="text-4xl font-bold">{s.name}</p>
+              <p className="lg:text-4xl md:text-4xl text-2xl font-bold">{s.name}</p>
               <p className="text-lg text-gray-700 font-semibold -mt-8 ">
                 {s.designation}
               </p>
