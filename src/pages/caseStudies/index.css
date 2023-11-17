@@ -46,6 +46,7 @@
     visibility: hidden !important;
 }
 
+
 .glassonsOneSectionTwo {
     margin-top: 27px;
     font-size: 16px;
@@ -61,11 +62,6 @@
 
 @media (max-width: 575px) {
     .sectionOne {
-        display: none !important;
-        visibility: hidden !important;
-    }
-
-    .sectionTwo {
         display: none !important;
         visibility: hidden !important;
     }

@@ -7,10 +7,10 @@ const VideoSection = () => {
     <div>
       <div className="videoSectionContainer">
         <div className="videoSectionLeftSection">
-          <span className="lg:text-3xl text-lg">
+          <span className="lg:text-3xl text-lg font-bold">
             <b>Lost sales and wastage cost retailers millions annually.</b>
           </span>
-          <p className="lg:text-lg text-sm">
+          <p className="lg:text-lg text-sm -mt-6 lg:mt-0 md:mt-0">
             <span className="lg:text-lg text-sm">RETAIL IS PERVASIVE DETAIL:</span> Every retailer, small to
             large, is awash with millions of inventory decisions, informed by
             time-consuming, manual analysis of vast swathes of data.

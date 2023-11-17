@@ -60,7 +60,7 @@ const CaseStudies = () => {
             </div>
 
 
-            <div className="sectionTwo">
+            {/* <div className="sectionTwo">
                 <div className="row glassonsView">
                     <div className="col-6">
                         <img src={Seer1} alt="casestudies" className="glassons" />
@@ -115,9 +115,9 @@ const CaseStudies = () => {
                     With more than 5,000 products across 50 stores, it is impossible for merchandisers to accurately forecast sales and infer optimum stock levels. The result is under, and over-stocked items and a merchandise team constrained by excessive repetitive tasks, impacting financial performance and customer satisfaction.
                     Animates chose Seer to eliminate this complex manual process and optimize stock levels across their store network. We deployed Stock Seer’s AI to generate sales forecasts that accurately account for seasonal fluctuations and forecast promotions. Thereafter, statistical methods were applied to calculate optimum safety stock levels and re-order points based on a nominated service level, and automatically generated optimum purchase orders.
                 </div>
-            </div>
+            </div> */}
 
-            <div className="sectionThree">
+            <div className="sectionTwo">
 
                 <div className="row glassonsViewThree">
                     <div>

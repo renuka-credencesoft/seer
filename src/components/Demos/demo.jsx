@@ -9,10 +9,10 @@ import HeroImg from "../../assets/images/SeerHeroImg.svg";
 const Demo = () => {
   return (
     <div>
-      <h1 className="text-center lg:text-3xl text-lg mt-10 font-bold">
+      <h1 className="text-center lg:text-3xl text-xl px-6 lg:px-0 md:px-0 mt-10 font-bold">
         Prepare for every inventory challenge
       </h1>
-      <div className="ContactContainer">
+      <div className="ContactContainer -mt-10 lg:mt-0 md:mt-0">
         <div className="ContactLeftSection">
           <img src={HeroImg} alt="casestudies" class="glassons" />
         </div>
