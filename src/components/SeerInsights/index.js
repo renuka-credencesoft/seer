@@ -27,7 +27,7 @@ const SeerInsights = () => {
               >
                 Stores Sale and Sell-Through Analysis:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm ">
+              <span className="lg:text-lg md:text-sm text-sm ">
                 Stores Sale and Sell-Through AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
@@ -49,7 +49,7 @@ const SeerInsights = () => {
               >
                 Sales Person Performance:
               </span>
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Stores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
@@ -71,7 +71,7 @@ const SeerInsights = () => {
               >
                 Vendor Performance:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Stores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
@@ -93,7 +93,7 @@ const SeerInsights = () => {
               >
                 Category and Item Performance Sales and Margin Analysis:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Stores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
                 AnalysisStores Sale and Margin AnalysisStores Sale and Margin
@@ -115,7 +115,7 @@ const SeerInsights = () => {
               >
                 Margin Analysis:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Margin AnalysisMargin AnalysisMargin AnalysisMargin
                 AnalysisMargin AnalysisMargin Analysis Margin AnalysisMargin
                 AnalysisMargin AnalysisMargin Analysis
@@ -135,7 +135,7 @@ const SeerInsights = () => {
               >
                 Sell-Through Analysis:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Sell-Through AnalysisSell-Through AnalysisSell-Through
                 AnalysisSell-Through AnalysisSell-Through AnalysisSell-Through
                 Analysis Sell-Through AnalysisSell-Through AnalysisSell-Through
@@ -156,7 +156,7 @@ const SeerInsights = () => {
               >
                 Stock Aging:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Sell-Through AnalysisSell-Through AnalysisSell-Through
                 AnalysisSell-Through AnalysisSell-Through AnalysisSell-Through
                 Analysis Sell-Through AnalysisSell-Through AnalysisSell-Through
@@ -177,7 +177,7 @@ const SeerInsights = () => {
               >
                 Customer Analysis:
               </span>{" "}
-              <span className="lg:text-lg md:text-lg text-sm">
+              <span className="lg:text-lg md:text-sm text-sm">
                 Sell-Through AnalysisSell-Through AnalysisSell-Through
                 AnalysisSell-Through AnalysisSell-Through AnalysisSell-Through
                 Analysis Sell-Through AnalysisSell-Through AnalysisSell-Through
