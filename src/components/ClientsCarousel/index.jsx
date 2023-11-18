@@ -9,7 +9,7 @@ import ClientCard4 from '../ClientCard4';
 const ClientsCarousel = () => {
   return (
     <div>
-        <p className='heading'>Partners Predicting Preparing and Prospering - With SEER</p>
+        <p style={{fontFamily:'Oswald, sans-serif'}} className='heading'>Partners Predicting Preparing and Prospering - With SEER</p>
     <Carousel variant="dark" >
         <Carousel.Item> 
             <div className="carousel-inner-cards">

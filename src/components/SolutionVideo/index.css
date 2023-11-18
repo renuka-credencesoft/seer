@@ -62,7 +62,7 @@
 .SolutionVideoRightSectionCardTopContent>p {
     padding: 10px 10px;
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     color: #fff;
     width: 75%;
@@ -80,29 +80,28 @@
 .SolutionVideoRightSectionCardBottomContent {
     text-align: center;
     line-height: 40px;
-    font-size: 25px;
+    font-size: 15px;
     color: #fff;
-    padding: 10px 10px;
     display: none;
 }
 
 @media screen and (max-width: 1100px) {
 
     .SolutionVideoRightSectionCardTopContent>p {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
     }
 
     .SolutionVideoRightSectionCardBottomContent {
         line-height: 30px;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width: 1000px) {
 
     .SolutionVideoRightSectionCardTopContent>p {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         line-height: 28px;
         padding: 2px 2px;
@@ -110,7 +109,7 @@
 
     .SolutionVideoRightSectionCardBottomContent {
         line-height: 30px;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 

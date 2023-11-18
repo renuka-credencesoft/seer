@@ -21,23 +21,23 @@ const Blog = () => {
       {content == false ? (
         <div>
           <div className="BlogTopText">
-            <h1>Blog</h1>
-            <p className="text-lg lg:text-2xl font-semibold">
+            <h1  style={{fontFamily:'Oswald, sans-serif'}}>Blog</h1>
+            <p style={{fontFamily:'Oswald, sans-serif'}}className="text-lg lg:text-2xl font-semibold">
               All the latest on what’s happening in retail plus some useful tips
               and trends to help streamline your business.
             </p>
           </div>
           <div className="BlogBottomText">
-            <p className="text-lg lg:text-2xl font-semibold">
+            <p style={{fontFamily:'Oswald, sans-serif'}}className="text-lg lg:text-2xl font-semibold">
               How can artificial intelligence help retailers forecast demand?
             </p>
-            <p>
+            <p style={{fontFamily:'Roboto, sans-serif'}}>
               Are retailers on the verge of extinction? Confronted by supply
               chain issues, labour shortages, fickle demand, inflationary
               pressures and ri…{" "}
               <span
                 className="underline font-bold"
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", fontFamily:'Roboto, sans-serif' }}
                 onClick={handleButtonClick}
               >
                 Read More
@@ -47,20 +47,20 @@ const Blog = () => {
         </div>
       ) : (
         <div className="lg:px-20 md:px-20 sm:px-2">
-          <p className="lg:text-5xl text-lg font-bold text-center lg:px-64 md:px-80 sm:px-2">
+          <p style={{fontFamily:'Oswald, sans-serif'}} className="lg:text-5xl md:text-4xl text-xl font-bold text-center lg:px-64 md:px-36 sm:px-2">
             How can artificial intelligence help retailers forecast demand?
           </p>
           <div>
-            <p className="lg:text-3xl text-xl font-bold text-left">
+            <p style={{fontFamily:'Oswald, sans-serif'}} className="lg:text-3xl text-lg font-bold lg:mt-0 md:mt-0 -mt-10 text-left">
               Are retailers on the verge of extinction?
             </p>
-            <p className="lg:text-xl text-sm text-left -mt-6">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-6 md:-mt-6 -mt-10">
               Confronted by supply chain issues, labour shortages, fickle
               demand, inflationary pressures and rising interest rates,
               retailers are scrambling to cope with the immensity of the
               challenges they face.
             </p>
-            <p className="lg:text-xl text-sm text-left -mt-10">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left -mt-10">
               Consider a retailer with 20,000 SKUs and 50 stores (potentially 1
               million store / SKU combinations) and the latter’s implications
               for the inventory planner. The sheer volume of data is mind
@@ -77,15 +77,15 @@ const Blog = () => {
             </p>
           </div>
           <div>
-            <p className="lg:text-3xl text-xl font-bold text-left">
+            <p style={{fontFamily:'Oswald, sans-serif'}} className="lg:text-3xl text-xl font-bold text-left">
               AI for retailers
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-6 md:-mt-6 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-6 md:-mt-6 -mt-12">
               Enter AI with its potential to alleviate all the above. When we
               speak of AI, we mean deep learning. But what is deep learning? How
               does it work? And how can you apply it in your business?
             </p>
-            <p className="lg:text-xl md:text-xl text-sm lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl md:text-lg text-sm lg:-mt-10 md:-mt-10 -mt-12">
               Deep learning replicates the human mind’s ability to perceive
               underlying, often subtle patterns in data. Consider predicting the
               age of a person standing in front of you. Your eyes absorb
@@ -103,22 +103,22 @@ const Blog = () => {
             <img src={blog} alt="Logo" className="image rounded-2xl" />
           </div>
           <div>
-            <p className="lg:text-3xl text-xl font-bold text-left">
+            <p style={{fontFamily:'Oswald, sans-serif'}} className="lg:text-3xl text-xl font-bold text-left">
               Demand forecasting
             </p>
-            <p className="lg:text-xl text-sm text-left  lg:-mt-6 md:-mt-6 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left  lg:-mt-6 md:-mt-6 -mt-12">
               Knowing what will sell, where and when underpins all stock
               optimization problems in retail. Deep learning is the panacea for
               demand forecasting, and by extension is the ultimate approach to
               accurate, autonomous stock optimization.
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
               Retailers invariably have rich transactional history and master
               data which should be capitalized using AI. Companies like Seer
               offer artificial intelligence as a cloud service, allowing
               retailers to: -
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
               1. a) Circumvent the cost and complexity of establishing their own
               AI teams and infrastructure.
               <br />
@@ -127,31 +127,31 @@ const Blog = () => {
               <br />
               3. c) Free up teams to focus on core business.
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
               An AI implementation entails identifying a problem - typically a
               labour intensive or inaccurate process. Pertinent data is
               replicated to a secure cloud using APIs, the algorithm is trained,
               and predictions are made which are autonomously applied to address
               the problem. The process can then be repeated.
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
               An AI enabled business will not merely survive but thrive and will
               be prepared to face the challenges the future will inevitably
               pose.
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
               An AI enabled business will not merely survive but thrive and will
               be prepared to face the challenges the future will inevitably
               pose.
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
-            <Link to="/caseStudies">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <Link to="/caseStudies" className="mr-2">
                 Contact
               </Link>
               the team at SEER Inc to learn more about how an AI retail solution
               could work for your organisation.
             </p>
-            <p className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
+            <p style={{fontFamily:'Roboto, sans-serif'}} className="lg:text-xl text-sm text-left lg:-mt-10 md:-mt-10 -mt-12">
               <span
                 className="underline font-bold"
                 style={{ cursor: "pointer" }}

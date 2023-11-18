@@ -38,8 +38,8 @@
 }
 
 .HeroSectionLeftText > p{
-    font-family: sans-serif;
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;     
     font-weight: 300;
     font-size: 16px;
     line-height: 27px;

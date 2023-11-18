@@ -16,22 +16,22 @@ const Navbar = ({setShowResponsiveNav,showResponsiveNav,responsiveNav}) => {
         </div>
         <ul className="NavbarLinks">
         <li className="NavbarLink">
-                <Link to="/">Home</Link>
+                <Link to="/" style={{fontFamily:'Oswald, sans-serif'}}>Home</Link>
             </li>
             <li className="NavbarLink">
-                <Link to="/solutions">Solutions</Link>
+                <Link to="/solutions"  style={{fontFamily:'Oswald, sans-serif'}}>Solutions</Link>
             </li>
             <li className="NavbarLink">
-                <Link to="/caseStudies">Case Studies</Link>
+                <Link to="/caseStudies"  style={{fontFamily:'Oswald, sans-serif'}}>Case Studies</Link>
             </li>
             <li className="NavbarLink">
-                <Link to="/about">About Us</Link>
+                <Link to="/about"  style={{fontFamily:'Oswald, sans-serif'}}>About Us</Link>
             </li>
             <li className="NavbarLink">
-                <Link to="/blog">Blog</Link>
+                <Link to="/blog"  style={{fontFamily:'Oswald, sans-serif'}}>Blog</Link>
             </li>
             <li className="NavbarLink">
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact"  style={{fontFamily:'Oswald, sans-serif'}}>Contact</Link>
             </li>
         </ul>
         {!responsiveNav ? <RiMenu2Fill size={30} onClick={()=>{setShowResponsiveNav(true)}} /> :
