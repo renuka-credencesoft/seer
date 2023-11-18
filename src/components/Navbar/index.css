@@ -10,7 +10,10 @@
     right: 0;
     left: 0;
     z-index: 10;
+    /* font-family: 'Oswald', sans-serif */
 }
+
+
 
 .NavbarContainer > svg{
     margin: 0 10px;
@@ -31,6 +34,7 @@
     justify-content: space-between;
     width: 50%;
     margin-right: 40px;
+    font-family: 'Oswald', sans-serif
 }
 
 .NavbarLinks > li{
@@ -52,7 +56,7 @@
     border: 2px solid #FFFFFF;
 }
 
-@media screen and (max-width: 1000px) {     
+@media screen and (max-width: 1024px) {     
     .NavbarLinks > li > a{
         font-size: 16px;
     }

@@ -29,8 +29,8 @@ const MeetTheTeam = () => {
   ];
   return (
     <div>
-      <p className="text-5xl text-center font-bold mt-3" style={{fontFamily:"serif"}}>Meet The Team</p>
-    <div className="grid md:grid-cols-3 md:gap-16 mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
+      <p style={{fontFamily:'Oswald, sans-serif'}}className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4">Meet The Team</p>
+    <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
       {details.map((s,i) => {
         return (
           <div key={i} className="lg:w-full md:px-0 px-10 ">
@@ -38,11 +38,11 @@ const MeetTheTeam = () => {
               <img src={s.image} className=" w-full mx-auto" />
             </div>
             <div className="text-center mt-3">
-              <p className="text-4xl font-bold">{s.name}</p>
-              <p className="text-lg text-gray-700 font-semibold -mt-8 ">
+              <p style={{fontFamily:'Oswald, sans-serif'}} className="lg:text-4xl md:text-4xl text-2xl font-bold">{s.name}</p>
+              <p style={{fontFamily:'Roboto, sans-serif'}} className="text-lg text-gray-700 font-semibold lg:-mt-8 md:-mt-8 -mt-12 ">
                 {s.designation}
               </p>
-              <p className="text-base text-gray-500 -mt-8">{s.description}</p>
+              <p style={{fontFamily:'Roboto, sans-serif'}} className="text-base text-gray-500 lg:-mt-8 md:-mt-8 -mt-12">{s.description}</p>
             </div>
           </div>
         );

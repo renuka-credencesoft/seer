@@ -4,8 +4,8 @@ import './index.css';
 const Footer = () => {
   return (
     <div className='FooterContainer'>
-        <span>©2022 Seer Inc</span>
-        <span>Terms</span>
+        <span  style={{fontFamily:'Roboto, sans-serif'}} >©2022 Seer Inc</span>
+        <span  style={{fontFamily:'Roboto, sans-serif'}} >Terms</span>
     </div>
   )
 }

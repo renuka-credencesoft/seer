@@ -1,20 +1,21 @@
 .ClientCard{
-    width: 200px;
+    width: 500px;
     border-radius: 8px;
     overflow: hidden;
     margin: 10px 10px;
+    display: flex;
+  justify-content: center;
+    
 }
 
-.ClientCard > img{
-    width: 100%;
+/* .ClientCard > img{
+    width: 50%;
     display: flex;
-}
+} */
 
 .image{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: block; */
+    /* margin:auto */
 }
 
 .ClientCardContent {

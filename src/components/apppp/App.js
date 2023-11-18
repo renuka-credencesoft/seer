@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import './App.css';
-import Circle from './Circle';
+import Circle from './CircleOne/Circle';
 
 const App = () => {
   return (

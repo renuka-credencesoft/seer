@@ -53,21 +53,9 @@
     padding: 10px 10px;
 }
 
-.videoSectionLeftSection{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    line-height: 42px;
-    text-align: left;
-    color: #ffffff;
-    margin: 0 20px;
-}
 
-.videoSectionLeftSection > p > span{
-    color:#f4f0f0;
-    font-weight: 700;
-    font-size: 15px !important;
-}
+
+
 
 .videoSectionRightSection{
     display: flex;
@@ -85,10 +73,7 @@
         width: 100%;
     }
         
-    .videoSectionLeftSection{
-        padding: 5px 5px;
-        margin: 0 0px;
-    }
+
 }
 
 
@@ -103,22 +88,6 @@
     padding: 10px 10px;
 }
 
-.videoSectionLeftSection{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    line-height: 42px;
-    text-align: left;
-    color: #ffffff;
-    padding: 10px 10px;
-    margin: 0 20px;
-}
-
-.videoSectionLeftSection > p > span{
-    color:#ffffff;
-    font-weight: 700;
-    font-size: 15px !important;
-}
 
 .videoSectionRightSection{
     display: flex;
@@ -135,9 +104,5 @@
     .videoSectionContainer > div{
         width: 100%;
     }
-        
-    .videoSectionLeftSection{
-        padding: 5px 5px;
-        margin: 0 0px;
-    }
+
 }
