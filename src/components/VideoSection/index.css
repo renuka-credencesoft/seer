@@ -1,3 +1,52 @@
+.container {
+    width: 100%;
+    padding: 20px;
+    background-color: #000; /* Assuming a black background based on the screenshot */
+  }
+  
+  .headingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+    text-align: center;
+  }
+  
+  .videoSectionContainer {
+    display: flex;
+    padding: 20px;
+    background-color: #000; /* Match the background */
+  }
+  
+  .videoSectionLeftSection {
+    width: 50%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .videoSectionRightSection {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .videoSectionContainer {
+      flex-direction: column;
+    }
+  
+    .videoSectionLeftSection, .videoSectionRightSection {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+/*  */
+
 .videoSectionContainer{
     display: flex;
     padding: 80px 10px;
@@ -6,7 +55,7 @@
 
 .videoSectionContainer > div{
     width: 50%;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
 }
 
 .videoSectionLeftSection{
@@ -16,14 +65,25 @@
     line-height: 42px;
     text-align: left;
     color: #2d2c2c;
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
     margin: 0 20px;
 }
+
+.videoSectionLeftSection img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+
 
 .videoSectionLeftSection > p > span{
     color:#464646;
     font-weight: 700;
     font-size: 15px !important;
+    
 }
 
 .videoSectionRightSection{
