@@ -5,7 +5,7 @@ import SeerLogo from "../../assets/images/animates.png";
 const ClientCard = () => {
   return (
     <div
-      className={`${ClientCard} border shadow rounded-2xl border-gray-900 p-10`}
+      className={`${ClientCard} border md:h-[500px] rounded-2xl border-gray-900 p-10`}
     >
       <div className="flex items-center justify-center">
         <img src={SeerLogo} alt="Logo" className="h-40 rounded-2xl" />

@@ -3,6 +3,7 @@
     justify-content: space-between;
     background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%);
     padding: 20px 0;
+    flex-shrink: 0; 
 }
 
 .FooterContainer > span{

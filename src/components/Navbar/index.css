@@ -4,7 +4,7 @@
     align-items: center;
     /* background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%); */
     /* background-color:#05080d;  */
-    background: linear-gradient(to right,#05080d , #242e42) left;
+    background: linear-gradient(to right,#05080d 10% , #35435f 90%) left;
 
    
     padding: 8px 5px;

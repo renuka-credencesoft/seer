@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import './index.css';
 import 'tailwindcss/tailwind.css';
@@ -39,11 +38,11 @@ const ClientsCarousel = () => {
   }, []);
 
   const handleNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % (cardCount * 3));
+    setActiveIndex((prevIndex) => (prevIndex + 1) % (isMobile ? cardCount : cardCount * 3));
   };
 
   const handlePrev = () => {
-    setActiveIndex((prevIndex) => (prevIndex - 1 + (cardCount * 3)) % (cardCount * 3));
+    setActiveIndex((prevIndex) => (prevIndex - 1 + (isMobile ? cardCount : cardCount * 3)) % (isMobile ? cardCount : cardCount * 3));
   };
 
   const startAutoScroll = () => {
@@ -62,43 +61,43 @@ const ClientsCarousel = () => {
   }, []);
 
   useEffect(() => {
-    if (activeIndex === cardCount * 2) {
+    if (!isMobile && activeIndex === cardCount * 2) {
       setTimeout(() => {
         setActiveIndex(cardCount);
       }, 500);
-    } else if (activeIndex === 0) {
+    } else if (!isMobile && activeIndex === 0) {
       setTimeout(() => {
         setActiveIndex(cardCount);
       }, 500);
     }
-  }, [activeIndex, cardCount]);
+  }, [activeIndex, cardCount, isMobile]);
 
   const getMiddleIndex = () => {
-    if (isMobile) return 0; 
-    return 1; 
+    if (isMobile) return 0;
+    return 1;
   };
 
   return (
     <div className="carousel-container relative" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'Oswald, sans-serif' }} className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl mb-4">
+      <p style={{ fontFamily: 'Oswald, sans-serif' }} className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl mb-4 ">
         Partners Predicting Preparing and Prospering - With SEER
       </p>
       <div className="relative overflow-hidden">
         <div
           className={`flex transition-transform duration-500 ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
-          style={{ transform: `translateX(-${(activeIndex % cardCount) * (100 / (isMobile ? 1 : 3))}%)` }}
+          style={{ transform: `translateX(-${(activeIndex % (isMobile ? cardCount : cardCount * 3)) * (100 / (isMobile ? 1 : 3))}%)` }}
         >
           {[...cards, ...cards, ...cards].map((card, index) => {
-            const isMiddleCard = (index % cardCount) === ((activeIndex % cardCount) + getMiddleIndex()) % cardCount;
+            const isMiddleCard = (index % (isMobile ? cardCount : cardCount * 3)) === ((activeIndex % (isMobile ? cardCount : cardCount * 3)) + getMiddleIndex()) % (isMobile ? cardCount : cardCount * 3);
             return (
               <div key={index} className={`flex-none ${isMobile ? 'w-full' : 'w-full md:w-1/3'} px-2`}>
                 {isMiddleCard ? (
-                  <div className="full-width-card">
+                  <div className={`${isMobile ? 'w-full' : 'full-width-card'} mb-[160px]`}>
                     {card.component}
                   </div>
                 ) : (
-                  <div className="h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-4 md:mt-[70px] pr-4 flex justify-center items-center text-gray-500">
-                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className="w-[400px] object-cover rounded-2xl border-solid" />
+                  <div className={`${isMobile ? 'w-full' : 'h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]'} pr-4 flex justify-center items-center text-gray-500`}>
+                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className={`${isMobile ? 'w-full' : 'w-[400px]'} object-cover rounded-2xl border-solid`} />
                   </div>
                 )}
               </div>
@@ -106,10 +105,10 @@ const ClientsCarousel = () => {
           })}
         </div>
       </div>
-      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 px-3 py-3 rounded-full shadow-lg text-xl">
+      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl ">
         <FaArrowLeft />
       </button>
-      <button onClick={handleNext} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full shadow-lg px-3 py-3 text-xl">
+      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl">
         <FaArrowRight />
       </button>
     </div>
@@ -117,3 +116,7 @@ const ClientsCarousel = () => {
 };
 
 export default ClientsCarousel;
+
+
+
+

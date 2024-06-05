@@ -3,6 +3,14 @@
     padding: 30px 50px;
 }
 
+.paragraph{
+color:white;
+}
+.container{
+   
+    background-color: rgb(38, 48, 68);
+    opacity: 1;
+}
 .SeerInsightsContainer > h1 {
     text-align: center;
     font-size: 45px;

@@ -22,6 +22,11 @@
     margin-right: auto;
 }
 
+.FooterContainer{
+    margin-top: 222px;
+}
+
+
 /* .BlogTopText > p{
     font-size: 25px;
     font-weight: 500;
@@ -63,8 +68,16 @@
     .BlogBottomText{
         width: 95%;
     }
+    
+.FooterContainer{
+    margin-top: 295px;
+    
+    
+}
+
 
     /* .BlogBottomText > p:nth-child(2){
         padding: 10px 20px;
     } */
 }
+

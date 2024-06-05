@@ -3,7 +3,7 @@
     background: #EDEEFF;
 }
 .carousel-container {
-    padding: 30px 60px; 
+    padding: 60px 60px; 
 }
 
 .ClientsCarousel>h1 {
@@ -81,5 +81,12 @@
       scrollbar-width: full; 
       -ms-overflow-style: none; 
       scroll-snap-type: x mandatory;
+    }
+  }
+
+  .carousel-container p{
+    @media (max-width: 768px) {
+        margin-top: 1px;
+       
     }
   }

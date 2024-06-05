@@ -6,6 +6,7 @@ import {
 
 import blog from "../../assets/images/blog.jpg";
 
+
 const Blog = () => {
   const [content, setContent] = useState(false);
 
@@ -161,9 +162,12 @@ const Blog = () => {
               </span>
             </p>
           </div>
+          
         </div>
       )}
+    
     </div>
+     
   );
 };
 
