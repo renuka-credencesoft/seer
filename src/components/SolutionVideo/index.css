@@ -3,7 +3,9 @@
     padding: 100px 20px;
     /* margin-bottom: 20px; */
 }
-
+.videoSectionRightSection{
+    width: 650px;
+}
 .SolutionVideoContainer>div {
     width: 50%;
     margin: 30px 30px;

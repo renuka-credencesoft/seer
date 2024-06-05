@@ -49,6 +49,7 @@ const SolutionVideo = () => {
             </p>
           </div>
         </div>
+        
         <div className="SolutionVideoRightSectionCard">
           <div className="SolutionVideoRightSectionCardTopContent">
             <div className="SolutionVideoRightSectionCardImg">
@@ -63,7 +64,7 @@ const SolutionVideo = () => {
               Swathes of transactions are analysed at light-speed, along with
               parameters like promotions, door counts and more. Powerful,
               predictive formulae are automatically derived to drive your
-              decisions for every SKU, at every store.{" "}
+              decisions for every SKU, at every store.
             </p>
           </div>
         </div>

@@ -1,34 +1,119 @@
-import React from 'react';
+
+import React, { useState, useEffect, useRef } from 'react';
 import './index.css';
-import Carousel from 'react-bootstrap/Carousel';
+import 'tailwindcss/tailwind.css';
 import ClientCard from '../ClientCard';
 import ClientCard2 from '../ClientCard2';
 import ClientCard3 from '../ClientCard3';
 import ClientCard4 from '../ClientCard4';
 
-const ClientsCarousel = () => {
-  return (
-    <div>
-        <p style={{fontFamily:'Oswald, sans-serif'}} className='heading'>Partners Predicting Preparing and Prospering - With SEER</p>
-    <Carousel variant="dark" >
-        <Carousel.Item> 
-            <div className="carousel-inner-cards">
-                <ClientCard3 />
-            </div>
-        </Carousel.Item>
-        <Carousel.Item>
-            <div className="carousel-inner-cards">
-                <ClientCard />
-            </div>
-        </Carousel.Item>
-        <Carousel.Item>
-            <div className="carousel-inner-cards">
-                <ClientCard2 />
-            </div>
-        </Carousel.Item>
-    </Carousel>
-    </div>
-  )
-}
+import SeerLogo from '../../assets/images/animates.png';
+import SeerLogo2 from '../../assets/images/barkers.png';
+import SeerLogo3 from '../../assets/images/glassons.png';
+import SeerLogo4 from '../../assets/images/brothers.png';
 
-export default ClientsCarousel
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+
+const ClientsCarousel = () => {
+  const cards = [
+    { component: <ClientCard key="1" />, imageUrl: SeerLogo },
+    { component: <ClientCard2 key="2" />, imageUrl: SeerLogo2 },
+    { component: <ClientCard3 key="3" />, imageUrl: SeerLogo3 },
+    { component: <ClientCard4 key="4" />, imageUrl: SeerLogo4 },
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const intervalRef = useRef(null);
+  const cardCount = cards.length;
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth < 768);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const handleNext = () => {
+    setActiveIndex((prevIndex) => (prevIndex + 1) % (cardCount * 3));
+  };
+
+  const handlePrev = () => {
+    setActiveIndex((prevIndex) => (prevIndex - 1 + (cardCount * 3)) % (cardCount * 3));
+  };
+
+  const startAutoScroll = () => {
+    intervalRef.current = setInterval(handleNext, 3000);
+  };
+
+  const stopAutoScroll = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+    }
+  };
+
+  useEffect(() => {
+    startAutoScroll();
+    return () => stopAutoScroll();
+  }, []);
+
+  useEffect(() => {
+    if (activeIndex === cardCount * 2) {
+      setTimeout(() => {
+        setActiveIndex(cardCount);
+      }, 500);
+    } else if (activeIndex === 0) {
+      setTimeout(() => {
+        setActiveIndex(cardCount);
+      }, 500);
+    }
+  }, [activeIndex, cardCount]);
+
+  const getMiddleIndex = () => {
+    if (isMobile) return 0; 
+    return 1; 
+  };
+
+  return (
+    <div className="carousel-container relative" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
+      <p style={{ fontFamily: 'Oswald, sans-serif' }} className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl mb-4">
+        Partners Predicting Preparing and Prospering - With SEER
+      </p>
+      <div className="relative overflow-hidden">
+        <div
+          className={`flex transition-transform duration-500 ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
+          style={{ transform: `translateX(-${(activeIndex % cardCount) * (100 / (isMobile ? 1 : 3))}%)` }}
+        >
+          {[...cards, ...cards, ...cards].map((card, index) => {
+            const isMiddleCard = (index % cardCount) === ((activeIndex % cardCount) + getMiddleIndex()) % cardCount;
+            return (
+              <div key={index} className={`flex-none ${isMobile ? 'w-full' : 'w-full md:w-1/3'} px-2`}>
+                {isMiddleCard ? (
+                  <div className="full-width-card">
+                    {card.component}
+                  </div>
+                ) : (
+                  <div className="h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-4 md:mt-[70px] pr-4 flex justify-center items-center text-gray-500">
+                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className="w-[400px] object-cover rounded-2xl border-solid" />
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 px-3 py-3 rounded-full shadow-lg text-xl">
+        <FaArrowLeft />
+      </button>
+      <button onClick={handleNext} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-2 rounded-full shadow-lg px-3 py-3 text-xl">
+        <FaArrowRight />
+      </button>
+    </div>
+  );
+};
+
+export default ClientsCarousel;
