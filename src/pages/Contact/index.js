@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className='ContactContainer'>
         <div className="ContactLeftSection">
-            <h1  style={{fontFamily:'Oswald, sans-serif'}}>Get In Touch</h1>
+            <h1  style={{fontFamily:'Comfortaa, sans-serif'}}>Get In Touch</h1>
             <p style={{fontFamily:'Roboto, sans-serif'}}>Drop us a message and we will get back to you as soon as possible.</p>
             <p style={{fontFamily:'Roboto, sans-serif'}}>Give us a shout we’ll make you a believer.</p>
             <div className="ContactLeftSectionContactDetails">
