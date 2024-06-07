@@ -7,7 +7,7 @@
 color:white;
 }
 .container{
-   
+   font-family: 'Comfortaa',sans-serif;
     background-color: rgb(38, 48, 68);
     opacity: 1;
 }
@@ -23,7 +23,7 @@ color:white;
     font-size: 30px;
     font-weight: 400;
     padding: 10px 50px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     line-height: 80px;
 }
 

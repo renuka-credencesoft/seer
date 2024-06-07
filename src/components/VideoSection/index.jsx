@@ -3,6 +3,10 @@ import "./index.css";
 import ReactPlayer from "react-player";
 import icon1 from "../../assets/images/icon.jpg";
 
+import I1 from "../../assets/images/I1.png"
+import I2 from "../../assets/images/I2.png";
+import I3 from "../../assets/images/I3.png"
+
 const VideoSection = () => {
   return (
   
@@ -10,7 +14,7 @@ const VideoSection = () => {
       <div className="headingContainer">
         <span
           className="lg:text-3xl text-lg font-bold text-white"
-          style={{ fontFamily: "Oswald, sans-serif" }}
+          style={{ fontFamily: "Comfortaa, sans-serif" }}
         >
           Lost sales and wastage cost retailers millions annually.
         </span>
@@ -24,9 +28,9 @@ const VideoSection = () => {
             className="lg:text-lg text-sm text-white "
           >
             <div className="flex item-start justify-start">
-              <img src={icon1} alt="" className="mt-8" />
+              <img src={I1} alt="" className="mt-8" />
               <p>
-                <span className="lg:text-lg text-sm text-white ">
+                <span style={{fontFamily:'Comfortaa, sans-serif'}}  className="para lg:text-lg text-sm text-white ">
                   RETAIL IS PERVASIVE DETAIL:
                 </span>{" "}
                 Every retailer, small to large, is awash with millions of
@@ -36,9 +40,9 @@ const VideoSection = () => {
             </div>
 
             <div className="flex item-start justify-start">
-              <img src={icon1} alt="" className="mt-8" />
+              <img src={I2} alt="" className="mt-8" />
               <p>
-                <span className="lg:text-lg text-sm text-white ">
+                <span style={{fontFamily:'Comfortaa, sans-serif'}} className=" para lg:text-lg text-sm text-white ">
                 THE COMPLEXITY IS MIND-BOGGLING:
                 </span>{" "}
                 It defeats even the largest, most experienced teams - who inevitably
@@ -46,10 +50,10 @@ const VideoSection = () => {
               </p>
             </div>
 
-            <div className="flex item-start justify-start ">
-              <img src={icon1} alt="" className="mt-8" />
+            <div className="  flex item-start justify-start ">
+            <img src={I3} alt="" className="mt-8" />
               <p>
-                <span className="lg:text-lg text-sm text-white ">
+                <span style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-lg text-sm text-white ">
                 IT’S EXPENSIVE:
                 </span>{" "}
                 Stock imbalances

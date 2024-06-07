@@ -6,24 +6,30 @@ import LinkedIn from "../../assets/images/LinkedIn.png";
 import Message from "../../assets/images/Message.png";
 import HeroImg from "../../assets/images/SeerHeroImg.svg";
 
+import Automate from "../../assets/images/Automate-weekly.png";
+import Gauge from "../../assets/images/Gauge-desirability.png";
+import Optimise from "../../assets/images/Optimise-store.png";
+import Reallocate from "../../assets/images/Reallocate-stock.png";
+import Simulate from "../../assets/images/Simulate-long.png";
+
 const Demo = () => {
   return (
     <div>
       <h1
         className="text-center lg:text-3xl md:text-3xl text-xl px-6 lg:px-0 md:px-0 mt-10 font-bold"
-        style={{ fontFamily: "Oswald, sans-serif" }}
+        style={{ fontFamily: "Comfortaa, sans-serif" }}
       >
         Prepare for every inventory challenge
       </h1>
       <div className="ContactContainer -mt-10 lg:mt-0 md:mt-0">
         <div className="ContactLeftSection">
-          <img src={HeroImg} alt="casestudies" class="glassons" />
+          <img src={Optimise} alt="casestudies" class="glassons" />
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Oswald, sans-serif" }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Optimize Store Inventory Levels
             </span>
@@ -36,20 +42,23 @@ const Demo = () => {
               expected foot traffic, and logistical factors.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3  ">
+
+          
+          <button style={{ fontFamily: "Roboto, sans-serif" }}
+          className="lg:text-xl text-sm text-white  px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 bg-[#263044] ">
             Demo
           </button>
         </div>
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={HeroImg} alt="casestudies" class="glassons" />
+          <img src={Automate} alt="casestudies" class="glassons" />
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Oswald, sans-serif" }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Automate Weekly Vendor Re-Orders.
             </span>
@@ -63,20 +72,20 @@ const Demo = () => {
               fulfilment.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={HeroImg} alt="casestudies" class="glassons" />
+          <img src={Reallocate} alt="casestudies" class="glassons" />
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Oswald, sans-serif" }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Reallocate Stock Between Locations
             </span>
@@ -89,20 +98,20 @@ const Demo = () => {
               network.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={HeroImg} alt="casestudies" class="glassons" />
+          <img src={Gauge} alt="casestudies" class="glassons" />
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Oswald, sans-serif" }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Gauge Desirability of Potential Products.
             </span>
@@ -116,20 +125,20 @@ const Demo = () => {
               with confidence.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={HeroImg} alt="casestudies" class="glassons" />
+          <img src={Simulate} alt="casestudies" class="glassons" />
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Oswald, sans-serif" }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Simulate Long Term Demand for Perennial Lines.
             </span>
@@ -142,7 +151,7 @@ const Demo = () => {
               out of stock.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>

@@ -17,7 +17,7 @@ const HeroSection = () => {
           the right time.
         </p>
         <button
-          className="lg:text-lg text-white lg:bg-blue-400 lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
+          className="lg:text-lg text-white lg:bg-[#263044]  lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
           style={{ fontFamily: "Oswald, sans-serif" }}
         >
           Learn more
@@ -33,7 +33,7 @@ const HeroSection = () => {
         <p style={{ fontFamily: "Oswald, sans-serif" }}>Enquiry:</p>
         <textarea name="" cols="30" rows="5"></textarea>
         <button
-          className="lg:text-lg text-white lg:bg-blue-400 lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
+          className="lg:text-lg text-white lg:bg-[#263044] lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
           style={{ fontFamily: "Oswald, sans-serif" }}
         >
           Submit

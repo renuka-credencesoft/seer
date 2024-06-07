@@ -9,8 +9,9 @@ const ClientCard = () => {
           <img src={SeerLogo} alt="Logo" className='h-40 rounded-2xl' />
           </div>
         <div className="ClientCardContent">
-            <h3 className='text-center'  style={{fontFamily:'Oswald, sans-serif'}}>NINA GRAHAM, C.F.O., CUE</h3>
+           
             <p style={{fontFamily:'Roboto, sans-serif'}} className='text-center'>Seer Insights provides us with a depth of analytical capability, unrivalled by any competitor in the market, enabling us to make critical decisions lightning fast with confidence.</p>
+            <h3 className='text-center'  style={{fontFamily:'Comfortaa, sans-serif'}}>NINA GRAHAM, C.F.O., CUE</h3>
         </div>
     </div>
   )

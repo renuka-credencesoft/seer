@@ -7,7 +7,7 @@ import Message from '../../assets/images/Message.png';
 
 const CaseStudies = () => {
     return (
-        <div className="container">
+        <div className="container bg-white">
             <div className="sectionOne">
                 <div className="row glassonsView">
                     <div className="col-4">
