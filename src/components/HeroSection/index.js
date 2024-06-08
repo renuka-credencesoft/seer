@@ -46,32 +46,32 @@ const HeroSection = () => {
               </div>
               <p className='py-2' style={{ fontFamily: 'Oswald, sans-serif' }}>Enquiry:</p>
               <div className='mr-4'>
-                <textarea name="" cols="30" className='w-full border p-2 rounded-lg' rows="5"></textarea>
+                <textarea name="" cols="30" className='w-full border p-2 rounded-lg' rows="3"></textarea>
               </div>
               <div className='pt-2 pb-6'>
-                <button className='lg:text-lg text-white lg:bg-blue-400 lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block ' style={{ fontFamily: 'Oswald, sans-serif' }}>
+                <button className='lg:text-lg text-white lg:bg-[#303e58] lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block ' style={{ fontFamily: 'Oswald, sans-serif' }}>
                   Submit
                 </button>
               </div>
             </div>
             <div className='w-1/3 bg-[#303e58] rounded-r-lg text-white'>
-              <div className='grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-40'>
+              <div className='grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-20'>
                 <div >
                   <MdEmail size={40} />
                 </div>
-                <div className='mb-10'>
+                <div className='mb-20'>
                   <p className='text-white'>seer@gmail.com</p>
                 </div>
                 <div>
                   <MdContactPhone size={40} />
                 </div>
-                <div className='mb-10'>
+                <div className='mb-20'>
                   <p className='text-white'>9090909</p>
                 </div>
                 <div>
                   <FaMapLocationDot size={40} />
                 </div>
-                <div className='mb-10'>
+                <div className='mb-20'>
                   <p className='text-white'>India</p>
                 </div>
               </div>
