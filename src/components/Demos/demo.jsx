@@ -11,6 +11,7 @@ import Gauge from "../../assets/images/Gauge-desirability.png";
 import Optimise from "../../assets/images/Optimise-store.png";
 import Reallocate from "../../assets/images/Reallocate-stock.png";
 import Simulate from "../../assets/images/Simulate-long.png";
+import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
@@ -35,7 +36,7 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily:'Comfortaa, sans-serif' }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               to get the right stock in the right stores at the right time
               considering future promotions, time of year, special events,
@@ -43,10 +44,17 @@ const Demo = () => {
             </span>
           </p>
 
-          
-          <button style={{ fontFamily:'Comfortaa, sans-serif' }}
-          className="lg:text-xl text-sm text-white  px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 bg-[#263044] ">
-            Demo
+          <button
+            style={{ fontFamily: "Comfortaa, sans-serif" }}
+            className="lg:text-xl text-sm text-white  px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 bg-[#263044] "
+          >
+            <Link
+              className="text-white"
+              style={{ textDecoration: "none", cursor: "pointer" }}
+              to="/solutions"
+            >
+              Demo
+            </Link>
           </button>
         </div>
       </div>
@@ -64,7 +72,7 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily:'Comfortaa, sans-serif' }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Calculate safety stock with a desired confidence factor. Determine
               reorder points and refill levels using Seer’s sales forecast, lead
@@ -72,8 +80,17 @@ const Demo = () => {
               fulfilment.
             </span>
           </p>
-          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
-            Demo
+          <button
+            style={{ fontFamily: "Comfortaa, sans-serif" }}
+            className="lg:text-xl text-sm text-white bg-[#263044]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+          >
+            <Link
+              className="text-white"
+              style={{ textDecoration: "none", cursor: "pointer" }}
+              to="/solutions"
+            >
+              Demo
+            </Link>
           </button>
         </div>
       </div>
@@ -91,15 +108,24 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily:'Comfortaa, sans-serif' }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               based on “real-time” sales forecasts, pre-defined re-group
               regions, transport costs and times to maximise sales across the
               network.
             </span>
           </p>
-          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
-            Demo
+          <button
+            style={{ fontFamily: "Comfortaa, sans-serif" }}
+            className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+          >
+            <Link
+              className="text-white"
+              style={{ textDecoration: "none", cursor: "pointer" }}
+              to="/solutions"
+            >
+              Demo
+            </Link>
           </button>
         </div>
       </div>
@@ -117,7 +143,7 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily:'Comfortaa, sans-serif' }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Craft a range comprising the best of them to achieve your category
               mix and sales goals. Simulate sales to determine the optimum range
@@ -125,8 +151,17 @@ const Demo = () => {
               with confidence.
             </span>
           </p>
-          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
-            Demo
+          <button
+            style={{ fontFamily: "Comfortaa, sans-serif" }}
+            className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+          >
+            <Link
+              className="text-white"
+              style={{ textDecoration: "none", cursor: "pointer" }}
+              to="/solutions"
+            >
+              Demo
+            </Link>
           </button>
         </div>
       </div>
@@ -144,15 +179,24 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily:'Comfortaa, sans-serif' }}
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
             >
               Adjust the simulation for potential drivers such as planned
               promotions and known events. Plan orders to ensure you never run
               out of stock.
             </span>
           </p>
-          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
-            Demo
+          <button
+            style={{ fontFamily: "Comfortaa, sans-serif" }}
+            className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+          >
+            <Link
+              className="text-white"
+              style={{ textDecoration: "none", cursor: "pointer" }}
+              to="/solutions"
+            >
+              Demo
+            </Link>
           </button>
         </div>
       </div>
