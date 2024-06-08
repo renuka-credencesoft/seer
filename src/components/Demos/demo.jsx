@@ -17,12 +17,12 @@ const Demo = () => {
   return (
     <div>
       <h1
-        className="text-center lg:text-3xl md:text-3xl text-xl px-6 lg:px-0 md:px-0 mt-10 font-bold"
+        className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-10 font-bold"
         style={{ fontFamily: "Comfortaa, sans-serif" }}
       >
         Prepare for every inventory challenge
       </h1>
-      <div className="ContactContainer -mt-10 lg:mt-0 md:mt-0">
+      <div className="ContactContainer lg:mt-0 md:mt-0">
         <div className="ContactLeftSection">
           <img src={Optimise} alt="casestudies" class="glassons" />
         </div>
