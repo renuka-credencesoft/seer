@@ -1,93 +1,108 @@
-.NavbarContainer{
+/* General Styles */
+.NavbarContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: linear-gradient(90deg, #05080D 0%, rgba(5, 8, 13, 0.7) 100%); */
-    /* background-color:#05080d;  */
-    background: linear-gradient(to right,#05080d 10% , #35435f 90%) left;
-
-   
+    background: linear-gradient(to right, #090d14 10%, #35435f 90%);
     padding: 8px 5px;
-    /* transform: translateY(-500px); */
     position: sticky;
-    top: 0px;
-    right: 0;
-    left: 0;
-    z-index: 10;
-    /* font-family: 'Oswald', sans-serif */
-}
-
-
-
-.NavbarContainer > svg{
-    margin: 0 10px;
-    color: #FFFFFF;
-    display: none;
-}
-
-.NavbarLogo{
-    width: 10%;
-}
-
-.NavbarLogo > img{
+    top: 0;
     width: 100%;
-}
-
-.NavbarLinks{
+    z-index: 10;
+  }
+  
+  .NavbarContainer > svg {
+    margin: 0 10px;
+    color: #ffffff;
+    display: none;
+  }
+  
+  .NavbarLogo {
+    width: 10%;
+  }
+  
+  .NavbarLogo > img {
+    width: 100%;
+  }
+  
+  .NavbarLinks {
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin-right: 40px;
-    font-family: 'Oswald', sans-serif
-}
-
-.NavbarLinks > li{
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .NavbarLinks > li {
     list-style: none;
-}
-
-.NavbarLinks > li > a{
+  }
+  
+  .NavbarLinks > li > a {
     text-decoration: none;
     border: 2px solid rgba(0, 0, 0, 0);
-    padding: 10px 10px;
-    color: #FFFFFF;
-    font-family: 'Inter';
+    padding: 5px 5px;
+    color: #ffffff;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-}
-
-.NavbarLinks > li > a:hover{
-    border: 2px solid #FFFFFF;
-}
-
-@media screen and (max-width: 1024px) {     
-    .NavbarLinks > li > a{
-        font-size: 16px;
+    transition: border 0.3s, font-size 0.3s;
+  }
+  
+  .NavbarLinks > li > a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 33px;
+  }
+  
+  /* Responsive Text Sizes */
+  .NavbarLinkText {
+    font-family: 'Oswald, sans-serif';
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .NavbarLinks > li > a {
+      font-size: 1.25rem; /* Large devices */
     }
-}
-
-@media screen and (max-width: 790px) {    
-        
-    .NavbarLinks{
-        width: 60%;
-        margin-right: 30px;
-    } 
-
-    .NavbarLinks > li > a{
-        font-size: 12px;
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .NavbarLinks > li > a {
+      font-size: 0.95rem; /* Medium devices (slightly smaller) */
     }
-}
-
-@media screen and (max-width: 700px) {        
-    .NavbarLogo{
-        width: 15%;
-    }    
-    
-    .NavbarLinks{
-        display: none;
+    .NavbarLinks > li > a {
+        text-decoration: none;
+        border: 2px solid rgba(0, 0, 0, 0);
+        padding: 4px 4px;
+        color: #ffffff;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        transition: border 0.3s, font-size 0.3s;
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .NavbarLinks {
+      display: none;
     }
-
-    .NavbarContainer > svg{
-        display: block;
+  
+    .NavbarContainer > svg {
+      display: block;
     }
-}
+  
+    .NavbarLinks > li > a {
+      font-size: 0.875rem; /* Small devices */
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .NavbarLogo {
+      width: 15%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .NavbarLinks > li > a {
+      font-size: 0.75rem; /* Extra small devices */
+    }
+  }
+  

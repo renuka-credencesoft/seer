@@ -31,9 +31,9 @@ const VideoSection = () => {
               </div>
               <p
                 style={{ fontFamily: "Comfortaa, sans-serif" }}
-                className="w-4/5 para lg:text-lg md:text-sm  text-sm text-white  "
+                className="w-4/5 lg:text-lg md:text-sm  text-sm text-white  "
               >
-                <span  style={{ fontFamily: "Comfortaa, sans-serif" }} className=" para lg:text-lg md:text-sm  text-sm text-white ">RETAIL IS PERVASIVE DETAIL:</span> Every retailer, small
+                <span  style={{ fontFamily: "Comfortaa, sans-serif" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
                 to large, is awash with millions of inventory decisions,
                 informed by time-consuming, manual analysis of vast swathes of
                 data.
@@ -53,7 +53,7 @@ const VideoSection = () => {
                   style={{ fontFamily: "Comfortaa, sans-serif" }}
                   className=" para lg:text-lg md:text-sm  text-sm text-white "
                 >
-                  THE COMPLEXITY IS MIND-BOGGLING:
+                  <b>THE COMPLEXITY IS MIND-BOGGLING:</b>
                 </span>{" "}
                 It defeats even the largest, most experienced teams - who
                 inevitably resort to crude calculations and compromises.
@@ -73,7 +73,7 @@ const VideoSection = () => {
                   style={{ fontFamily: "Comfortaa, sans-serif" }}
                   className="lg:text-lg md:text-sm  text-sm text-white "
                 >
-                  IT’S EXPENSIVE:
+                  <b>IT’S EXPENSIVE:</b>
                 </span>{" "}
                 Stock imbalances (usually excesses) result, requiring markdowns
                 and inter-store transfers.

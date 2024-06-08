@@ -34,7 +34,8 @@ export default function App() {
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/caseStudies" element={<CaseStudies />} />
         </Routes>
-        <Footer />
+        <Footer setShowResponsiveNav={setShowResponsiveNav}
+          showResponsiveNav={showResponsiveNav} />
       </div>
     </BrowserRouter>
   );

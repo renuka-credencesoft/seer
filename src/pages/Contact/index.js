@@ -14,7 +14,7 @@ const Contact = () => {
             <h1  style={{fontFamily:'Comfortaa, sans-serif'}}>Get In Touch</h1>
             <p style={{fontFamily:'Roboto, sans-serif'}}>Drop us a message and we will get back to you as soon as possible.</p>
             <p style={{fontFamily:'Roboto, sans-serif'}}>Give us a shout we’ll make you a believer.</p>
-            <div className="ContactLeftSectionContactDetails">
+            <div className="ContactLeftSectionContactDetails ml-1">
                 <p style={{fontFamily:'Roboto, sans-serif'}}>Reach out to SEER</p>
                 <p style={{fontFamily:'Roboto, sans-serif'}}><span>Contact No:</span> 9090909090</p>
                 <p style={{fontFamily:'Roboto, sans-serif'}}><span>Email Id:</span>iugiyvyv@.com</p>
