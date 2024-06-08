@@ -27,10 +27,10 @@ const VideoSection = () => {
             style={{ fontFamily: "Roboto, sans-serif" }}
             className="lg:text-lg text-sm text-white "
           >
-            <div className="flex item-start justify-start">
-              <img src={I1} alt="" className="mt-8" />
-              <p>
-                <span style={{fontFamily:'Comfortaa, sans-serif'}}  className="para lg:text-lg text-sm text-white ">
+            <div className="flex item-start  items-center object-center py-4">
+              <img src={I1} alt="" className="object-center w-1/5"   />
+              <p className="w-4/5">
+                <span style={{fontFamily:'Comfortaa, sans-serif'}}  className="para lg:text-lg md:text-sm text-sm text-white ">
                   RETAIL IS PERVASIVE DETAIL:
                 </span>{" "}
                 Every retailer, small to large, is awash with millions of
@@ -39,10 +39,10 @@ const VideoSection = () => {
               </p>
             </div>
 
-            <div className="flex item-start justify-start">
-              <img src={I2} alt="" className="mt-8" />
-              <p>
-                <span style={{fontFamily:'Comfortaa, sans-serif'}} className=" para lg:text-lg text-sm text-white ">
+            <div className="flex item-start  items-center object-center  py-4">
+              <img src={I2} alt="" className="object-center w-1/5" />
+              <p className="w-4/5">
+                <span style={{fontFamily:'Comfortaa, sans-serif'}} className=" para lg:text-lg md:text-sm  text-sm text-white ">
                 THE COMPLEXITY IS MIND-BOGGLING:
                 </span>{" "}
                 It defeats even the largest, most experienced teams - who inevitably
@@ -50,10 +50,10 @@ const VideoSection = () => {
               </p>
             </div>
 
-            <div className="  flex item-start justify-start ">
-            <img src={I3} alt="" className="mt-8" />
-              <p>
-                <span style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-lg text-sm text-white ">
+            <div className="flex item-start  items-center object-center  py-4">
+            <img src={I3} alt="" className="object-center w-1/5" />
+              <p className="w-4/5">
+                <span style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-lg md:text-sm  text-sm text-white ">
                 IT’S EXPENSIVE:
                 </span>{" "}
                 Stock imbalances
