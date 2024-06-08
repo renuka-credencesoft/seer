@@ -1,7 +1,6 @@
 .MethodologyContainer {
   display: flex;
   justify-content: space-between;
-  position: relative;
   overflow: hidden;
 }
 
@@ -40,7 +39,7 @@ p {
 @media screen and (max-width: 700px) {
   .MethodologyContainer {
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
   }
 

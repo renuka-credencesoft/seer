@@ -29,7 +29,7 @@ const MeetTheTeam = () => {
   ];
   return (
     <div>
-      <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4">Meet The Team</p>
+      <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4 py-4">Meet The Team</p>
     <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
       {details.map((s,i) => {
         return (

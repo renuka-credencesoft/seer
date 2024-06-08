@@ -9,7 +9,7 @@ import App from "../apppp/App/App";
 
 function Methodology() {
   return (
-    <div className="MethodologyContainer py-40">
+    <div className="MethodologyContainer pt-40 -mb-32">
       <div className="MethodologyLeftSection py-40 px-10">
         <div className="MethodologyLeftSectionContent">
           {/* <div className="MethodologyLeftSectionContentImg"> */}
