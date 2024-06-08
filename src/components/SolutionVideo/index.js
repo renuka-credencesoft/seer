@@ -68,7 +68,7 @@ const SolutionVideo = () => {
               </p>
             </div>
             <img
-              src={I9}
+              src={I10}
               alt=""
               className="absolute top-0 -left-12 flex w-10 h-10 b-4 bg-white rounded-full    border-2 border-black"
             />
@@ -92,7 +92,7 @@ const SolutionVideo = () => {
               </p>
             </div>
             <img
-              src={I10}
+              src={I11}
               alt=""
               className="absolute top-0 -left-12 flex w-10 h-10 b-4 bg-white rounded-full    border-2 border-black"
             />

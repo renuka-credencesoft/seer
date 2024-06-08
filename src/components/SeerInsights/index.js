@@ -81,10 +81,10 @@ import support from "../../assets/images/Support.png";
 import economial from "../../assets/images/Economical.png";
 
 const Card = ({ imageSrc, description }) => (
-  <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-    <img src={imageSrc} alt="Card Image" className="w-full h-52 object-cover" />
+  <div className=" shadow-lg rounded-lg overflow-hidden">
+    <img src={imageSrc} alt="Card Image" className="w-full h-52 object-cover " />
     <div className="p-6">
-      <p className="text-gray-700">{description}</p>
+      <p className="text-white">{description}</p>
     </div>
   </div>
 );
