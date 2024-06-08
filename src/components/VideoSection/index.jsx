@@ -3,15 +3,14 @@ import "./index.css";
 import ReactPlayer from "react-player";
 import icon1 from "../../assets/images/icon.jpg";
 
-import I1 from "../../assets/images/I1.png"
+import I1 from "../../assets/images/I1.png";
 import I2 from "../../assets/images/I2.png";
-import I3 from "../../assets/images/I3.png"
+import I3 from "../../assets/images/I3.png";
 
 const VideoSection = () => {
   return (
-  
     <div className="container">
-      <div className="headingContainer">
+      <div className="headingContainer pt-10">
         <span
           className="lg:text-3xl text-lg font-bold text-white"
           style={{ fontFamily: "Comfortaa, sans-serif" }}
@@ -20,48 +19,66 @@ const VideoSection = () => {
         </span>
       </div>
 
-      <div className="videoSectionContainer">
+      <div className="videoSectionContainer pb-20">
         <div className="videoSectionLeftSection ">
-
           <p
-            style={{ fontFamily: "Roboto, sans-serif" }}
+            style={{ fontFamily:'Comfortaa, sans-serif' }}
             className="lg:text-lg text-sm text-white "
           >
             <div className="flex item-start  items-center object-center py-4">
-              <img src={I1} alt="" className="object-center w-1/5"   />
-              <p className="w-4/5">
-                <span style={{fontFamily:'Comfortaa, sans-serif'}}  className="para lg:text-lg md:text-sm text-sm text-white ">
-                  RETAIL IS PERVASIVE DETAIL:
-                </span>{" "}
-                Every retailer, small to large, is awash with millions of
-                inventory decisions, informed by time-consuming, manual analysis
-                of vast swathes of data.
+              <div className="mr-4">
+                <img src={I1} alt="" className="object-center w-1/5 " />
+              </div>
+              <p
+                style={{ fontFamily: "Comfortaa, sans-serif" }}
+                className="w-4/5 lg:text-lg md:text-sm  text-sm text-white  "
+              >
+                <span  style={{ fontFamily: "Comfortaa, sans-serif" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
+                to large, is awash with millions of inventory decisions,
+                informed by time-consuming, manual analysis of vast swathes of
+                data.
               </p>
             </div>
 
             <div className="flex item-start  items-center object-center  py-4">
-              <img src={I2} alt="" className="object-center w-1/5" />
-              <p className="w-4/5">
-                <span style={{fontFamily:'Comfortaa, sans-serif'}} className=" para lg:text-lg md:text-sm  text-sm text-white ">
-                THE COMPLEXITY IS MIND-BOGGLING:
+              <div className="mr-4">
+                <img
+                  src={I2}
+                  alt=""
+                  className="object-center w-1/5"
+                />
+              </div>
+              <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
+                <span
+                  style={{ fontFamily: "Comfortaa, sans-serif" }}
+                  className=" para lg:text-lg md:text-sm  text-sm text-white "
+                >
+                  <b>THE COMPLEXITY IS MIND-BOGGLING:</b>
                 </span>{" "}
-                It defeats even the largest, most experienced teams - who inevitably
-                resort to crude calculations and compromises.
+                It defeats even the largest, most experienced teams - who
+                inevitably resort to crude calculations and compromises.
               </p>
             </div>
 
             <div className="flex item-start  items-center object-center  py-4">
-            <img src={I3} alt="" className="object-center w-1/5" />
-              <p className="w-4/5">
-                <span style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-lg md:text-sm  text-sm text-white ">
-                IT’S EXPENSIVE:
+              <div className="mr-4">
+                <img
+                  src={I3}
+                  alt=""
+                  className="object-center w-1/5"
+                />
+              </div>
+              <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
+                <span
+                  style={{ fontFamily: "Comfortaa, sans-serif" }}
+                  className="lg:text-lg md:text-sm  text-sm text-white "
+                >
+                  <b>IT’S EXPENSIVE:</b>
                 </span>{" "}
-                Stock imbalances
-               (usually excesses) result, requiring markdowns and inter-store
-                 transfers.
+                Stock imbalances (usually excesses) result, requiring markdowns
+                and inter-store transfers.
               </p>
             </div>
-
           </p>
         </div>
         <div className="videoSectionRightSection">

@@ -35,7 +35,7 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Roboto, sans-serif" }}
+              style={{ fontFamily:'Comfortaa, sans-serif' }}
             >
               to get the right stock in the right stores at the right time
               considering future promotions, time of year, special events,
@@ -44,7 +44,7 @@ const Demo = () => {
           </p>
 
           
-          <button style={{ fontFamily: "Roboto, sans-serif" }}
+          <button style={{ fontFamily:'Comfortaa, sans-serif' }}
           className="lg:text-xl text-sm text-white  px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 bg-[#263044] ">
             Demo
           </button>
@@ -64,7 +64,7 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Roboto, sans-serif" }}
+              style={{ fontFamily:'Comfortaa, sans-serif' }}
             >
               Calculate safety stock with a desired confidence factor. Determine
               reorder points and refill levels using Seer’s sales forecast, lead
@@ -72,7 +72,7 @@ const Demo = () => {
               fulfilment.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>
@@ -91,14 +91,14 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Roboto, sans-serif" }}
+              style={{ fontFamily:'Comfortaa, sans-serif' }}
             >
               based on “real-time” sales forecasts, pre-defined re-group
               regions, transport costs and times to maximise sales across the
               network.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>
@@ -117,7 +117,7 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Roboto, sans-serif" }}
+              style={{ fontFamily:'Comfortaa, sans-serif' }}
             >
               Craft a range comprising the best of them to achieve your category
               mix and sales goals. Simulate sales to determine the optimum range
@@ -125,7 +125,7 @@ const Demo = () => {
               with confidence.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>
@@ -144,14 +144,14 @@ const Demo = () => {
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Roboto, sans-serif" }}
+              style={{ fontFamily:'Comfortaa, sans-serif' }}
             >
               Adjust the simulation for potential drivers such as planned
               promotions and known events. Plan orders to ensure you never run
               out of stock.
             </span>
           </p>
-          <button style={{ fontFamily: "Roboto, sans-serif" }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
+          <button style={{ fontFamily:'Comfortaa, sans-serif' }} className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 ">
             Demo
           </button>
         </div>

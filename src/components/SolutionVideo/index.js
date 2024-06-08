@@ -4,7 +4,6 @@
 
 // import ReactPlayer from "react-player";
 
-
 // import I9 from "../../assets/images/I9.png";
 // import I10 from "../../assets/images/I10.png";
 // import I11 from "../../assets/images/I11.png";
@@ -93,13 +92,6 @@
 
 // export default SolutionVideo;
 
-
-
-
-
-
-
-
 import React, { useState } from "react";
 import "./index2.css";
 import ReactPlayer from "react-player";
@@ -134,13 +126,14 @@ const SolutionVideo = () => {
 
   return (
     <div className="solution-video-container">
-      <h2 className="heading ">
-        Predict, Prepare, Prosper with Stock Seer
-      </h2>
+      <h2 className="heading ">Predict, Prepare, Prosper with Stock Seer</h2>
 
       <div className="content-container">
         <div className="video-section">
-          <ReactPlayer url="https://www.youtube.com/watch?v=9uXpgjIF-3c" className="react-player" />
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=9uXpgjIF-3c"
+            className="react-player"
+          />
         </div>
 
         <div className="cards-section">
@@ -157,8 +150,13 @@ const SolutionVideo = () => {
                 </div>
                 <p className="card-title">{card.title}</p>
               </div>
-              <div className="card-bottom-content">
-                <p>{card.description}</p>
+              <div className="SolutionVideoRightSectionCardBottomContent">
+                <p
+                  style={{ fontFamily: "Comfortaa, sans-serif" }}
+                  className="mb-4"
+                >
+                  {card.description}
+                </p>
               </div>
             </div>
           ))}
