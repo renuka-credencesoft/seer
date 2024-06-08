@@ -53,16 +53,14 @@
     right: 0;
     bottom: 0;
     top: 0;
-    padding: 10px 10px;
     margin-top: 60px;
-    margin-left: 1050px;
-    width: 30%;
+    margin-left: 1020px;
+    width: 31%;
 }
 
 
 .ContactRightSectionHome > p{
     color: #4b5971;
-    font-weight: 500;
     font-size: 20px; 
     padding: 2px 0;
 }

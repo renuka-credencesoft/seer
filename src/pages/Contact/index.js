@@ -4,6 +4,8 @@ import Faceboook from '../../assets/images/Facebook.png';
 import Google from '../../assets/images/Google.png';
 import LinkedIn from '../../assets/images/LinkedIn.png';
 import Message from '../../assets/images/Message.png';
+import { FaMapLocationDot } from 'react-icons/fa6';
+import { MdContactPhone, MdEmail } from 'react-icons/md';
 
 const Contact = () => {
   return (
@@ -25,17 +27,55 @@ const Contact = () => {
             </div>
         </div>
         <div className="ContactRightSection">
-            <p style={{fontFamily:'Roboto, sans-serif'}}>Name:</p>
-            <input type="text" />
-            <p style={{fontFamily:'Roboto, sans-serif'}}>Email:</p>
-            <input type="email" />
-            <p style={{fontFamily:'Roboto, sans-serif'}}>Phone:</p>
-            <input type="text" />
-            <p style={{fontFamily:'Roboto, sans-serif'}}>Enquiry:</p>
-            <textarea name="" cols="30" rows="5"></textarea>
-            <button className="lg:text-xl text-sm text-white bg-blue-400 px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3  ">
-            Submit
-          </button>
+        <div className='flex bg-white rounded-lg border border-[#4b5971] pl-4'>
+            <div className='w-2/3'>
+              <p className="text-2xl text-[#4b5971] font-bold py-6">Get in touch</p>
+              <p className='py-2' style={{ fontFamily: 'Oswald, sans-serif' }}>Name:</p>
+              <div className='mr-4'>
+                <input type="text" className='w-full border p-2 rounded-lg' />
+              </div>
+              <p className='py-2' style={{ fontFamily: 'Oswald, sans-serif' }}>Email:</p>
+              <div className='mr-4'>
+                <input type="email" className='w-full border p-2 rounded-lg' />
+              </div>
+              <p className='py-2' style={{ fontFamily: 'Oswald, sans-serif' }}>Phone:</p>
+              <div className='mr-4'>
+                <input type="text" className='w-full border p-2 rounded-lg' />
+              </div>
+              <p className='py-2' style={{ fontFamily: 'Oswald, sans-serif' }}>Enquiry:</p>
+              <div className='mr-4'>
+                <textarea name="" cols="30" className='w-full border p-2 rounded-lg' rows="5"></textarea>
+              </div>
+              <div className='pt-2 pb-6'>
+                <button className='lg:text-lg text-white lg:bg-blue-400 lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block ' style={{ fontFamily: 'Oswald, sans-serif' }}>
+                  Submit
+                </button>
+              </div>
+            </div>
+            <div className='w-1/3 bg-[#303e58] rounded-r-lg text-white'>
+              <div className='grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-40'>
+                <div >
+                  <MdEmail size={40} />
+                </div>
+                <div className='mb-10'>
+                  <p className='text-white'>seer@gmail.com</p>
+                </div>
+                <div>
+                  <MdContactPhone size={40} />
+                </div>
+                <div className='mb-10'>
+                  <p className='text-white'>9090909</p>
+                </div>
+                <div>
+                  <FaMapLocationDot size={40} />
+                </div>
+                <div className='mb-10'>
+                  <p className='text-white'>India</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
     </div>
   )
