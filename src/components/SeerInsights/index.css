@@ -1,6 +1,7 @@
 .SeerInsightsContainer{
     background: #2C3C57;
     padding: 30px 50px;
+    
 }
 
 .paragraph{
@@ -10,13 +11,17 @@ color:white;
    font-family: 'Comfortaa',sans-serif;
     background-color: rgb(38, 48, 68);
     opacity: 1;
+    margin-bottom: -80px;
+    height: 800px;
 }
 .SeerInsightsContainer > h1 {
     text-align: center;
     font-size: 45px;
     font-weight: 500;
     padding: 20px 0;
+   
 }
+
 
 .SeerInsightsContainer > p {
     text-align: center !important;
@@ -102,6 +107,9 @@ color:white;
     justify-content: center;
     align-items: center;
 }
+.FooterContainer {
+    margin-top: 700px;
+}
 
 @media screen and (max-width: 700px) {
     .videoSectionContainer{
@@ -113,4 +121,42 @@ color:white;
         width: 100%;
     }
 
+
+    @media screen and (max-width:772px) {
+        .des{
+            background-color:#263044;
+            color: white;
+        }
+        .container{
+            background-color:#263044;
+        }
+       
+    }
+
+    @media screen and (max-width:1000px) {
+       .FooterContainer{
+        
+       }
+       
+    }
+
 }
+
+
+
+
+
+
+
+
+.Card {
+    border-radius: 0.5rem; 
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgb(249, 248, 248);
+  }
+  
+  @media (min-width: 768px) {
+    .Card:hover {
+      box-shadow: 0 8px 12px rgba(247, 244, 244, 0.995); 
+    }
+  }

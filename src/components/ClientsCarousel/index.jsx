@@ -1,15 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
-import './index.css';
-import 'tailwindcss/tailwind.css';
-import ClientCard from '../ClientCard';
-import ClientCard2 from '../ClientCard2';
-import ClientCard3 from '../ClientCard3';
-import ClientCard4 from '../ClientCard4';
+import React, { useState, useEffect, useRef } from "react";
+import "./index.css";
+import "tailwindcss/tailwind.css";
+import ClientCard from "../ClientCard";
+import ClientCard2 from "../ClientCard2";
+import ClientCard3 from "../ClientCard3";
+import ClientCard4 from "../ClientCard4";
 
-import SeerLogo from '../../assets/images/animates.png';
-import SeerLogo2 from '../../assets/images/barkers.png';
-import SeerLogo3 from '../../assets/images/glassons.png';
-import SeerLogo4 from '../../assets/images/brothers.png';
+import SeerLogo from "../../assets/images/animates.png";
+import SeerLogo2 from "../../assets/images/barkers.png";
+import SeerLogo3 from "../../assets/images/glassons.png";
+import SeerLogo4 from "../../assets/images/brothers.png";
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
@@ -31,18 +31,24 @@ const ClientsCarousel = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const handleNext = () => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % (isMobile ? cardCount : cardCount * 3));
+    setActiveIndex(
+      (prevIndex) => (prevIndex + 1) % (isMobile ? cardCount : cardCount * 3)
+    );
   };
 
   const handlePrev = () => {
-    setActiveIndex((prevIndex) => (prevIndex - 1 + (isMobile ? cardCount : cardCount * 3)) % (isMobile ? cardCount : cardCount * 3));
+    setActiveIndex(
+      (prevIndex) =>
+        (prevIndex - 1 + (isMobile ? cardCount : cardCount * 3)) %
+        (isMobile ? cardCount : cardCount * 3)
+    );
   };
 
   const startAutoScroll = () => {
@@ -78,26 +84,67 @@ const ClientsCarousel = () => {
   };
 
   return (
-    <div className="carousel-container relative" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'Comfortaa, sans-serif' }} className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl mb-4 ">
+    <div
+      className="carousel-container relative"
+      onMouseEnter={stopAutoScroll}
+      onMouseLeave={startAutoScroll}
+    >
+      <p
+        style={{ fontFamily: "Comfortaa, sans-serif" }}
+        className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl mb-4 "
+      >
         Partners Predicting Preparing and Prospering - With SEER
       </p>
       <div className="relative overflow-hidden">
         <div
-          className={`flex transition-transform duration-500 ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
-          style={{ transform: `translateX(-${(activeIndex % (isMobile ? cardCount : cardCount * 3)) * (100 / (isMobile ? 1 : 3))}%)` }}
+          className={`flex transition-transform duration-500 ${
+            activeIndex === cardCount * 2 || activeIndex === 0
+              ? "transition-none"
+              : ""
+          }`}
+          style={{
+            transform: `translateX(-${
+              (activeIndex % (isMobile ? cardCount : cardCount * 3)) *
+              (100 / (isMobile ? 1 : 3))
+            }%)`,
+          }}
         >
           {[...cards, ...cards, ...cards].map((card, index) => {
-            const isMiddleCard = (index % (isMobile ? cardCount : cardCount * 3)) === ((activeIndex % (isMobile ? cardCount : cardCount * 3)) + getMiddleIndex()) % (isMobile ? cardCount : cardCount * 3);
+            const isMiddleCard =
+              index % (isMobile ? cardCount : cardCount * 3) ===
+              ((activeIndex % (isMobile ? cardCount : cardCount * 3)) +
+                getMiddleIndex()) %
+                (isMobile ? cardCount : cardCount * 3);
             return (
-              <div key={index} className={`flex-none ${isMobile ? 'w-full' : 'w-full md:w-1/3'} px-2`}>
+              <div
+                key={index}
+                className={`flex-none ${
+                  isMobile ? "w-full" : "w-full md:w-1/3"
+                } px-2`}
+              >
                 {isMiddleCard ? (
-                  <div className={`${isMobile ? 'w-full' : 'full-width-card'} mb-[160px]`}>
+                  <div
+                    className={`${
+                      isMobile ? "w-full" : "full-width-card"
+                    } mb-[160px]`}
+                  >
                     {card.component}
                   </div>
                 ) : (
-                  <div className={`${isMobile ? 'w-full' : 'h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]'} pr-4 flex justify-center items-center text-gray-500`}>
-                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className={`${isMobile ? 'w-full' : 'w-[400px]'} object-cover rounded-2xl border-solid`} />
+                  <div
+                    className={`${
+                      isMobile
+                        ? "w-full"
+                        : "h-[190px] w-full md:w-[200px]   md:h-[200px]  mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]"
+                    } pr-4 flex justify-center items-center text-gray-500`}
+                  >
+                    <img
+                      src={card.imageUrl}
+                      alt={`Card ${index % cardCount}`}
+                      className={`${
+                        isMobile ? "w-full" : "w-[400px]"
+                      } object-cover rounded-2xl border-solid`}
+                    />
                   </div>
                 )}
               </div>
@@ -105,18 +152,22 @@ const ClientsCarousel = () => {
           })}
         </div>
       </div>
-      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl ">
-        <FaArrowLeft />
-      </button>
-      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl">
-        <FaArrowRight />
-      </button>
+      <div className="md:mb-[-110px]">
+        <button
+          onClick={handlePrev}
+          className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl "
+        >
+          <FaArrowLeft />
+        </button>
+        <button
+          onClick={handleNext}
+          className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl "
+        >
+          <FaArrowRight />
+        </button>
+      </div>
     </div>
   );
 };
 
 export default ClientsCarousel;
-
-
-
-
