@@ -26,6 +26,7 @@ const Contact = () => {
               <img src={Message} alt="Message" />
             </div>
         </div>
+
         <div className="ContactRightSection">
         <div className='flex bg-white rounded-lg border border-[#4b5971] pl-4'>
             <div className='w-2/3'>
@@ -77,6 +78,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        
     </div>
   )
 }

@@ -27,9 +27,10 @@ const HeroSection = () => {
           Learn more
         </button>
       </div>
-        <div className="ContactRightSectionHome">
-          <div className='flex bg-white rounded-l-lg pl-4'>
-            <div className='w-2/3'>
+      
+        <div className="ContactRightSectionHome lg:flex ">
+          <div className=' cc flex bg-white rounded-l-lg pl-4  '>
+            <div className='w-2/3'> 
               <p className="text-2xl text-[#4b5971] font-bold py-6">Get in touch</p>
               <p className='py-2' style={{ fontFamily: 'Oswald, sans-serif' }}>Name:</p>
               <div className='mr-4'>
@@ -78,6 +79,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+
       </div>
       <div className="HeroSectionBgImg">
         <img src={HeroImg} alt="hero" />
@@ -87,3 +89,18 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

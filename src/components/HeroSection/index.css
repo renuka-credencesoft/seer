@@ -1,6 +1,8 @@
 .HeroSectionContainer{
     position: relative;
     overflow: hidden;
+
+   
 }
 
 .HeroSectionBgImg{
@@ -51,7 +53,7 @@
     margin: 0;
 }
 
-.ContactRightSectionHome{
+/* .ContactRightSectionHome{
     position: absolute;
     left: 0;
     right: 0;
@@ -60,8 +62,31 @@
     margin-top: 60px;
     margin-left: 1020px;
     width: 31%;
+    height: 600px;
 }
-
+@media screen and (max-width: 1300px){
+    .ContactRightSectionHome{
+        width: 40%;
+        margin-left: 800px;
+        padding-bottom: 80px;
+        
+    }
+    .ContactRightSectionHome > p{
+        color: #4b5971;
+        font-size: 10px; 
+        padding: 2px 0;
+    }
+    
+    .ContactRightSectionHome > input{
+       
+        width: 80%;
+        padding: 2px 5px;
+        font-size: 20px;
+    }
+    
+  
+    
+} */
 
 .ContactRightSectionHome > p{
     color: #4b5971;
@@ -100,7 +125,9 @@
         font-size: 20px;
         line-height: 27px;
     }
+   
 }
+
 
 @media screen and (max-width: 1000px) {
         
@@ -134,6 +161,7 @@
         font-size: 0;
         line-height: 0;
     }
+    
 }
 
 @media screen and (max-width: 650px) {      
@@ -247,5 +275,91 @@
         font-weight: 0;
         font-size: 0;
         line-height: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ContactRightSectionHome {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin-top: 60px;
+    margin-left: 1020px;
+    width: 31%;
+    height: 600px;
+}
+
+@media screen and (max-width: 1300px) {
+    .ContactRightSectionHome {
+        width: 100%;
+        margin-left: 800px;
+        padding-bottom:60px;
+        
+    }
+
+
+    .ContactRightSectionHome > input {
+        width: 80%;
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ContactRightSectionHome {
+        margin-left: 700px; 
+        width: 500px;
+     
+        
+    }
+   
+}
+@media screen and (max-width: 1100px) {
+    .ContactRightSectionHome {
+        margin-left: 650px; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ContactRightSectionHome {
+        margin-left: 500px;
+        
+    }
+    .HeroSectionContainer{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .ContactRightSectionHome {
+        margin-left: 290px; 
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .ContactRightSectionHome {
+        margin-left: 100px; 
+        display: none;
     }
 }

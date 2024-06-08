@@ -87,6 +87,7 @@
   .carousel-container p{
     @media (max-width: 768px) {
         margin-top: 1px;
+        
        
     }
   }

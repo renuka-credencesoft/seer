@@ -84,7 +84,7 @@ const ClientsCarousel = () => {
       </p>
       <div className="relative overflow-hidden">
         <div
-          className={`flex transition-transform duration-500 ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
+          className={`flex transition-transform duration-500   ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
           style={{ transform: `translateX(-${(activeIndex % (isMobile ? cardCount : cardCount * 3)) * (100 / (isMobile ? 1 : 3))}%)` }}
         >
           {[...cards, ...cards, ...cards].map((card, index) => {
@@ -92,7 +92,7 @@ const ClientsCarousel = () => {
             return (
               <div key={index} className={`flex-none ${isMobile ? 'w-full' : 'w-full md:w-1/3'} px-2`}>
                 {isMiddleCard ? (
-                  <div className={`${isMobile ? 'w-full' : 'full-width-card'} mb-[160px]`}>
+                  <div className={`${isMobile ? 'w-full' : 'full-width-card'} mb-[160px]  `}>
                     {card.component}
                   </div>
                 ) : (

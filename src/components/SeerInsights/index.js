@@ -37,8 +37,8 @@ const SeerInsights = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-center mb-8 text-white">
+    <div className="container mx-auto px-4 my-[-80px]">
+      <h2 className="text-3xl  font-bold text-center mb-8 text-white mt-8 ">
         POWERED BY PRESCIENT, ACCURATE A.I. ALGORITHMS. Swathes of transactions
         are analysed at light-speed, along with parameters like promotions, door
         counts and more. Powerful, predictive formulae are automatically derived
@@ -58,3 +58,14 @@ const SeerInsights = () => {
 };
 
 export default SeerInsights;
+
+
+
+
+
+
+
+
+
+
+
