@@ -66,9 +66,9 @@
 
 
 .carousel-container {
-    overflow-x: auto;
+    /* overflow-x: auto;
     scrollbar-width: none; 
-    -ms-overflow-style: none; 
+    -ms-overflow-style: none;  */
   }
 
   .flex {
@@ -77,9 +77,9 @@
 
   .carousel-container {
     @media (max-width: 768px) {
-      overflow-x: auto;
-      scrollbar-width: none; 
-      -ms-overflow-style: none; 
+      /* overflow-x: auto; */
+      /* scrollbar-width: none; 
+      -ms-overflow-style: none;  */
       /* scroll-snap-type: x mandatory; */
     }
   }
