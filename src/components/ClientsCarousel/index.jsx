@@ -46,7 +46,7 @@ const ClientsCarousel = () => {
   };
 
   const startAutoScroll = () => {
-    intervalRef.current = setInterval(handleNext, 1000);
+    intervalRef.current = setInterval(handleNext, 3000);
   };
 
   const stopAutoScroll = () => {
