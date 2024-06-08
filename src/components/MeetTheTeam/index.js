@@ -29,7 +29,7 @@ const MeetTheTeam = () => {
   ];
   return (
     <div>
-      <p style={{fontFamily:'Comfortaa, sans-serif'}}className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4">Meet The Team</p>
+      <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4">Meet The Team</p>
     <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
       {details.map((s,i) => {
         return (
@@ -38,11 +38,11 @@ const MeetTheTeam = () => {
               <img src={s.image} className=" w-full mx-auto" />
             </div>
             <div className="text-center mt-3">
-              <p style={{fontFamily:'Oswald, sans-serif'}} className="lg:text-4xl md:text-4xl text-2xl font-bold">{s.name}</p>
-              <p style={{fontFamily:'Roboto, sans-serif'}} className="text-lg text-gray-700 font-semibold lg:-mt-8 md:-mt-8 -mt-12 ">
+              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-4xl md:text-4xl text-2xl font-bold pb-2">{s.name}</p>
+              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="text-lg text-gray-700 font-semibold pb-2 ">
                 {s.designation}
               </p>
-              <p style={{fontFamily:'Roboto, sans-serif'}} className="text-base text-gray-500 lg:-mt-8 md:-mt-8 -mt-12">{s.description}</p>
+              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="text-base text-gray-500 ">{s.description}</p>
             </div>
           </div>
         );

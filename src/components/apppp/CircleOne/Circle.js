@@ -105,8 +105,8 @@ const Circle = () => {
           {/* 1 */}
           {index == 6 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "8px" }}
-              className="text-white lg:text-sm lg:-mt-2 md:-mt-2 -mt-6 -mt-6 text-center"
+              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              className="text-white lg:text-sm  text-center"
             >
               1.
               <br /> Identify Opportunity
@@ -115,7 +115,7 @@ const Circle = () => {
             ""
           )}
           {index == 6 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-2 text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               1.
               <br /> Identify Opportunity
             </p>
@@ -125,8 +125,8 @@ const Circle = () => {
           {/* 2 */}
           {index == 7 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "7px" }}
-              className="text-white  lg:-mt-2 md:-mt-2  -mt-4 text-center"
+              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "7px" }}
+              className="text-white  text-center"
             >
               2.
               <br /> Create your Blueprint
@@ -135,7 +135,7 @@ const Circle = () => {
             ""
           )}
           {index == 7 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-2  text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm  text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               2.
               <br /> Create your Blueprint
             </p>
@@ -145,8 +145,8 @@ const Circle = () => {
           {/* 3 */}
           {index == 0 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "8px" }}
-              className="text-white  lg:-mt-2 md:-mt-2  -mt-4 text-center"
+              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "8px" }}
+              className="text-white text-center"
             >
               3.
               <br /> Extract your Data
@@ -155,7 +155,7 @@ const Circle = () => {
             ""
           )}
           {index == 0 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-2  text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               3.
               <br /> Extract your Data
             </p>
@@ -165,8 +165,8 @@ const Circle = () => {
           {/* 4 */}
           {index == 1 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "8px" }}
-              className="text-white  lg:-mt-2 md:-mt-2  -mt-4 text-center"
+              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "8px" }}
+              className="text-white  text-center"
             >
               4.
               <br /> Enhance your Data
@@ -175,7 +175,7 @@ const Circle = () => {
             ""
           )}
           {index == 1 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-2  text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               4.
               <br /> Enhance your Data
             </p>
@@ -185,8 +185,8 @@ const Circle = () => {
           {/* 5 */}
           {index == 2 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "7px" }}
-              className="text-white  -mt-6 -mt-6 text-center"
+              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "7px" }}
+              className="text-white text-center"
             >
               5.
               <br /> Implement your Algorithm
@@ -195,7 +195,7 @@ const Circle = () => {
             ""
           )}
           {index == 2 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-6 text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               5.
               <br /> Implement your Algorithm
             </p>
@@ -205,8 +205,8 @@ const Circle = () => {
           {/* 6 */}
           {index == 3 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "8px" }}
-              className="text-white  lg:-mt-2 md:-mt-2 -mt-4 text-center"
+              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              className="text-white text-center"
             >
               6.
               <br /> Establish Confidence
@@ -215,7 +215,7 @@ const Circle = () => {
             ""
           )}
           {index == 3 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-2 text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               6.
               <br /> Establish Confidence
             </p>
@@ -225,8 +225,8 @@ const Circle = () => {
           {/* 7 */}
           {index == 4 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "8px" }}
-              className="text-white   -mt-4 text-center"
+              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              className="text-white text-center"
             >
               7.
               <br /> Go Live
@@ -235,7 +235,7 @@ const Circle = () => {
             ""
           )}
           {index == 4 && windowWidth > 767 ? (
-            <p className="text-white text-sm  text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm  text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               7.
               <br /> Go Live
             </p>
@@ -245,8 +245,8 @@ const Circle = () => {
           {/* 8 */}
           {index == 5 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: "Roboto, sans-serif", fontSize: "8px" }}
-              className="text-white  lg:-mt-2 md:-mt-2 -mt-4 text-center"
+              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              className="text-white  text-center"
             >
               8.
               <br /> Refine and Repeat
@@ -255,7 +255,7 @@ const Circle = () => {
             ""
           )}
           {index == 5 && windowWidth > 767 ? (
-            <p className="text-white text-sm -mt-2 text-center" style={{fontFamily:'Roboto, sans-serif;'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
               8.
               <br /> Refine and Repeat
             </p>
@@ -275,7 +275,7 @@ const Circle = () => {
           <div>
             {circles}
             {hoveredIndex !== null ? (
-              <div className="description text-lg px-20"  style={{fontFamily:'Roboto, sans-serif;'}} >
+              <div className="description text-lg px-20"  style={{fontFamily:'Comfortaa, sans-serif'}} >
                 {descriptions[hoveredIndex]}
               </div>
             ) : (
@@ -291,7 +291,7 @@ const Circle = () => {
           <div>
             {circles}
             {hoveredIndex !== null ? (
-              <div className="description lg:text-lg md:text-lg text-xs lg:px-20 md:px-20 px-12 -mt-24"  style={{fontFamily:'Roboto, sans-serif;'}} >
+              <div className="description lg:text-lg md:text-lg text-xs lg:px-20 md:px-20 px-12 -mt-24"  style={{fontFamily:'Comfortaa, sans-serif'}} >
                 {descriptions[hoveredIndex]}
               </div>
             ) : (

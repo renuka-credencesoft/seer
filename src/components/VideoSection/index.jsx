@@ -22,7 +22,7 @@ const VideoSection = () => {
       <div className="videoSectionContainer pb-20">
         <div className="videoSectionLeftSection ">
           <p
-            style={{ fontFamily: "Roboto, sans-serif" }}
+            style={{ fontFamily:'Comfortaa, sans-serif' }}
             className="lg:text-lg text-sm text-white "
           >
             <div className="flex item-start  items-center object-center py-4">

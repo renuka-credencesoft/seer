@@ -70,7 +70,7 @@ const SolutionVideo = () => {
               </div>
               <div className="SolutionVideoRightSectionCardBottomContent">
                 <p
-                  style={{ fontFamily: "Roboto, sans-serif" }}
+                  style={{ fontFamily:'Comfortaa, sans-serif' }}
                   className="mb-4"
                 >
                   {card.description}
