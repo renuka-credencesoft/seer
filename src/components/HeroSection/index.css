@@ -328,7 +328,7 @@
 
 @media screen and (max-width: 1200px) {
     .ContactRightSectionHome {
-        margin-left: 700px; 
+        margin-left: 500px; 
         width: 500px;
      
         
@@ -337,13 +337,13 @@
 }
 @media screen and (max-width: 1100px) {
     .ContactRightSectionHome {
-        margin-left: 650px; 
+        margin-left: 550px; 
     }
 }
 
 @media screen and (max-width: 1000px) {
     .ContactRightSectionHome {
-        margin-left: 500px;
+        margin-left: 400px;
         
     }
     .HeroSectionContainer{
