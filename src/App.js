@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div className="AppContainer min-h-screen overflow-y-scroll pb-40">
+      <div className="AppContainer min-h-screen pb-40">
         <Navbar
           setShowResponsiveNav={setShowResponsiveNav}
           showResponsiveNav={showResponsiveNav}

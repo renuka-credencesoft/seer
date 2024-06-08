@@ -78,9 +78,9 @@
   .carousel-container {
     @media (max-width: 768px) {
       overflow-x: auto;
-      scrollbar-width: full; 
+      scrollbar-width: none; 
       -ms-overflow-style: none; 
-      scroll-snap-type: x mandatory;
+      /* scroll-snap-type: x mandatory; */
     }
   }
 
