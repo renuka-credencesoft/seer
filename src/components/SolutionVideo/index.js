@@ -150,13 +150,8 @@ const SolutionVideo = () => {
                 </div>
                 <p className="card-title">{card.title}</p>
               </div>
-              <div className="SolutionVideoRightSectionCardBottomContent">
-                <p
-                  style={{ fontFamily: "Comfortaa, sans-serif" }}
-                  className="mb-4"
-                >
-                  {card.description}
-                </p>
+              <div className="card-bottom-content">
+                <p>{card.description}</p>
               </div>
             </div>
           ))}
