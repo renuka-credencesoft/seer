@@ -48,7 +48,7 @@ const Contact = () => {
                 <textarea name="" cols="30" className='w-full border p-2 rounded-lg' rows="5"></textarea>
               </div>
               <div className='pt-2 pb-6'>
-                <button className='lg:text-lg text-white lg:bg-blue-400 lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block ' style={{ fontFamily: 'Oswald, sans-serif' }}>
+                <button className='lg:text-lg text-white lg:bg-[#303e58] lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block ' style={{ fontFamily: 'Oswald, sans-serif' }}>
                   Submit
                 </button>
               </div>
