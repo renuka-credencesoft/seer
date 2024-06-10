@@ -9,3 +9,18 @@
     /* width: 100%; */
     /* overflow: hidden; */
 }
+
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+
+@font-face {
+    font-family: gothic-book;
+    src: url(../public/allroundgothic-book.otf);
+}
+
+.gothic-book{
+    font-family: gothic-book;
+}

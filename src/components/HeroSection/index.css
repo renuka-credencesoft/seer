@@ -35,9 +35,10 @@
     margin: 0px 0;
     /* font-family: "Comfortaa", sans-serif; */
     /* font-family: 'Comfortaa', 'cursive'; */
-    font-family:  'Comfortaa',sans-serif;
+    
  
-   
+    /* font-family: 'gothic book',sans-serif; */
+    font-family: gothic-book,sans-serif;
 
     
 }
@@ -48,13 +49,17 @@
 
 .HeroSectionLeftText > p{
     /* font-family: 'Roboto', sans-serif; */
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Roboto";
     font-style: normal;     
     font-weight: 300;
     font-size: 16px;
     line-height: 27px;
     color: #393838;
     margin: 0;
+}
+
+.rightsection{
+    background: linear-gradient(to bottom, #303e58 10% , #303e58a5 90%);
 }
 
 /* .ContactRightSectionHome{
@@ -98,6 +103,7 @@
     padding: 2px 0;
 }
 
+
 .ContactRightSectionHome > input{
     border: 1px solid #808080;
     border-radius: 5px;
@@ -113,6 +119,7 @@
     padding: 10px 10px;
     font-size: 20px;
 } 
+
 
 
 
@@ -316,8 +323,9 @@
 @media screen and (max-width: 1300px) {
     .ContactRightSectionHome {
         width: 100%;
-        margin-left: 800px;
+        margin-left: 890px;
         padding-bottom:60px;
+        height: 1020px;
         
     }
 
@@ -328,12 +336,37 @@
         font-size: 10px;
         margin-bottom: 20px;
     }
+    .gmail{
+        font-size: 13px;
+     }
+   
 }
+@media screen and (min-width: 1200px) and (max-width: 1270px) {
+    .ContactRightSectionHome {
+      
+        margin-left: 865px;
+        width: 40%;
+       
+    }
+    .gmail{
+       font-size: 13px;
+    }
+    
+}
+@media screen and (min-width: 1200px) and (max-width: 1237px) {
+    .ContactRightSectionHome {
+      
+        margin-left: 850px;
+        width: 29%;
+       
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
     .ContactRightSectionHome {
-        margin-left: 500px; 
-        width: 500px;
+        margin-left: 820px; 
+        width: 305;
      
         
     }
