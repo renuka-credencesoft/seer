@@ -6,10 +6,10 @@ import ClientCard2 from '../ClientCard2';
 import ClientCard3 from '../ClientCard3';
 import ClientCard4 from '../ClientCard4';
 
-import SeerLogo from '../../assets/images/animates.png';
-import SeerLogo2 from '../../assets/images/barkers.png';
-import SeerLogo3 from '../../assets/images/glassons.png';
-import SeerLogo4 from '../../assets/images/brothers.png';
+import SeerLogo from '../../assets/images/client_animates.png';
+import SeerLogo2 from '../../assets/images/client_barkers.png';
+import SeerLogo3 from '../../assets/images/client_glassons.png';
+import SeerLogo4 from '../../assets/images/client_hallensteins.png';
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
@@ -78,13 +78,13 @@ const ClientsCarousel = () => {
   };
 
   return (
-    <div className="carousel-container -mb-28 relative" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'gothic-book' }} className="heading flex align-center justify-center pb-4 text-lg md:text-xl lg:text-2xl mb-4 ">
+    <div className="carousel-container -mb-28 relative  bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
+      <p style={{ fontFamily: 'gothic-book' }} className="heading    flex align-center justify-center pb-4 text-lg md:text-xl lg:text-2xl mb-4 ">
         Partners Predicting Preparing and Prospering  With SEER
       </p>
       <div className="relative overflow-hidden">
         <div
-          className={`flex transition-transform duration-500   ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
+          className={`flex transition-transform duration-500  ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
           style={{ transform: `translateX(-${(activeIndex % (isMobile ? cardCount : cardCount * 3)) * (100 / (isMobile ? 1 : 3))}%)` }}
         >
           {[...cards, ...cards, ...cards].map((card, index) => {
@@ -96,8 +96,8 @@ const ClientsCarousel = () => {
                     {card.component}
                   </div>
                 ) : (
-                  <div className={`${isMobile ? 'w-full' : 'h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]'} pr-4 flex justify-center items-center text-gray-500`}>
-                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className={`${isMobile ? 'w-full' : 'w-[400px]'} object-cover rounded-2xl border-solid`} />
+                  <div className={`${isMobile ? 'w-full' : 'h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]'} pr-4 flex justify-center items-center `}>
+                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className={`${isMobile ? 'w-full' : 'w-[400px]'} object-cover `} />
                   </div>
                 )}
               </div>

@@ -1,12 +1,12 @@
 .ClientCard{
     width: 200px;
-    border-radius: 8px;
+   
     overflow: hidden;
     margin: 10px 10px;
 }
 
 .ClientCard > img{
-    width: 100%;
+    width: 50%;
     display: flex;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .ClientCardContent {
-    background: #fff;
+   
     padding: 10px 10px;
 }
 
@@ -41,7 +41,7 @@
 @media screen and (max-width: 1200px) {
     
 .ClientCardContent {
-    background: #fff;
+   
     padding: 5px 2px;
 }
 
@@ -65,7 +65,7 @@
 @media screen and (max-width: 1200px) { 
     
     .ClientCardContent {
-        background: #fff;
+      
         padding: 5px 2px;
     }
     

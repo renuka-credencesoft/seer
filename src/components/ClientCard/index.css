@@ -1,6 +1,6 @@
 .ClientCard{
     width: 500px;
-    border-radius: 8px;
+  
     overflow: hidden;
     margin: 10px 10px;
     display: flex;
@@ -9,8 +9,11 @@
 }
 
 .ClientCard > img{
-    width: 50%;
+    width:50%;
+    
     display: flex;
+ 
+    
 }
 
 .image{
@@ -19,7 +22,7 @@
 }
 
 .ClientCardContent {
-    background: #fff;
+ 
     padding: 10px 10px;
 }
 
@@ -30,11 +33,11 @@
 
 .ClientCardContent > h4{
     color: #868686;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .ClientCardContent > p{
-    color: #868686;
+  
     padding: 10px 0;
     font-size: 15px;
 }
@@ -42,12 +45,12 @@
 @media screen and (max-width: 1200px) {
     
 .ClientCardContent {
-    background: #fff;
+   
     padding: 5px 2px;
 }
 
 .ClientCardContent > h3{
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -66,23 +69,23 @@
 @media screen and (max-width: 1200px) { 
     
     .ClientCardContent {
-        background: #fff;
+       
         padding: 5px 2px;
     }
     
     .ClientCardContent > h3{
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 600;
     }
     
     .ClientCardContent > h4{
         color: #868686;
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .ClientCardContent > p{
         color: #868686;
         padding:  0;
-        font-size: 10px;
+        font-size: 15px;
     }
     }
