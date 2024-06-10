@@ -20,7 +20,7 @@ const HeroSection = () => {
             at the right time.
           </p>
           <button
-            className="lg:text-lg text-white mt-8 lg:bg-[#263044]  lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
+            className="lg:text-lg text-white mt-8 lg:bg-[#22bbff]  lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
             style={{ fontFamily: "Oswald, sans-serif" }}
           >
             Learn more

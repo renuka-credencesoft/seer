@@ -10,8 +10,8 @@ const ClientCard = () => {
         </div>
         <div className="ClientCardContent">
             
-            <p style={{fontFamily:'Roboto, sans-serif'}}className='text-center'>Our stores were swamped with web- returns. Seer AI swiftly and elegantly enabled us to re-distribute the returns to locations with the greatest sales potential. Lorem ipsum dolor sit amet consectetur. </p>
-            <h3 className='text-center'  style={{fontFamily:'Comfortaa, sans-serif'}}>Name</h3>
+            <p style={{fontFamily:'Roboto, sans-serif'}}className='text-center'>"Our stores were swamped with web- returns. Seer AI swiftly and elegantly enabled us to re-distribute the returns to locations with the greatest sales potential. Lorem ipsum dolor sit amet consectetur. "</p>
+            <h3 className='text-center'  style={{fontFamily:'gothic-book, sans-serif'}}>- Name</h3>
         </div>
     </div>
   )

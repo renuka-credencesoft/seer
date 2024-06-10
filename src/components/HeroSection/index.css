@@ -44,7 +44,7 @@
 }
 
 .HeroSectionLeftText > h1 > span{
-    color: #3B82F6;
+    color: #22bbff;
 }
 
 .HeroSectionLeftText > p{
@@ -356,8 +356,9 @@
 @media screen and (min-width: 1200px) and (max-width: 1237px) {
     .ContactRightSectionHome {
       
-        margin-left: 850px;
-        width: 29%;
+        margin-left: 845px;
+        width: 29%; 
+        height: 98%;
        
     }
 }
