@@ -13,7 +13,7 @@ const VideoSection = () => {
       <div className="headingContainer pt-10">
         <span
           className="lg:text-3xl text-lg font-bold text-white"
-          style={{ fontFamily: "Comfortaa, sans-serif" }}
+          style={{ fontFamily: "font-gothic-book" }}
         >
           Lost sales and wastage cost retailers millions annually.
         </span>
@@ -30,7 +30,7 @@ const VideoSection = () => {
                 <img src={I1} alt="" className="object-center w-1/5 " />
               </div>
               <p
-                style={{ fontFamily: "Comfortaa, sans-serif" }}
+                style={{ fontFamily: "Roboto" }}
                 className="w-4/5 lg:text-lg md:text-sm  text-sm text-white  "
               >
                 <span  style={{ fontFamily: "Comfortaa, sans-serif" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
@@ -50,7 +50,7 @@ const VideoSection = () => {
               </div>
               <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
                 <span
-                  style={{ fontFamily: "Comfortaa, sans-serif" }}
+                  style={{ fontFamily: "Roboto" }}
                   className=" para lg:text-lg md:text-sm  text-sm text-white "
                 >
                   <b>THE COMPLEXITY IS MIND-BOGGLING:</b>
@@ -70,7 +70,7 @@ const VideoSection = () => {
               </div>
               <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
                 <span
-                  style={{ fontFamily: "Comfortaa, sans-serif" }}
+                  style={{ fontFamily: "Roboto" }}
                   className="lg:text-lg md:text-sm  text-sm text-white "
                 >
                   <b>IT’S EXPENSIVE:</b>
