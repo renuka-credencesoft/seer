@@ -11,3 +11,25 @@
     font-size: 20px;
     color: #fff;
 }
+
+.NavbarLinks {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .NavbarLink {
+    margin: 0 10px;
+  }
+  
+  .NavbarLinkText {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Comfortaa, sans-serif';
+  }
+  
+  .NavbarLinkText.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
