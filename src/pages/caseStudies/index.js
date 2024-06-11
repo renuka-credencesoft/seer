@@ -174,8 +174,7 @@ const CaseStudies = () => {
   return (
     <div className="bg-white">
       <div className="flex flex-col items-center ">
-   
-        <div className="flex flex-col items-center mb-8 bg-[#edeeff]">
+        <div className="flex flex-col items-center  bg-[#edeeff]">
           <img
             src={Seer1}
             alt="Glassons"
@@ -183,7 +182,7 @@ const CaseStudies = () => {
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4"
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 ml-16 mr-16"
           >
             With 60 locations across Australia and New Zealand, Glassons are
             renowned for quality fashion, winning value, and vibrant
@@ -198,7 +197,10 @@ const CaseStudies = () => {
             in store, a typical week can see up to 100 already sold-out items
             returned to each store.
           </p>
-          <p   style={{ fontFamily: "roboto" }} className="text-left text-lg leading-7 tracking-normal p-4">
+          <p
+            style={{ fontFamily: "roboto" }}
+            className="text-left text-lg leading-7 tracking-normal p-4 ml-16 mr-16"
+          >
             To avoid polluting the store with out-of-stock items, the store
             racks the returns in the stock room and advises head office of the
             items and quantities. Head office manually reviews returns across
@@ -217,15 +219,17 @@ const CaseStudies = () => {
             that maximise sell through.
           </p>
         </div>
-     
 
-        <div className="flex flex-col items-center  bg-[#303e58] text-white mb-[-77px]">
+        <div className="flex flex-col items-center  bg-[#303e58] text-white mb-[-80px]">
           <img
             src={Seer2}
             alt="Animates"
             className="w-[300px] h-[100px] max-w-md mt-4 "
           />
-          <p   style={{ fontFamily: "roboto" }} className="text-left text-lg leading-7 tracking-normal mt-8 p-4">
+          <p
+            style={{ fontFamily: "roboto" }}
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 ml-16 mr-16"
+          >
             With over 50 pet and vet stores throughout New Zealand, Animates are
             passionate about providing the best pet supplies, pet products, pet
             care, advice and services for pets across New Zealand.Operational
@@ -248,8 +252,17 @@ const CaseStudies = () => {
             re-order points based on a nominated service level, and
             automatically generated optimum purchase orders.
           </p>
-          <p   style={{ fontFamily: "roboto" }} className="text-left text-lg leading-7 tracking-normal p-4">
-          Animates chose Seer to eliminate this complex manual process and optimize stock levels across their store network. We deployed Stock Seer’s AI to generate sales forecasts that accurately account for seasonal fluctuations and forecast promotions. Thereafter, statistical methods were applied to calculate optimum safety stock levels and re-order points based on a nominated service level, and automatically generated optimum purchase orders.
+          <p
+            style={{ fontFamily: "roboto" }}
+            className="text-left text-lg leading-7 tracking-normal p-4 ml-16 mr-16"
+          >
+            Animates chose Seer to eliminate this complex manual process and
+            optimize stock levels across their store network. We deployed Stock
+            Seer’s AI to generate sales forecasts that accurately account for
+            seasonal fluctuations and forecast promotions. Thereafter,
+            statistical methods were applied to calculate optimum safety stock
+            levels and re-order points based on a nominated service level, and
+            automatically generated optimum purchase orders.
           </p>
         </div>
       </div>
