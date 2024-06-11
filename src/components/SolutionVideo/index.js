@@ -125,7 +125,7 @@ const SolutionVideo = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
-    <div className="solution-video-container">
+    <div className="solution-video-container" style={{height:"600px"}}>
       <h2 className="heading ">Predict, Prepare, Prosper with Stock Seer</h2>
 
       <div className="content-container">
