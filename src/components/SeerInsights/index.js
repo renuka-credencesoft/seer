@@ -38,7 +38,7 @@ const SeerInsights = () => {
 
   return (
     <div className="container mx-auto px-4 my-[-80px]">
-      <h2 className="text-xl  font-bold text-center mb-1 text-white mt-1 py-3 ">
+      <h2 className="text-xl  font-bold text-center mb-5 text-white mt-5" style={{fontSize:"2rem"}}>
       Don’t Sweat. With Seer Support
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-20">

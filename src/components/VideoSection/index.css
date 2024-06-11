@@ -3,6 +3,12 @@
     padding: 20px;
     /* background-color: #000; */
   }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  }
   
   .headingContainer {
     display: flex;

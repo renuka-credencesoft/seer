@@ -31,7 +31,7 @@ const VideoSection = () => {
               </div>
               <p
                 style={{ fontFamily: "Roboto" }}
-                className="w-4/5 lg:text-lg md:text-sm  text-sm text-white  "
+                className="w-4/5 lg:text-lg md:text-xs  text-sm text-white  "
               >
                 <span  style={{ fontFamily: "Comfortaa, sans-serif" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
                 to large, is awash with millions of inventory decisions,
@@ -51,7 +51,7 @@ const VideoSection = () => {
               <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
                 <span
                   style={{ fontFamily: "Roboto" }}
-                  className=" para lg:text-lg md:text-sm  text-sm text-white "
+                  className=" para lg:text-lg md:text-xs  text-sm text-white "
                 >
                   <b>THE COMPLEXITY IS MIND-BOGGLING:</b>
                 </span>{" "}
@@ -71,7 +71,7 @@ const VideoSection = () => {
               <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
                 <span
                   style={{ fontFamily: "Roboto" }}
-                  className="lg:text-lg md:text-sm  text-sm text-white "
+                  className="lg:text-lg md:text-xs  text-sm text-white "
                 >
                   <b>IT’S EXPENSIVE:</b>
                 </span>{" "}

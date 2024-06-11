@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
-    <div>
+    <div className="bg-[#edeeff ]">
       <h1
         className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-10 font-bold"
         style={{ fontFamily: "font-gothic-book" }}
