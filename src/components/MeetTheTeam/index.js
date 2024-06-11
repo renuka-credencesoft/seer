@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Person1 from "../../assets/images/Joshua.webp";
 import Person2 from "../../assets/images/Roland.webp";
 import Person3 from "../../assets/images/damien.webp";
-
+ import "./index.css"
 const MeetTheTeam = () => {
   const details = [
     {
@@ -29,7 +29,7 @@ const MeetTheTeam = () => {
   ];
   return (
     <div>
-      <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4 py-4">Meet The Team</p>
+      <p style={{fontFamily:'gothic-book'}} className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4 py-4">Meet The Team</p>
     <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
       {details.map((s,i) => {
         return (
@@ -38,11 +38,13 @@ const MeetTheTeam = () => {
               <img src={s.image} className=" w-full mx-auto" />
             </div>
             <div className="text-center mt-3">
-              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-4xl md:text-4xl text-2xl font-bold pb-2">{s.name}</p>
-              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="text-lg text-gray-700 font-semibold pb-2 ">
+              <p style={{fontFamily:'gothic-book'}} className="lg:text-4xl md:text-4xl text-2xl font-bold pb-2">{s.name}</p>
+              <p style={{fontFamily:'gothic-book'}} className="text-lg text-gray-700 font-semibold pb-2 ">
                 {s.designation}
               </p>
-              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="text-base text-gray-500 ">{s.description}</p>
+              <p style={{fontFamily:'gothic-book'}} className="text-left text-gray-500 ">
+                <span style={{fontFamily:'roboto'}}>  {s.description} </span>
+               </p>
             </div>
           </div>
         );

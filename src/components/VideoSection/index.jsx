@@ -30,10 +30,10 @@ const VideoSection = () => {
                 <img src={I1} alt="" className="object-center w-1/5 " />
               </div>
               <p
-                style={{ fontFamily: "Roboto" }}
+                style={{ fontFamily: "roboto" }}
                 className="w-4/5 lg:text-lg md:text-xs  text-sm text-white  "
               >
-                <span  style={{ fontFamily: "Comfortaa, sans-serif" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
+                <span  style={{ fontFamily: "gothic-book" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
                 to large, is awash with millions of inventory decisions,
                 informed by time-consuming, manual analysis of vast swathes of
                 data.
@@ -48,12 +48,12 @@ const VideoSection = () => {
                   className="object-center w-1/5"
                 />
               </div>
-              <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
+              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
                 <span
-                  style={{ fontFamily: "Roboto" }}
+                  style={{ fontFamily: "gothic-book" }}
                   className=" para lg:text-lg md:text-xs  text-sm text-white "
                 >
-                  <b>THE COMPLEXITY IS MIND-BOGGLING:</b>
+                  <b>THE COMPLEXITY IS MIND BOGGLING:</b>
                 </span>{" "}
                 It defeats even the largest, most experienced teams - who
                 inevitably resort to crude calculations and compromises.
@@ -68,9 +68,9 @@ const VideoSection = () => {
                   className="object-center w-1/5"
                 />
               </div>
-              <p className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
+              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
                 <span
-                  style={{ fontFamily: "Roboto" }}
+                  style={{ fontFamily: "gothic-book" }}
                   className="lg:text-lg md:text-xs  text-sm text-white "
                 >
                   <b>IT’S EXPENSIVE:</b>

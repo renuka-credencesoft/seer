@@ -11,7 +11,9 @@ const Contact = () => {
   return (
     <div className="ContactContainer">
       <div className="ContactLeftSection">
-        <h1 style={{ fontFamily: "gothic-book, sans-serif" }} className="shadow-none">Get In Touch</h1>
+       
+      <h1 className="shadow-none" style={{ fontFamily: 'gothic-book, sans-serif', boxShadow: 'none' }}>Get In Touch</h1>
+
         <p style={{ fontFamily: "roboto" }}>
           Drop us a message and we will get back to you as soon as possible.
         </p>

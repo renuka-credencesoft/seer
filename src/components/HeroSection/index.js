@@ -15,7 +15,7 @@ const HeroSection = () => {
               demand <br /> forecaster.
             </span>
           </h1>
-          <p>
+          <p style={{ fontFamily: "roboto" }}>
             Helping inventory planners get the right stock, in the right place,
             at the right time.
           </p>
@@ -85,21 +85,30 @@ const HeroSection = () => {
                 </div>
 
                 <div className="mb-20">
-                  <p style={{fontFamily:'roboto'}} className=" gmail text-white">seer@gmail.com</p>
+                  <p
+                    style={{ fontFamily: "roboto" }}
+                    className=" gmail text-white"
+                  >
+                    seer@gmail.com
+                  </p>
                 </div>
 
-                  <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
+                <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <MdContactPhone className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
                 <div className="mb-20">
-                  <p style={{fontFamily:'roboto'}}  className="text-white">9090909</p>
+                  <p style={{ fontFamily: "roboto" }} className="text-white">
+                    9090909
+                  </p>
                 </div>
 
-                    <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
-                  <FaMapLocationDot className="text-4xl text-black transition duration-300 hover:opacity-0"/>
+                <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
+                  <FaMapLocationDot className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
                 <div className="mb-20">
-                  <p style={{fontFamily:'roboto'}}  className="text-white">India</p>
+                  <p style={{ fontFamily: "roboto" }} className="text-white">
+                    India
+                  </p>
                 </div>
               </div>
             </div>
