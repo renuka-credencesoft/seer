@@ -1,7 +1,6 @@
 .solution-video-container {
   padding: 20px;
   margin-bottom: 200px;
-  
 }
 
 .heading {
@@ -24,8 +23,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-
-  
 }
 
 .react-player {
@@ -37,8 +34,6 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
- 
-  
 }
 
 .card {
@@ -47,8 +42,6 @@
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.3s ease, z-index 0.3s ease;
- 
- 
 }
 
 .card.hovered {
@@ -61,25 +54,20 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  flex-direction: row; /* Align image and text horizontally */
+  flex-direction: row;
 }
 
 .card-img {
-  width: 80px; /* Adjust size as needed */
+  width: 80px;
   height: 80px;
-  /* background: #fff;
-  border: 2px solid #fff; */
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .card-img img {
   max-width: 100%;
   border-radius: 50%;
-  
 }
 
 .card-title {
@@ -101,26 +89,14 @@
   display: block;
 }
 
-@media screen and (min-width: 750px) {
-  .content-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .video-section,
-  .cards-section {
-    width: 48%;
-  }
-}
-
 @media screen and (max-width: 750px) {
   .heading {
     font-size: 1.5rem;
   }
 
   .card-top-content {
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center content on smaller screens */
+    flex-direction: column;
+    align-items: center;
   }
 
   .card-title {
@@ -147,5 +123,3 @@
     font-size: 0.75rem;
   }
 }
-
-
