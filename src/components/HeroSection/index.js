@@ -21,7 +21,7 @@ const HeroSection = () => {
           </p>
           <button
             className="lg:text-lg text-white mt-8 lg:bg-[#22bbff]  lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
-            style={{ fontFamily: "Oswald, sans-serif" }}
+            style={{ fontFamily: "gothic-book, sans-serif" }}
           >
             Learn more
           </button>
@@ -36,25 +36,25 @@ const HeroSection = () => {
               >
                 Get in touch
               </p>
-              <p className="py-2" style={{ fontFamily: "Oswald, sans-serif" }}>
+              <p className="py-2" style={{ fontFamily: "roboto" }}>
                 Name:
               </p>
               <div className="mr-4">
                 <input type="text" className="w-full border p-2 rounded-lg" />
               </div>
-              <p className="py-2" style={{ fontFamily: "Oswald, sans-serif" }}>
+              <p className="py-2" style={{ fontFamily: "roboto" }}>
                 Email:
               </p>
               <div className="mr-4">
                 <input type="email" className="w-full border p-2 rounded-lg" />
               </div>
-              <p className="py-2" style={{ fontFamily: "Oswald, sans-serif" }}>
+              <p className="py-2" style={{ fontFamily: "roboto" }}>
                 Phone:
               </p>
               <div className="mr-4">
                 <input type="text" className="w-full border p-2 rounded-lg" />
               </div>
-              <p className="py-2" style={{ fontFamily: "Oswald, sans-serif" }}>
+              <p className="py-2" style={{ fontFamily: "roboto" }}>
                 Enquiry:
               </p>
               <div className="mr-4">
@@ -68,7 +68,7 @@ const HeroSection = () => {
               <div className="pt-2 pb-6">
                 <button
                   className="lg:text-lg text-white lg:bg-[#22bbff] lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block button"
-                  style={{ fontFamily: "Oswald, sans-serif" }}
+                  style={{ fontFamily: "gothic-book, sans-serif" }}
                 >
                   Submit
                 </button>
@@ -85,21 +85,21 @@ const HeroSection = () => {
                 </div>
 
                 <div className="mb-20">
-                  <p className=" gmail text-white">seer@gmail.com</p>
+                  <p style={{fontFamily:'roboto'}} className=" gmail text-white">seer@gmail.com</p>
                 </div>
 
                   <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <MdContactPhone className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
                 <div className="mb-20">
-                  <p className="text-white">9090909</p>
+                  <p style={{fontFamily:'roboto'}}  className="text-white">9090909</p>
                 </div>
 
                     <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <FaMapLocationDot className="text-4xl text-black transition duration-300 hover:opacity-0"/>
                 </div>
                 <div className="mb-20">
-                  <p className="text-white">India</p>
+                  <p style={{fontFamily:'roboto'}}  className="text-white">India</p>
                 </div>
               </div>
             </div>
