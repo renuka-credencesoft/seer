@@ -119,3 +119,16 @@ color:white;
     }
 
 }
+
+.fontSize{
+    font-size: 2rem;
+
+}
+@media screen and (max-width: 700px) {
+    .fontSize{
+        font-size: 1.5rem;
+    
+    }    
+
+  
+}

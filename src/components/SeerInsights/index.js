@@ -38,11 +38,8 @@ const SeerInsights = () => {
 
   return (
     <div className="container mx-auto px-4 my-[-80px]">
-      <h2 className="text-xl  font-bold text-center mb-8 text-white mt-8 py-10 ">
-        POWERED BY PRESCIENT, ACCURATE A.I. ALGORITHMS. Swathes of transactions
-        are analysed at light-speed, along with parameters like promotions, door
-        counts and more. Powerful, predictive formulae are automatically derived
-        to drive your decisions for every SKU, at every
+      <h2 className="  font-bold text-center mb-5 text-white mt-5 fontSize" >
+      Don’t Sweat. With Seer Support
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-20">
         {cards.map((card, index) => (

@@ -3,6 +3,12 @@
     padding: 20px;
     /* background-color: #000; */
   }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 100%;
+    }
+  }
   
   .headingContainer {
     display: flex;
@@ -76,9 +82,9 @@
 .videoSectionLeftSection img{
     width: 85px;
     height: 85px;
-    border-radius: 50%;
+    /* border-radius: 50%;
     background-color: aliceblue;
-    border: 2px solid white;
+    border: 2px solid white; */
     
 }
 
