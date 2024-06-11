@@ -73,6 +73,22 @@
     font-size: 1.25rem;
     /* Large devices */
   }
+
+}
+
+@media screen and (max-width:1083) {
+  .NavbarLinks>li>a {
+    font-size: 1rem;
+    /* Large devices */
+  }
+  
+}
+
+@media screen and (min-width: 1017px) and (max-width: 1272px) {
+  .NavbarLinks>li>a {
+    font-size: 1rem;
+    /* Large devices */
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
