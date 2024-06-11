@@ -166,6 +166,11 @@
 
 // export default CaseStudies
 
+
+
+
+
+
 import React from "react";
 import Seer1 from "../../assets/images/client_glassons.png";
 import Seer2 from "../../assets/images/client_animates.png";
@@ -174,15 +179,15 @@ const CaseStudies = () => {
   return (
     <div className="bg-white">
       <div className="flex flex-col items-center ">
-        <div className="flex flex-col items-center  bg-[#edeeff]">
+        <div className="flex flex-col items-center bg-[#edeeff]">
           <img
             src={Seer1}
             alt="Glassons"
-            className="w-[300px] h-[100px] max-w-md mt-4 "
+            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[300px] md:h-[100px] max-w-md mt-16"
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 ml-16 mr-16"
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16  "
           >
             With 60 locations across Australia and New Zealand, Glassons are
             renowned for quality fashion, winning value, and vibrant
@@ -199,7 +204,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 ml-16 mr-16"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12"
           >
             To avoid polluting the store with out-of-stock items, the store
             racks the returns in the stock room and advises head office of the
@@ -220,15 +225,15 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center  bg-[#303e58] text-white mb-[-80px]">
+        <div className="flex flex-col items-center bg-[#303e58] text-white mb-[-80px]">
           <img
             src={Seer2}
             alt="Animates"
-            className="w-[300px] h-[100px] max-w-md mt-4 "
+            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[300px] md:h-[100px] max-w-md mt-16"
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 ml-16 mr-16"
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16"
           >
             With over 50 pet and vet stores throughout New Zealand, Animates are
             passionate about providing the best pet supplies, pet products, pet
@@ -254,7 +259,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 ml-16 mr-16"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12"
           >
             Animates chose Seer to eliminate this complex manual process and
             optimize stock levels across their store network. We deployed Stock
