@@ -27,7 +27,7 @@
 }
 
 .ClientCardContent > h3{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -39,7 +39,7 @@
 .ClientCardContent > p{
   
     padding: 10px 0;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -89,3 +89,7 @@
         font-size: 15px;
     }
     }
+
+
+
+
