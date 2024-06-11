@@ -115,7 +115,7 @@ const Circle = () => {
             ""
           )}
           {index == 6 && windowWidth > 767 ? (
-            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'gothic-book'}} >
               1.
               <br /> Identify Opportunity
             </p>
@@ -125,7 +125,7 @@ const Circle = () => {
           {/* 2 */}
           {index == 7 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "7px" }}
+              style={{ fontFamily: 'gothhic-book', fontSize: "7px" }}
               className="text-white  text-center"
             >
               2.
@@ -135,7 +135,7 @@ const Circle = () => {
             ""
           )}
           {index == 7 && windowWidth > 767 ? (
-            <p className="text-white text-sm  text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm  text-center" style={{fontFamily:'gothic-book'}} >
               2.
               <br /> Create your Blueprint
             </p>
@@ -145,7 +145,7 @@ const Circle = () => {
           {/* 3 */}
           {index == 0 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "8px" }}
+              style={{ fontFamily: 'gothic-book', fontSize: "8px" }}
               className="text-white text-center"
             >
               3.
@@ -155,7 +155,7 @@ const Circle = () => {
             ""
           )}
           {index == 0 && windowWidth > 767 ? (
-            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'gothic-book'}} >
               3.
               <br /> Extract your Data
             </p>
@@ -165,7 +165,7 @@ const Circle = () => {
           {/* 4 */}
           {index == 1 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "8px" }}
+              style={{ fontFamily: 'gothic-book', fontSize: "8px" }}
               className="text-white  text-center"
             >
               4.
@@ -175,7 +175,7 @@ const Circle = () => {
             ""
           )}
           {index == 1 && windowWidth > 767 ? (
-            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'gothic-book'}} >
               4.
               <br /> Enhance your Data
             </p>
@@ -185,7 +185,7 @@ const Circle = () => {
           {/* 5 */}
           {index == 2 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily: 'Comfortaa, sans-serif', fontSize: "7px" }}
+              style={{ fontFamily: 'gothic-book', fontSize: "7px" }}
               className="text-white text-center"
             >
               5.
@@ -195,7 +195,7 @@ const Circle = () => {
             ""
           )}
           {index == 2 && windowWidth > 767 ? (
-            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'gothic-book'}} >
               5.
               <br /> Implement your Algorithm
             </p>
@@ -205,7 +205,7 @@ const Circle = () => {
           {/* 6 */}
           {index == 3 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              style={{ fontFamily:'gothic-book', fontSize: "8px" }}
               className="text-white text-center"
             >
               6.
@@ -215,7 +215,7 @@ const Circle = () => {
             ""
           )}
           {index == 3 && windowWidth > 767 ? (
-            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'gothic-book'}} >
               6.
               <br /> Establish Confidence
             </p>
@@ -225,7 +225,7 @@ const Circle = () => {
           {/* 7 */}
           {index == 4 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              style={{ fontFamily:'gothic-book', fontSize: "8px" }}
               className="text-white text-center"
             >
               7.
@@ -235,7 +235,7 @@ const Circle = () => {
             ""
           )}
           {index == 4 && windowWidth > 767 ? (
-            <p className="text-white text-sm  text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm  text-center" style={{fontFamily:'gothic-book'}} >
               7.
               <br /> Go Live
             </p>
@@ -245,7 +245,7 @@ const Circle = () => {
           {/* 8 */}
           {index == 5 && windowWidth <= 767 ? (
             <p
-              style={{ fontFamily:'Comfortaa, sans-serif', fontSize: "8px" }}
+              style={{ fontFamily:'gothic-book', fontSize: "8px" }}
               className="text-white  text-center"
             >
               8.
@@ -255,7 +255,7 @@ const Circle = () => {
             ""
           )}
           {index == 5 && windowWidth > 767 ? (
-            <p className="text-white text-sm text-center" style={{fontFamily:'Comfortaa, sans-serif'}} >
+            <p className="text-white text-sm text-center" style={{fontFamily:'gothic-book'}} >
               8.
               <br /> Refine and Repeat
             </p>
@@ -281,7 +281,7 @@ const Circle = () => {
             ) : (
               <p
                 className="description2 text-3xl font-bold  px-20"
-                style={{ color: "#35435F", fontFamily:'Oswald, sans-serif' }}
+                style={{ color: "#35435F", fontFamily:'gothic-book' }}
               >
                 SSR Methodology
               </p>
@@ -291,12 +291,12 @@ const Circle = () => {
           <div>
             {circles}
             {hoveredIndex !== null ? (
-              <div className="description lg:text-lg md:text-lg text-xs lg:px-20 md:px-20 px-12 -mt-24"  style={{fontFamily:'Comfortaa, sans-serif'}} >
+              <div className="description lg:text-lg md:text-lg text-xs lg:px-20 md:px-20 px-12 -mt-24"  style={{fontFamily:'roboto'}} >
                 {descriptions[hoveredIndex]}
               </div>
             ) : (
               <p
-                style={{fontFamily:'Oswald, sans-serif', color: "#35435F" }}
+                style={{fontFamily:'roboto', color: "#35435F" }}
                 className="description2 lg:text-3xl md:text-3xl text-lg font-bold  lg:px-20 md:px-20 -mt-28"
               >
                 SSR Methodology

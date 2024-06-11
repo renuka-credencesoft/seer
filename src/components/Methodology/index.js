@@ -18,7 +18,7 @@ function Methodology() {
             <div className="h-1 w-full rounded-lg line"></div>
           </div>
           <img src={methodologyLogo} alt="logo" className="-mt-40" />
-          <p style={{fontFamily:'Comfortaa, sans-serif'}} className="py-10">
+          <p style={{fontFamily:'roboto, sans-serif'}} className="py-10">
             At Seer we understand each customer is unique and adapt our
             algorithms and interfaces to meet your exact requirements. Our
             methodology is nimble, it eliminates disruption and minimizes cost.
