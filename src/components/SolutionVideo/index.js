@@ -47,7 +47,7 @@
 //       <div className="SolutionVideoContainer flex flex-col lg:flex-row mt-12 space-y-8 lg:space-y-0 lg:space-x-8 ">
 //         <div className="SolutionVideoLeftSection lg:flex-1">
 //           <div className="videoSectionRightSection">
-//             <ReactPlayer url="https://www.youtube.com/watch?v=9uXpgjIF-3c" />
+//             <ReactPlayer url="https://youtu.be/Zne5QME3toI?si=Ba4J1VPGda6HpeOR" />
 //           </div>
 //         </div>
 
@@ -131,7 +131,7 @@ const SolutionVideo = () => {
       <div className="content-container">
         <div className="video-section">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=9uXpgjIF-3c"
+            url="https://youtu.be/Zne5QME3toI?si=Ba4J1VPGda6HpeOR"
             className="react-player"
           />
         </div>
