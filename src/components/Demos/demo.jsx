@@ -15,10 +15,10 @@ import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
-    <div>
+    <div className="bg-[#edeeff ]">
       <h1
         className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-10 font-bold"
-        style={{ fontFamily: "Comfortaa, sans-serif" }}
+        style={{ fontFamily: "font-gothic-book" }}
       >
         Prepare for every inventory challenge
       </h1>
@@ -30,13 +30,13 @@ const Demo = () => {
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Optimize Store Inventory Levels
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               to get the right stock in the right stores at the right time
               considering future promotions, time of year, special events,
@@ -45,8 +45,8 @@ const Demo = () => {
           </p>
 
           <button
-            style={{ fontFamily: "Comfortaa, sans-serif" }}
-            className="lg:text-xl text-sm text-white  px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 bg-[#263044] "
+            style={{ fontFamily: "Roboto" }}
+            className="lg:text-xl text-sm text-white  px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 bg-[#22bbff] "
           >
             <Link
               className="text-white"
@@ -66,13 +66,13 @@ const Demo = () => {
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Automate Weekly Vendor Re-Orders.
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Calculate safety stock with a desired confidence factor. Determine
               reorder points and refill levels using Seer’s sales forecast, lead
@@ -81,8 +81,8 @@ const Demo = () => {
             </span>
           </p>
           <button
-            style={{ fontFamily: "Comfortaa, sans-serif" }}
-            className="lg:text-xl text-sm text-white bg-[#263044]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+            style={{ fontFamily: "Roboto" }}
+            className="lg:text-xl text-sm text-white bg-[#22bbff]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
           >
             <Link
               className="text-white"
@@ -102,13 +102,13 @@ const Demo = () => {
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Reallocate Stock Between Locations
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               based on “real-time” sales forecasts, pre-defined re-group
               regions, transport costs and times to maximise sales across the
@@ -116,8 +116,8 @@ const Demo = () => {
             </span>
           </p>
           <button
-            style={{ fontFamily: "Comfortaa, sans-serif" }}
-            className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+            style={{ fontFamily: "Roboto" }}
+            className="lg:text-xl text-sm text-white bg-[#22bbff] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
           >
             <Link
               className="text-white"
@@ -137,13 +137,13 @@ const Demo = () => {
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Gauge Desirability of Potential Products.
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Craft a range comprising the best of them to achieve your category
               mix and sales goals. Simulate sales to determine the optimum range
@@ -152,8 +152,8 @@ const Demo = () => {
             </span>
           </p>
           <button
-            style={{ fontFamily: "Comfortaa, sans-serif" }}
-            className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+            style={{ fontFamily: "Roboto" }}
+            className="lg:text-xl text-sm text-white bg-[#22bbff] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
           >
             <Link
               className="text-white"
@@ -173,13 +173,13 @@ const Demo = () => {
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Simulate Long Term Demand for Perennial Lines.
             </span>
             <span
               className="text-lg lg:text-xl lg:mt-10"
-              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              style={{ fontFamily: "Roboto" }}
             >
               Adjust the simulation for potential drivers such as planned
               promotions and known events. Plan orders to ensure you never run
@@ -187,8 +187,8 @@ const Demo = () => {
             </span>
           </p>
           <button
-            style={{ fontFamily: "Comfortaa, sans-serif" }}
-            className="lg:text-xl text-sm text-white bg-[#263044] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+            style={{ fontFamily: "Roboto" }}
+            className="lg:text-xl text-sm text-white bg-[#22bbff] px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
           >
             <Link
               className="text-white"

@@ -19,22 +19,22 @@ const Navbar = ({ setShowResponsiveNav, showResponsiveNav, responsiveNav }) => {
       </div>
       <ul className="NavbarLinks">
         <li className="NavbarLink">
-          <Link to="/" className='NavbarLinkText'>Home</Link>
+        <Link to="/" className={location.pathname === '/' ? 'NavbarLinkText active' : 'NavbarLinkText'}>Home</Link>
         </li>
         <li className="NavbarLink">
-          <Link to="/solutions" className='NavbarLinkText'>Solutions</Link>
+        <Link to="/solutions" className={location.pathname === '/solutions' ? 'NavbarLinkText active' : 'NavbarLinkText'}>Solutions</Link>
         </li>
         <li className="NavbarLink">
-          <Link to="/caseStudies" className='NavbarLinkText'>Case Studies</Link>
+        <Link to="/caseStudies" className={location.pathname === '/caseStudies' ? 'NavbarLinkText active' : 'NavbarLinkText'}>Case Studies</Link>
         </li>
         <li className="NavbarLink">
-          <Link to="/about" className='NavbarLinkText'>About Us</Link>
+        <Link to="/about" className={location.pathname === '/about' ? 'NavbarLinkText active' : 'NavbarLinkText'}>About Us</Link>
         </li>
         <li className="NavbarLink">
-          <Link to="/blog" className='NavbarLinkText'>Blog</Link>
+        <Link to="/blog" className={location.pathname === '/blog' ? 'NavbarLinkText active' : 'NavbarLinkText'}>Blog</Link>
         </li>
         <li className="NavbarLink">
-          <Link to="/contact" className='NavbarLinkText'>Contact</Link>
+        <Link to="/contact" className={location.pathname === '/contact' ? 'NavbarLinkText active' : 'NavbarLinkText'}>Contact</Link>
         </li>
       </ul>
       {!responsiveNav ? (
