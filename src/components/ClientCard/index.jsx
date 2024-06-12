@@ -20,11 +20,11 @@ const ClientCard = () => {
           accuracy."
         </p>
        
-        <h3 className="text-center"  style={{fontFamily:'gothic-book, sans-serif', mt:"10px"}}>
+        <h5 className="text-center pt-2"  style={{fontFamily:'gothic-book, sans-serif', mt:"10px"}}>
           <span style={{fontFamily:"roboto"}}>-</span>
          
           PHILLIP CHRISTOPHER, C.I.O., ANIMATES NZ
-        </h3>
+        </h5>
       </div>
       
     </div>
