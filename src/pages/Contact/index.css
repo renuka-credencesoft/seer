@@ -27,6 +27,8 @@ text-shadow: none !important;
         position: relative;
         padding: 10px 0;
         width: 450px;
+       
+     
     
     
 }
@@ -41,6 +43,7 @@ text-shadow: none !important;
     border-radius: 10px;
     bottom: 0;
     background: #DD491A;
+    box-shadow: none;
   
 }
 
@@ -53,6 +56,7 @@ text-shadow: none !important;
     margin: auto;
     border-radius: 10px;
     bottom: 0;
+    box-shadow: none;
     /* background: #2C3C57; */
    
 }
@@ -71,6 +75,7 @@ text-shadow: none !important;
     font-weight: 500;
     font-size: 20px; 
     padding: 2px 2px;
+ 
 }
 
 .ContactLeftSectionContactDetails > p > span{

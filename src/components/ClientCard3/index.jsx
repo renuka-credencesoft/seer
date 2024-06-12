@@ -11,7 +11,8 @@ const ClientCard = () => {
         <div className="ClientCardContent mt-8">
 
             <p style={{fontFamily:'Roboto, sans-serif'}}className='text-left'>"Our stores were swamped with web- returns. Seer AI swiftly and elegantly enabled us to re-distribute the returns to locations with the greatest sales potential."</p>
-            <h3 className='text-center'  style={{fontFamily:'gothic-book, sans-serif'}}>
+        
+            <h3 className='text-center'  style={{fontFamily:'gothic-book, sans-serif' , mt:"10px"}}>
             <span style={{fontFamily:"roboto"}}>-</span>
                CHRIS REID, C.I.O., HALLENSTEIN GLASSON</h3>
         </div>
