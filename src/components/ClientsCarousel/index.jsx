@@ -92,7 +92,7 @@ const ClientsCarousel = () => {
             return (
               <div key={index} className={`flex-none ${isMobile ? 'w-full' : 'w-full md:w-1/3'} px-2 `}>
                 {isMiddleCard ? (
-                  <div className={`${isMobile ? 'w-full' : 'full-width-card'} mb-[160px] mt-16 `}>
+                  <div className={`${isMobile ? 'w-full' : 'full-width-card'}  mt-16 `}>
                     {card.component}
                   </div>
                 ) : (
