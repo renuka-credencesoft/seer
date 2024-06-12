@@ -9,7 +9,7 @@ import { MdContactPhone, MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="ContactContainer bg-[#edeeff]">
+    <div className="ContactContainer bg-[#edeeff] pb-10 md:pb-0 lg:pb-0">
       <div className="ContactLeftSection">
         <h1
           className="shadow-none"
