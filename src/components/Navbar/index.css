@@ -68,6 +68,14 @@
   font-family: 'Oswald, sans-serif';
 }
 
+@media screen and (min-width: 1300px) {
+  .NavbarLinks>li {
+    gap: ;
+    /* Large devices */
+  }
+
+}
+
 @media screen and (min-width: 1024px) {
   .NavbarLinks>li>a {
     font-size: 1.25rem;
@@ -93,7 +101,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .NavbarLinks>li>a {
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
+    font-size: 16px;
     /* Medium devices (slightly smaller) */
   }
 
