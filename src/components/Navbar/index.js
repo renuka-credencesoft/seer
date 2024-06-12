@@ -13,7 +13,7 @@ const Navbar = ({ setShowResponsiveNav, showResponsiveNav, responsiveNav }) => {
   }, [location.pathname]);
 
   return (
-    <div className='NavbarContainer'>
+    <div className='NavbarContainer '>
       <div className="NavbarLogo">
         <img src={SeerLogo} alt="Logo" />
       </div>
