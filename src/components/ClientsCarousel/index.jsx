@@ -78,11 +78,11 @@ const ClientsCarousel = () => {
   };
 
   return (
-    <div className="carousel-container -mb-28 relative  bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'gothic-book' }} className="heading    flex align-center justify-center pb-4 text-lg md:text-xl lg:text-2xl mb-4 ">
+    <div className="carousel-container -mb-38 relative  bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
+      <p style={{ fontFamily: 'gothic-book' }} className="heading    flex align-center justify-center text-lg md:text-xl lg:text-2xl ">
         Partners Predicting Preparing and Prospering  With SEER
       </p>
-      <div className="relative overflow-hidden ">
+      <div className="relative overflow-hidden -mt-24 lg:-mt-12 md:-mt-12 ">
         <div
           className={`flex transition-transform duration-500   ${activeIndex === cardCount * 2 || activeIndex === 0 ? 'transition-none' : ''}`}
           style={{ transform: `translateX(-${(activeIndex % (isMobile ? cardCount : cardCount * 3)) * (100 / (isMobile ? 1 : 3))}%)` }}
@@ -105,10 +105,10 @@ const ClientsCarousel = () => {
           })}
         </div>
       </div>
-      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl mt-12  ">
+      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl lg:mt-12 md:mt-12  mt-20">
         <FaArrowLeft />
       </button>
-      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl mt-12 ">
+      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl  lg:mt-12 md:mt-12  mt-20 ">
         <FaArrowRight />
       </button>
     </div>

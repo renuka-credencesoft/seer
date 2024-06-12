@@ -125,7 +125,7 @@ const SolutionVideo = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
-    <div className="solution-video-container md:h-[600px] lg:h-[600px] sm:h-[1000px] "  >
+    <div className="solution-video-container md:h-[600px] lg:h-[600px] sm:h-[1000px] ">
       <h2 className="heading ">Predict, Prepare, Prosper with Stock Seer</h2>
 
       <div className="content-container">
@@ -150,7 +150,7 @@ const SolutionVideo = () => {
                 </div>
 
                 <p
-                  className="card-title lg:-mt-1"
+                  className="card-title lg:-mt-1 text-center"
                   style={{ textAlign: "center" }}
                 >
                   {card.title}

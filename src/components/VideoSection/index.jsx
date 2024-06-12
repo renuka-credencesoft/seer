@@ -13,7 +13,7 @@ const VideoSection = () => {
       <div className="headingContainer pt-10">
         <span
           className="lg:text-3xl text-lg font-bold text-white"
-          style={{ fontFamily: "font-gothic-book" }}
+          style={{ fontFamily: "gothic-book" }}
         >
           Lost sales and wastage cost retailers millions annually.
         </span>
