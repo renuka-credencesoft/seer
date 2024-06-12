@@ -3,6 +3,7 @@
    
     overflow: hidden;
     margin: 10px 10px;
+    justify-content: center;
 }
 
 .ClientCard > img{
@@ -84,4 +85,18 @@
         padding:  0;
         font-size: 20px;
     }
+    }
+
+
+    
+
+    @media screen and (max-width: 450px){
+
+        .ClientCardContent > p{
+            font-size: 15px;
+        }
+
+        .ClientCardContent >h5{
+            font-size: 15px;
+        }
     }

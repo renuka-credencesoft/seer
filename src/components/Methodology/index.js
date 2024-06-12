@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
 const originalAreas = [
   { coords: "950,150,47" },
@@ -23,10 +23,10 @@ const Methodology = () => {
         const widthRatio = width / 1448;
         const heightRatio = height / 840;
 
-        const newAreas = originalAreas.map(area => {
-          const [x, y, r] = area.coords.split(',').map(Number);
+        const newAreas = originalAreas.map((area) => {
+          const [x, y, r] = area.coords.split(",").map(Number);
           return {
-            coords: `${x * widthRatio},${y * heightRatio},${r * widthRatio}`
+            coords: `${x * widthRatio},${y * heightRatio},${r * widthRatio}`,
           };
         });
 
@@ -35,8 +35,8 @@ const Methodology = () => {
     };
 
     updateAreas();
-    window.addEventListener('resize', updateAreas);
-    return () => window.removeEventListener('resize', updateAreas);
+    window.addEventListener("resize", updateAreas);
+    return () => window.removeEventListener("resize", updateAreas);
   }, []);
 
   const handleMouseEnter = (index) => {
@@ -52,7 +52,7 @@ const Methodology = () => {
   };
 
   return (
-    <div className="w-full mx-auto relative">
+    <div className="w-full mx-auto relative pt-20 lg:mb-[-90px] mb-[-30px]  ">
       <div className="w-full mx-auto max-w-screen-3xl relative">
         <div className="flex justify-center text-center relative">
           <div className="relative">
@@ -88,7 +88,7 @@ const Methodology = () => {
                 className={`absolute top-0 left-0 transition-opacity duration-300`}
                 style={{
                   opacity: 1,
-                  pointerEvents: 'none',
+                  pointerEvents: "none",
                 }}
               />
             )}

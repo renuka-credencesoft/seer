@@ -1,10 +1,12 @@
 .ContactContainer{
     display: flex;
+    
 }
 
 .ContactContainer > div{
     width: 50%;
     padding: 50px 50px;
+  
 }
 
 .ContactLeftSection > h1 {

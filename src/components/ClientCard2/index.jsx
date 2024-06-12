@@ -10,7 +10,7 @@ const ClientCard = () => {
           </div>
         <div className="ClientCardContent mt-8">
            
-            <p style={{fontFamily:'Roboto, sans-serif'}} className='text-left'>"Seer Insights provides us with a depth of analytical capability, unrivalled by any competitor in the market, enabling us to make critical decisions lightning fast with confidence."</p>
+            <p style={{fontFamily:'Roboto, sans-serif'}} className='text-center'>"Seer Insights provides us with a depth of analytical capability, unrivalled by any competitor in the market, enabling us to make critical decisions lightning fast with confidence."</p>
     
             <h5 className='text-center pt-2'  style={{fontFamily:'gothic-book'}}> 
             <span style={{fontFamily:"roboto"}}>-</span>

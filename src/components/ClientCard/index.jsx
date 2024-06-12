@@ -5,7 +5,7 @@ import SeerLogo from "../../assets/images/client_animates.png";
 const ClientCard = () => {
   return (
     <div
-      className={`${ClientCard}  md:h-[500px]    p-10`}
+      className={`${ClientCard}  md:h-[500px]     p-10`}
     >
       <div className="flex items-center justify-center">
         <img src={SeerLogo} alt="Logo" className="h-8 " />
@@ -13,7 +13,7 @@ const ClientCard = () => {
 
       <div className="ClientCardContent mt-8  ">
         
-        <p style={{fontFamily:'Roboto, sans-serif'}}className="text-left  ">
+        <p style={{fontFamily:'Roboto, sans-serif'}}className="text-center   ">
          " Out teams are spending days a week managing the parameters which drive
           our vendor re-order calculation. Seer AI Forecasts will help us
           automate the process, eliminate manual effort, and improve order

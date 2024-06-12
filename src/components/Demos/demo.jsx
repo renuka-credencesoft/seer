@@ -15,14 +15,14 @@ import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
-    <div className="bg-[#edeeff ]">
+    <div className="bg-[#edeeff] pb-10 " >
       <h1
         className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-10 font-bold"
         style={{ fontFamily: "gothic-book" }}
       >
         Prepare for every inventory challenge
       </h1>
-      <div className="ContactContainer lg:mt-0 md:mt-0">
+      <div className="ContactContainer lg:mt-0 md:mt-0 ">
         <div className="ContactLeftSection">
           <img src={Optimise} alt="casestudies" class="glassons" />
         </div>

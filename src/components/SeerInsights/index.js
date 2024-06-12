@@ -12,10 +12,16 @@ const Card = ({ imageSrc, description, description1 }) => (
       className="w-full h-52 object-cover "
     />
     <div className="p-6">
-      <p style={{fontFamily:"roboto"}} className="text-white">{description}</p>
-      <p style={{fontFamily:"roboto"}} className="text-white">{description1}</p>
+      <p
+        style={{ fontFamily: "roboto" }}
+        className="text-white font-bold text-lg"
+      >
+        {description}
+      </p>
+      <p style={{ fontFamily: "roboto" }} className="text-white">
+        {description1}
+      </p>
     </div>
-    
   </div>
 );
 
@@ -23,33 +29,33 @@ const SeerInsights = () => {
   const cards = [
     {
       imageSrc: support,
-      description:
-        "24/7 Support Capability",
-      description1: " We understand the perpetual demands of multi-store retailers. Our team of experts are on-call, round the clock, ensuring your business never stops.",
+      description: "24/7 Support Capability",
+      description1:
+        " We understand the perpetual demands of multi-store retailers. Our team of experts are on-call, round the clock, ensuring your business never stops.",
     },
     {
       imageSrc: multi,
-      description:
-        "Multi Domain Masters",
-        description1:"Seer’s seasoned team has years of experience supporting the world’s popular platforms - LS Retail, Business Central, Dynamics NAV, Azure, Microsoft .Net, Android and IOS",
+      description: "Multi Domain Masters",
+      description1:
+        "Seer’s seasoned team has years of experience supporting the world’s popular platforms - LS Retail, Business Central, Dynamics NAV, Azure, Microsoft .Net, Android and IOS",
     },
     {
       imageSrc: economial,
-      description:
-        "Economical and Efficient",
-        description1:"Eliminate your burden of maintaining a technical team. Our offering is structured to suit your unique requirements and budget – we won’t burn a hole in your pocket"
+      description: "Economical and Efficient",
+      description1:
+        "Eliminate your burden of maintaining a technical team. Our offering is structured to suit your unique requirements and budget – we won’t burn a hole in your pocket",
     },
   ];
 
   return (
-    <div className="container mx-auto px-4 my-[-80px]">
+    <div className="container mx-auto pt-4 my-[-80px] pb-20">
       <h2
         style={{ fontFamily: "gothic-book" }}
         className="  font-bold text-center mb-5 text-white mt-5 fontSize"
       >
         Don’t Sweat. With Seer Support
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-40">
         {cards.map((card, index) => (
           <Card
             key={index}

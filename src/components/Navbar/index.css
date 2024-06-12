@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #090d14 10%, #35435f 90%);
-  padding: 3rem;
+  padding: 2.5rem;
   position: sticky;
   top: 0;
   width: 100%;
@@ -70,7 +70,7 @@
 
 @media screen and (min-width: 1300px) {
   .NavbarLinks>li {
-    gap: ;
+  
     /* Large devices */
   }
 

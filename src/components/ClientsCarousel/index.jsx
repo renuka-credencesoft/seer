@@ -105,10 +105,10 @@ const ClientsCarousel = () => {
           })}
         </div>
       </div>
-      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl ">
+      <button onClick={handlePrev} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl mt-12  ">
         <FaArrowLeft />
       </button>
-      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl">
+      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-xl mt-12 ">
         <FaArrowRight />
       </button>
     </div>

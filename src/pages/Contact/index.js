@@ -9,10 +9,14 @@ import { MdContactPhone, MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="ContactContainer">
+    <div className="ContactContainer bg-[#edeeff]">
       <div className="ContactLeftSection">
-       
-      <h1 className="shadow-none" style={{ fontFamily: 'gothic-book, sans-serif', boxShadow: 'none' }}>Get In Touch</h1>
+        <h1
+          className="shadow-none"
+          style={{ fontFamily: "gothic-book, sans-serif", boxShadow: "none" }}
+        >
+          Get In Touch
+        </h1>
 
         <p style={{ fontFamily: "roboto" }}>
           Drop us a message and we will get back to you as soon as possible.
@@ -90,19 +94,25 @@ const Contact = () => {
                 <MdEmail size={40} />
               </div>
               <div className="mb-10">
-                <p style={{fontFamily:'roboto'}} className="text-white">seer@gmail.com</p>
+                <p style={{ fontFamily: "roboto" }} className="text-white">
+                  seer@gmail.com
+                </p>
               </div>
               <div>
                 <MdContactPhone size={40} />
               </div>
               <div className="mb-10">
-                <p style={{fontFamily:'roboto'}} className="text-white">9090909</p>
+                <p style={{ fontFamily: "roboto" }} className="text-white">
+                  9090909
+                </p>
               </div>
               <div>
                 <FaMapLocationDot size={40} />
               </div>
               <div className="mb-10">
-                <p style={{fontFamily:'roboto'}} className="text-white">India</p>
+                <p style={{ fontFamily: "roboto" }} className="text-white">
+                  India
+                </p>
               </div>
             </div>
           </div>

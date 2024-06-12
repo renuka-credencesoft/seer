@@ -166,11 +166,6 @@
 
 // export default CaseStudies
 
-
-
-
-
-
 import React from "react";
 import Seer1 from "../../assets/images/client_glassons.png";
 import Seer2 from "../../assets/images/client_animates.png";
@@ -225,7 +220,7 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center bg-[#303e58] text-white mb-[-80px]">
+        <div className="flex flex-col items-center bg-[#303e58] text-white mb-[-80px] pb-20">
           <img
             src={Seer2}
             alt="Animates"

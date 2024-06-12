@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div className="AppContainer min-h-screen pb-40">
+      <div className="AppContainer min-h-screen pb-[100px]">
         <Navbar
           setShowResponsiveNav={setShowResponsiveNav}
           showResponsiveNav={showResponsiveNav}
@@ -35,8 +35,10 @@ export default function App() {
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/caseStudies" element={<CaseStudies />} />
         </Routes>
-        <Footer setShowResponsiveNav={setShowResponsiveNav}
-          showResponsiveNav={showResponsiveNav} />
+        <Footer
+          setShowResponsiveNav={setShowResponsiveNav}
+          showResponsiveNav={showResponsiveNav}
+        />
       </div>
     </BrowserRouter>
   );
