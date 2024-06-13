@@ -150,7 +150,7 @@ const SolutionVideo = () => {
                 </div>
 
                 <p
-                  className="card-title lg:-mt-1   ml-24 "
+                  className="card-title lg:-mt-1   lg:ml-24  md:ml-12  ml-4"
                   style={{ textAlign: "center" }}
                 >
                   {card.title}
