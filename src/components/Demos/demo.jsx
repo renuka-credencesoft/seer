@@ -24,7 +24,7 @@ const Demo = () => {
       </h1>
       <div className="ContactContainer lg:mt-0 md:mt-0 ">
         <div className="ContactLeftSection">
-          <img src={Optimise} alt="casestudies" class="glassons" />
+          <img src={Optimise} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
@@ -60,7 +60,7 @@ const Demo = () => {
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={Automate} alt="casestudies" class="glassons" />
+          <img src={Automate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
@@ -96,7 +96,7 @@ const Demo = () => {
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={Reallocate} alt="casestudies" class="glassons" />
+          <img src={Reallocate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
@@ -131,7 +131,7 @@ const Demo = () => {
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={Gauge} alt="casestudies" class="glassons" />
+          <img src={Gauge} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
@@ -167,7 +167,7 @@ const Demo = () => {
       </div>
       <div className="ContactContainer">
         <div className="ContactLeftSection">
-          <img src={Simulate} alt="casestudies" class="glassons" />
+          <img src={Simulate} alt="casestudies" class="glassons" className="rounded-xl" />
         </div>
         <div className="ContactRightSection">
           <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>

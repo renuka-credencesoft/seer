@@ -35,12 +35,12 @@ const MeetTheTeam = () => {
       >
         Meet The Team
       </p>
-      <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center">
+      <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center ">
         {details.map((s, i) => {
           return (
-            <div key={i} className="lg:w-full md:px-0 px-10 ">
-              <div>
-                <img src={s.image} className=" w-full mx-auto" />
+            <div key={i} className="lg:w-full md:px-0 px-10  ">
+              <div className="">
+                <img src={s.image} className=" w-full mx-auto rounded-xl" />
               </div>
               <div className="text-center mt-3">
                 <p
