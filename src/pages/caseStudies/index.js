@@ -178,7 +178,7 @@ const CaseStudies = () => {
           <img
             src={Seer1}
             alt="Glassons"
-            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[300px] md:h-[100px] max-w-md mt-16"
+            className="w-[180px] h-[80px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-16"
           />
           <p
             style={{ fontFamily: "roboto" }}
@@ -224,7 +224,7 @@ const CaseStudies = () => {
           <img
             src={Seer2}
             alt="Animates"
-            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[300px] md:h-[100px] max-w-md mt-16"
+            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-16"
           />
           <p
             style={{ fontFamily: "roboto" }}

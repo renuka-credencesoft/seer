@@ -42,11 +42,11 @@ const Contact = () => {
       </div>
 
       <div className="ContactRightSection">
-        <div className="flex bg-white rounded-lg border border-[#4b5971] pl-4">
+        <div className="flex bg-white rounded-xl border border-[#4b5971] pl-4">
           <div className="w-2/3">
             <p
               style={{ fontFamily: "gothic-book" }}
-              className="text-2xl text-[#4b5971] font-bold py-6"
+              className="text-2xl get-in font-bold py-6"
             >
               Get in touch
             </p>

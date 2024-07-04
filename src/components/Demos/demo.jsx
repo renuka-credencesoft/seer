@@ -27,7 +27,7 @@ const Demo = () => {
           <img src={Optimise} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
               style={{ fontFamily: "gothic-book" }}
@@ -63,7 +63,7 @@ const Demo = () => {
           <img src={Automate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
               style={{ fontFamily: "gothic-book" }}
@@ -99,7 +99,7 @@ const Demo = () => {
           <img src={Reallocate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
               style={{ fontFamily: "gothic-book" }}
@@ -134,7 +134,7 @@ const Demo = () => {
           <img src={Gauge} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
               style={{ fontFamily: "gothic-book" }}
@@ -170,14 +170,14 @@ const Demo = () => {
           <img src={Simulate} alt="casestudies" class="glassons" className="rounded-xl" />
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "gray" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
             <span
               className="text-lg lg:text-xl font-bold mr-2"
               style={{ fontFamily: "gothic-book" }}
             >
               Simulate Long Term Demand for Perennial Lines.
             </span>
-            <span
+            <span 
               className="text-lg lg:text-xl lg:mt-10"
               style={{ fontFamily: "roboto" }}
             >

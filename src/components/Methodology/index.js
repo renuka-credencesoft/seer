@@ -52,7 +52,7 @@ const Methodology = () => {
   };
 
   return (
-    <div className="w-full mx-auto relative pt-20 lg:mb-[-90px] mb-[-30px]  ">
+    <div className="w-full mx-auto relative pt-20 lg:mb-[-90px] mb-[-30px]  bg-white">
       <div className="w-full mx-auto max-w-screen-3xl relative">
         <div className="flex justify-center text-center relative">
           <div className="relative">

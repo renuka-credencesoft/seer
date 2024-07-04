@@ -22,7 +22,7 @@
     padding: 10px 10px;
     margin-top: 60px;
     margin-left: 50px;
-    width: 30%;
+    width: 40%;
 }
 
 .HeroSectionLeftText > h1{
@@ -59,7 +59,7 @@
 }
 
 .rightsection{
-    background: linear-gradient(to bottom, #303e58 10% , #303e58a5 90%);
+    background: linear-gradient(to bottom, #090d14 10%, #35435f 90%);
 }
 
 /* .ContactRightSectionHome{
@@ -121,7 +121,11 @@
 } 
 
 
+p.get-in{
+/* color: linear-gradient(to right, #090d14 10%, #35435f 90%); */
+color: #35435f;
 
+}
 
 @media screen and (max-width: 1200px) {
         

@@ -42,7 +42,7 @@ text-shadow: none !important;
     left: 10px;
     border-radius: 10px;
     bottom: 0;
-    background: #DD491A;
+    background: #22bbff;
     box-shadow: none;
   
 }
@@ -115,6 +115,13 @@ text-shadow: none !important;
     padding: 10px 10px;
     font-size: 20px;
 } 
+
+p.get-in{
+    /* color: linear-gradient(to right, #090d14 10%, #35435f 90%); */
+    color: #35435f;
+
+    
+    }
 
 @media screen and (max-width: 800px) {
     .ContactContainer{

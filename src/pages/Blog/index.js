@@ -18,9 +18,9 @@ const Blog = () => {
   return (
     <div className="BlogContainer bg-[#edeeff]">
       {content == false ? (
-        <div>
+        <div className="">
           <div className="BlogTopText pb-4">
-            <h1 style={{ fontFamily: "gothic-book, sans-serif" }}>Blog</h1>
+            <h1 className="" style={{ fontFamily: "gothic-book, sans-serif" }}>Blog</h1>
             <p
               style={{ fontFamily: "gothic-book, sans-serif" }}
               className="text-lg lg:text-2xl font-light py-4"

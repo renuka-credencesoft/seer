@@ -8,7 +8,7 @@ const Footer = ({ setShowResponsiveNav, showResponsiveNav, responsiveNav }) => {
   const location = useLocation();
   return (
     <div className="FooterContainer bottom-0 left-0 right-0 absolute">
-      <span style={{ fontFamily:'Comfortaa, sans-serif' }}>©2022 Seer Inc</span>
+      <span style={{ fontFamily:'Comfortaa, sans-serif' }}>©2024 Seer Inc</span>
       <ul className="NavbarLinks">
         <li className="NavbarLink">
         <Link to="/" className={location.pathname === '/' ? 'NavbarLinkText active' : 'NavbarLinkText'}>Home</Link>

@@ -10,9 +10,10 @@ const HeroSection = () => {
       <div className="">
         <div className="HeroSectionLeftText">
           <h1>
-            Your accurate, intuitive{" "}
+            Your accurate, intuitive  
+            <br />
             <span>
-              demand <br /> forecaster.
+              demand forecaster.
             </span>
           </h1>
           <p style={{ fontFamily: "roboto" }}>
@@ -28,11 +29,11 @@ const HeroSection = () => {
         </div>
 
         <div className="ContactRightSectionHome lg:flex ">
-          <div className="cc flex bg-white rounded-l-lg pl-4  ">
+          <div className="cc flex bg-white rounded-lg pl-4  ">
             <div className="w-2/3">
               <p
                 style={{ fontFamily: "gothic-book" }}
-                className="text-2xl text-[#4b5971] font-bold py-6"
+                className="text-2xl get-in font-bold py-6"
               >
                 Get in touch
               </p>
@@ -76,10 +77,7 @@ const HeroSection = () => {
             </div>
             <div className="w-1/3 rightsection  rounded-r-lg text-white">
               <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-20">
-                {/* <div  className='rounded-full'>
-                  <MdEmail size={40} />
-                </div> */}
-
+              
                 <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <MdEmail className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>

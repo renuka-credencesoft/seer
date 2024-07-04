@@ -57,7 +57,7 @@ const MeetTheTeam = () => {
                 </p>
                 <p
                   style={{ fontFamily: "gothic-book" }}
-                  className="text-center text-gray-500 "
+                  className="text-center text-[#35435f] "
                 >
                   <span style={{ fontFamily: "roboto" }}>
                     {" "}
