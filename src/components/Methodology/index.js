@@ -54,12 +54,24 @@ const Methodology = () => {
   return (
     <div className="w-full mx-auto relative pt-20 lg:mb-[-90px] mb-[-30px]  ">
       <div className="w-full mx-auto max-w-screen-3xl relative">
-        <div className="flex justify-center text-center relative">
+        <div className="flex gap-4 justify-center text-center relative">
+        <div className="relative">
+            <img
+              ref={imageRef}
+              id="seer"
+              src="/images/uploads/Seer_Cycle_wording_desktop.svg"
+              height={840}
+              width={1000}
+              alt="seer methodology"
+              useMap="#methodology"
+              className="block "
+            />
+          </div>
           <div className="relative">
             <img
               ref={imageRef}
               id="seer"
-              src="/images/uploads/Seer_Cycle-01.svg"
+              src="/images/uploads/Seer_Cycle-01_cycle_only.svg"
               height={840}
               width={1448}
               alt="seer methodology"
@@ -81,7 +93,7 @@ const Methodology = () => {
             </map>
             {activeArea !== null && (
               <img
-                src={`/images/uploads/Seer_Cycle-0${activeArea + 2}.svg`}
+                src={`/images/uploads/Seer_Cycle-0${activeArea+ 2}_cycle_only.svg`}
                 height={840}
                 width={1448}
                 alt={`highlighted area ${activeArea + 1}`}

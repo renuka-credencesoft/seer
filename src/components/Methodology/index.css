@@ -83,3 +83,18 @@ p {
     font-size: 14px;
   }
 }
+
+
+/* Adjustments for mobile view */
+@media (max-width: 768px) {
+  .flex-wrap-mobile {
+    flex-wrap: wrap;
+  }
+}
+
+/* Adjustments for tablet and desktop view */
+@media (min-width: 769px) {
+  .flex-wrap-mobile {
+    flex-wrap: nowrap;
+  }
+}
