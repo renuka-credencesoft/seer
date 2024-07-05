@@ -21,7 +21,7 @@ const VideoSection = () => {
 
   return (
     <div className="container">
-      <div className="headingContainer pt-16">
+      <div className="headingContainer pt-12 ">
         <span
           className="lg:text-3xl text-lg font-bold text-white"
           style={{ fontFamily: "gothic-book" }}

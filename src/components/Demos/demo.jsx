@@ -17,12 +17,12 @@ const Demo = () => {
   return (
     <div className="bg-[#edeeff] pb-20 " >
       <h1
-        className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-20 font-bold mb-4"
+        className="text-center  lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-20 font-bold mb-4"
         style={{ fontFamily: "gothic-book" }}
       >
         Prepare for every inventory challenge
       </h1>
-      <div className="ContactContainer lg:mt-0 md:mt-0 ">
+      <div className="ContactContainer lg:mt-0 md:mt-0  sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Optimise} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -58,7 +58,7 @@ const Demo = () => {
           </button>
         </div>
       </div>
-      <div className="ContactContainer">
+      <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Automate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -94,7 +94,7 @@ const Demo = () => {
           </button>
         </div>
       </div>
-      <div className="ContactContainer">
+      <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Reallocate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -129,7 +129,7 @@ const Demo = () => {
           </button>
         </div>
       </div>
-      <div className="ContactContainer">
+      <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Gauge} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -165,7 +165,7 @@ const Demo = () => {
           </button>
         </div>
       </div>
-      <div className="ContactContainer">
+      <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Simulate} alt="casestudies" class="glassons" className="rounded-xl" />
         </div>

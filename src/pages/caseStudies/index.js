@@ -169,6 +169,7 @@
 import React from "react";
 import Seer1 from "../../assets/images/client_glassons.png";
 import Seer2 from "../../assets/images/client_animates.png";
+import Seer3 from "../../assets/images/client_hallensteins.png"
 
 const CaseStudies = () => {
   return (
@@ -178,7 +179,7 @@ const CaseStudies = () => {
           <img
             src={Seer1}
             alt="Glassons"
-            className="w-[180px] h-[80px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-20"
+            className="w-[250px] h-[38px] sm:w-[200px] sm:h-[38px] md:w-[250px] md:h-[38px] max-w-md mt-20 -mb-4"
           />
           <p
             style={{ fontFamily: "roboto" }}
@@ -224,7 +225,7 @@ const CaseStudies = () => {
           <img
             src={Seer2}
             alt="Animates"
-            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-20"
+            className="w-[250px] h-[38px] sm:w-[250px] sm:h-[38px] md:w-[250px] md:h-[38px] max-w-md mt-20 -mb-4"
           />
           <p
             style={{ fontFamily: "roboto" }}
@@ -268,9 +269,9 @@ const CaseStudies = () => {
 
         <div className="flex flex-col items-center bg-[#edeeff]  mb-[-80px] pb-20">
           <img
-            src={Seer2}
+            src={Seer3}
             alt="Animates"
-            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-20"
+            className="w-[250px] h-[88px] sm:w-[250px] sm:h-[38px] md:w-[250px] md:h-[88px] max-w-md mt-20 -mb-4"
           />
           <p
             style={{ fontFamily: "roboto" }}

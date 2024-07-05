@@ -43,7 +43,7 @@ const Contact = () => {
 
       <div className="ContactRightSection">
         <div className="flex bg-white rounded-xl border border-[#4b5971] pl-4">
-          <div className="w-2/3">
+          <div className="w-2/3  text-[#35435f]">
             <p
               style={{ fontFamily: "gothic-book" }}
               className="text-2xl get-in font-bold py-6"

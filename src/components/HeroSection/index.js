@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../../assets/images/SeerHeroImg.svg";
+import MobileImg from "../../assets/images/Seer_Oracle_phone.svg";
 import "./index.css";
 import { MdContactPhone, MdEmail } from "react-icons/md";
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -10,15 +11,13 @@ const HeroSection = () => {
       <div className="">
         <div className="HeroSectionLeftText">
           <h1>
-            Your accurate, intuitive  
+            Your accurate, intuitive
             <br />
-            <span>
-              demand forecaster.
-            </span>
+            <span>demand forecaster.</span>
           </h1>
           <p style={{ fontFamily: "roboto" }}>
-            Helping inventory planners get the right stock, in the right place,
-            at the right time.
+            Helping inventory planners get the right stock, in the right
+            place,at <br /> the right time.
           </p>
           <button
             className="lg:text-lg text-white mt-8 lg:bg-[#22bbff]  lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
@@ -30,7 +29,7 @@ const HeroSection = () => {
 
         <div className="ContactRightSectionHome lg:flex ">
           <div className="cc flex bg-white rounded-lg pl-4  ">
-            <div className="w-2/3">
+            <div className="w-2/3 text-[#35435f]">
               <p
                 style={{ fontFamily: "gothic-book" }}
                 className="text-2xl get-in font-bold py-6"
@@ -75,9 +74,9 @@ const HeroSection = () => {
                 </button>
               </div>
             </div>
+
             <div className="w-1/3 rightsection  rounded-r-lg text-white">
               <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-20">
-              
                 <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <MdEmail className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
@@ -114,7 +113,8 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="HeroSectionBgImg">
-        <img src={HeroImg} alt="hero" />
+        <img src={HeroImg} alt="hero" className="desktop-image"/>
+        <img src={MobileImg} alt="hero" className="mobile-image" />
       </div>
     </div>
   );

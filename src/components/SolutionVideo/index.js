@@ -127,7 +127,7 @@ const SolutionVideo = () => {
 
   return (
     <div className="solution-video-container md:h-[600px] lg:h-[600px] sm:h-[1000px] ">
-      <h2 className="heading ">Predict. Prepare. Prosper with Stock Seer</h2>
+      <h2 className="heading ">Predict. Prepare. Prosper With Stock Seer</h2>
 
       <div className="content-container">
         <div className="video-section">

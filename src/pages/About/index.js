@@ -4,7 +4,7 @@ import Methodology from "../../components/Methodology";
 import "./index.css";
 const index = () => {
   return (
-    <div className=" py-5 about bg-[#edeeff]">
+    <div className=" py-5 pt-4 about bg-[#edeeff]">
       <p className="text-center lg:text-2xl md:text-xl text-sm px-6 md:px-20 pt-10">
         Notwithstanding the hype around AI in recent years, quintessentially its
         ability to discern patterns and relationships across untenably large and
