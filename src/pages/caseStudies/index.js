@@ -178,7 +178,7 @@ const CaseStudies = () => {
           <img
             src={Seer1}
             alt="Glassons"
-            className="w-[180px] h-[80px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-16"
+            className="w-[180px] h-[80px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-20"
           />
           <p
             style={{ fontFamily: "roboto" }}
@@ -224,7 +224,7 @@ const CaseStudies = () => {
           <img
             src={Seer2}
             alt="Animates"
-            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-16"
+            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-20"
           />
           <p
             style={{ fontFamily: "roboto" }}
@@ -265,6 +265,50 @@ const CaseStudies = () => {
             automatically generated optimum purchase orders.
           </p>
         </div>
+
+        <div className="flex flex-col items-center bg-[#edeeff]  mb-[-80px] pb-20">
+          <img
+            src={Seer2}
+            alt="Animates"
+            className="w-[200px] h-[50px] sm:w-[200px] sm:h-[75px] md:w-[270px] md:h-[60px] max-w-md mt-20"
+          />
+          <p
+            style={{ fontFamily: "roboto" }}
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16"
+          >
+            A 46-store strong, Australia/New Zealand based chain, Hallensteins
+            provides quality clothing that's both stylish and affordable,
+            catering to the mod- ern man's evolving tastes. For Hallensteins, a
+            compelling in-store experience demands an optimum bal- ance between
+            stock quantity and space conservation, presenting visual ap- peal
+            and choice without clutter. Their central warehouse is key,
+            replenishing stores daily, and enabling the store to carry just the
+            right stock to meet antici- pated sales up to the next
+            replenishment. However, determining the ideal stock levels, week on
+            week, for some 276,000 product-store combinations, is an impossible
+            task for the human stock controller. A lack of resource, and the
+            inability of the human mind to accurately forecast evolving sales,
+            forces a reliance on crude averages that tend to over-allocate to
+            mitigate risk of stock-outs. The result: cluttered stores and lost
+            sales as the season progresses, with faster moving stores selling
+            out while product languishes in the quieter store. Costly
+            inter-store movements ensue.
+          </p>
+          <p
+            style={{ fontFamily: "roboto" }}
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12"
+          >
+            Once again, we deployed Stock Seer to automate this manual
+            process—generating an accurate, weekly sales forecast with seasonal
+            fluctuations and planned promotions accounted for. As with Animates,
+            the forecast was used, in conjunction with standard business rules,
+            to determine more sensible target stock levels and safety stock
+            buffers, with respect to the predicted demand. Thus far, we have
+            saved $500,000 thanks to mitigations in out-of-stocks and overstocks
+            via the A.I. driven process.
+          </p>
+        </div>
+
       </div>
     </div>
   );

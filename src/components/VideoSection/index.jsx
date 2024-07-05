@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import ReactPlayer from "react-player";
 import icon1 from "../../assets/images/icon.jpg";
@@ -7,10 +7,21 @@ import I1 from "../../assets/images/I1.png";
 import I2 from "../../assets/images/I2.png";
 import I3 from "../../assets/images/I3.png";
 
+
+
 const VideoSection = () => {
+
+
+
+  const [playing, setPlaying] = useState(true);
+
+  const togglePlaying = () => {
+    setPlaying(!playing);
+  };
+
   return (
     <div className="container">
-      <div className="headingContainer pt-10">
+      <div className="headingContainer pt-16">
         <span
           className="lg:text-3xl text-lg font-bold text-white"
           style={{ fontFamily: "gothic-book" }}
@@ -79,14 +90,21 @@ const VideoSection = () => {
                 and inter-store transfers.
               </p>
             </div>
+            
           </p>
         </div>
+
         <div className="videoSectionRightSection">
-          <ReactPlayer url="https://www.youtube.com/watch?v=9uXpgjIF-3c" />
+          <ReactPlayer url="https://www.youtube.com/watch?v=9uXpgjIF-3c"   playing={playing}
+        controls={true}  />
         </div>
+
+
+        
       </div>
     </div>
   );
 };
+
 
 export default VideoSection;

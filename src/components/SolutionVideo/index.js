@@ -123,6 +123,7 @@ const cards = [
 
 const SolutionVideo = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
+  const [playing, setPlaying] = useState(true);
 
   return (
     <div className="solution-video-container md:h-[600px] lg:h-[600px] sm:h-[1000px] ">
@@ -133,6 +134,8 @@ const SolutionVideo = () => {
           <ReactPlayer
             url="https://youtu.be/Zne5QME3toI?si=Ba4J1VPGda6HpeOR"
             className="react-player"
+            playing={playing}
+            controls={true}
           />
         </div>
 

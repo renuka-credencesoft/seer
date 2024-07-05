@@ -28,7 +28,7 @@ const MeetTheTeam = () => {
     },
   ];
   return (
-    <div>
+    <div className="pb-16">
       <p
         style={{ fontFamily: "gothic-book" }}
         className="lg:text-5xl md:text-4xl text-xl text-center font-bold lg:mt-4 md:mt-4 py-4"

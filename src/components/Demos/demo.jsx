@@ -15,9 +15,9 @@ import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
-    <div className="bg-[#edeeff] pb-10 " >
+    <div className="bg-[#edeeff] pb-20 " >
       <h1
-        className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-10 font-bold"
+        className="text-center lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-20 font-bold mb-4"
         style={{ fontFamily: "gothic-book" }}
       >
         Prepare for every inventory challenge
