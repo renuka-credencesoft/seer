@@ -67,7 +67,7 @@ const ClientsCarousel = () => {
   };
 
   return (
-    <div className="carousel-container relative bg-[#edeeff]  " onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
+    <div className="carousel-container relative bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
       <p style={{ fontFamily: 'gothic-book' }} className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl">
         Partners Predicting Preparing and Prospering With SEER
       </p>
