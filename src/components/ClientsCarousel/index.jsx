@@ -1,15 +1,14 @@
+import React, { useState, useEffect, useRef } from "react";
 
-import React, { useState, useEffect, useRef } from 'react';
+import ClientCard from "../ClientCard";
+import ClientCard2 from "../ClientCard2";
+import ClientCard3 from "../ClientCard3";
+import ClientCard4 from "../ClientCard4";
 
-import ClientCard from '../ClientCard';
-import ClientCard2 from '../ClientCard2';
-import ClientCard3 from '../ClientCard3';
-import ClientCard4 from '../ClientCard4';
-
-import SeerLogo from '../../assets/images/client_animates.png';
-import SeerLogo2 from '../../assets/images/client_barkers.png';
-import SeerLogo3 from '../../assets/images/client_glassons.png';
-import SeerLogo4 from '../../assets/images/client_hallensteins.png';
+import SeerLogo from "../../assets/images/client_animates.png";
+import SeerLogo2 from "../../assets/images/client_barkers.png";
+import SeerLogo3 from "../../assets/images/client_glassons.png";
+import SeerLogo4 from "../../assets/images/client_hallensteins.png";
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
@@ -21,29 +20,37 @@ const ClientsCarousel = () => {
     { component: <ClientCard4 key="4" />, imageUrl: SeerLogo4 },
   ];
 
+  const duplicateCards = (times) => {
+    let duplicatedCards = [];
+    for (let i = 0; i < times; i++) {
+      duplicatedCards = [...duplicatedCards, ...cards];
+    }
+    return duplicatedCards;
+  };
+
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const intervalRef = useRef(null);
   const cardCount = cards.length;
+  const duplicatedCards = duplicateCards(1000);
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 768);
   };
 
   useEffect(() => {
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const handleNext = () => {
-    setActiveIndex((prevIndex) => {
-      if (prevIndex >= (cardCount * 3) - 1) {
-        return cardCount * 3 - 1;  
-      }
-      return prevIndex + 1;
-    });
+    setActiveIndex((prevIndex) => prevIndex + 1);
+  };
+
+  const handlePrev = () => {
+    setActiveIndex((prevIndex) => prevIndex - 1);
   };
 
   const startAutoScroll = () => {
@@ -62,32 +69,76 @@ const ClientsCarousel = () => {
   }, []);
 
   const getMiddleIndex = () => {
-    if (isMobile) return 0;
-    return 1;
+    return isMobile ? 0 : 1;
+  };
+
+  const computeTransform = () => {
+    if (activeIndex >= cardCount * 1000) {
+      setActiveIndex((prevIndex) => (prevIndex % cardCount) + cardCount);
+    }
+    if (activeIndex < 0) {
+      setActiveIndex((prevIndex) => prevIndex + cardCount);
+    }
+    return `translateX(-${
+      (activeIndex % (cardCount * 1000)) * (100 / (isMobile ? 1 : 3))
+    }%)`;
   };
 
   return (
-    <div className="carousel-container relative bg-[#edeeff]  " onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'gothic-book' }} className="heading flex align-center justify-center text-lg md:text-xl lg:text-2xl">
-        Partners Predicting Preparing and Prospering With SEER
-      </p>
+    <div
+      className="carousel-container relative bg-[#edeeff]"
+      onMouseEnter={stopAutoScroll}
+      onMouseLeave={startAutoScroll}
+    >
+      <div className="m-2 lg:m-0 md:m-0">
+        <p
+          style={{ fontFamily: "gothic-book" }}
+          className="flex align-center justify-center text-lg md:text-xl lg:text-2xl pt-12"
+        >
+          Partners Predicting Preparing and Prospering With SEER
+        </p>
+      </div>
+
       <div className="relative overflow-hidden">
         <div
-          className={`flex transition-transform duration-500`}
-          style={{ transform: `translateX(-${(activeIndex % (isMobile ? cardCount : cardCount * 3)) * (100 / (isMobile ? 1 : 3))}%)` }}
+          className={`flex transition-transform duration-200`}
+          style={{ transform: computeTransform() }}
         >
-          {[...cards, ...cards, ...cards, ...cards, ...cards].map((card, index) => {
-            const isMiddleCard = (index % (isMobile ? cardCount : cardCount * 3)) === ((activeIndex % (isMobile ? cardCount : cardCount * 3)) + getMiddleIndex()) % (isMobile ? cardCount : cardCount * 3);
+          {duplicatedCards.map((card, index) => {
+            const isMiddleCard =
+              index % cardCount ===
+              ((activeIndex % cardCount) + getMiddleIndex()) % cardCount;
 
             return (
-              <div key={index} className={`flex-none ${isMobile ? 'w-full' : 'w-full md:w-1/3'} px-2`}>
+              <div
+                key={index}
+                className={`flex-none ${
+                  isMobile ? "w-full" : "w-full md:w-1/3"
+                } px-2`}
+              >
                 {isMiddleCard ? (
-                  <div className={`${isMobile ? 'w-full' : 'full-width-card'} mt-16`}>
+                  <div
+                    className={`${
+                      isMobile ? "w-full" : "full-width-card"
+                    } mt-16`}
+                  >
                     {card.component}
                   </div>
                 ) : (
-                  <div className={`${isMobile ? 'w-full' : 'h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]'} pr-4 flex justify-center items-center`}>
-                    <img src={card.imageUrl} alt={`Card ${index % cardCount}`} className={`${isMobile ? 'w-full' : 'w-[400px]'} object-cover`} />
+                  <div
+                    className={`${
+                      isMobile
+                        ? "w-full"
+                        : "h-[190px] w-full md:w-[260px] mx-auto md:ml-[120px] mt-[300px] md:mt-[160px]"
+                    } pr-4 flex justify-center items-center`}
+                  >
+                    <img
+                      src={card.imageUrl}
+                      alt={`Card ${index % cardCount}`}
+                      className={`${
+                        isMobile ? "w-full" : "w-[400px]"
+                      } object-cover`}
+                    />
                   </div>
                 )}
               </div>
@@ -95,135 +146,22 @@ const ClientsCarousel = () => {
           })}
         </div>
       </div>
-      <button onClick={() => setActiveIndex(activeIndex > 0 ? activeIndex - 1 : 0)} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-sm md:text-xl lg:mt-20 md:mt-4 mt-20">
+      <button
+        onClick={() => setActiveIndex((prevIndex) => prevIndex - 1)}
+        onMouseEnter={() => setActiveIndex((prevIndex) => prevIndex - 1)}
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-sm md:text-xl lg:mt-20 md:mt-4 mt-20 hover:transition-all hover:duration-150"
+      >
         <FaArrowLeft />
       </button>
-      <button onClick={handleNext} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-sm md:text-xl lg:mt-20 md:mt-4 mt-20">
+      <button
+        onClick={() => setActiveIndex((prevIndex) => prevIndex + 1)}
+        onMouseEnter={() => setActiveIndex((prevIndex) => prevIndex + 1)}
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-sm md:text-xl lg:mt-20 md:mt-4 mt-20 hover:transition-all hover:duration-150"
+      >
         <FaArrowRight />
       </button>
-     
     </div>
   );
 };
 
 export default ClientsCarousel;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
