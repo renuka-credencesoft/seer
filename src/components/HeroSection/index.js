@@ -27,7 +27,7 @@ const HeroSection = () => {
           </button>
         </div>
 
-        <div className="ContactRightSectionHome lg:flex ">
+        <div className="ContactRightSectionHome lg:flex">
           <div className="cc flex bg-white rounded-lg pl-4  ">
             <div className="w-2/3 text-[#35435f]">
               <p
@@ -113,7 +113,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="HeroSectionBgImg">
-        <img src={HeroImg} alt="hero" className="desktop-image"/>
+        <img src={HeroImg} alt="hero" className="desktop-image" />
         <img src={MobileImg} alt="hero" className="mobile-image" />
       </div>
     </div>

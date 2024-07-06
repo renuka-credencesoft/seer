@@ -1,3 +1,4 @@
+
 .HeroSectionContainer{
     position: relative;
     overflow: hidden;
@@ -157,6 +158,20 @@ color: #35435f;
 
 }
 
+
+/* Mac Book - (1600-2500)px */
+@media screen and (min-width: 1600px) and (max-width: 2500px)  {
+   
+  
+    .ContactRightSectionHome {
+    
+      margin-left: 20px;
+    }
+  }
+  
+
+
+
 @media screen and (max-width: 1200px) {
         
     .HeroSectionLeftText > h1{
@@ -172,6 +187,8 @@ color: #35435f;
     }
    
 }
+
+
 
 
 @media screen and (max-width: 1000px) {
