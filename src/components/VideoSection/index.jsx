@@ -35,7 +35,7 @@ const VideoSection = () => {
             style={{ fontFamily:'Comfortaa, sans-serif' }}
             className="lg:text-lg text-sm text-white "
           >
-            <div className="flex item-start  items-center object-center py-4">
+            <div className="flex item-start  items-center object-center">
               <div className="mr-4">
                 <img src="/images/uploads/I1_white.svg" alt="" className="object-center w-1/5 " />
               </div>
