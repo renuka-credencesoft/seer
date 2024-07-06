@@ -53,10 +53,10 @@ const Methodology = () => {
 
   return (
     <div>
-      <div className="w-full mx-auto lg:mb-[-50px] mb-[-30px]  ">
+      <div className="w-full mx-auto mb-2 mb-2 ">
         <div className="w-full mx-auto max-w-screen-3xl ">
           <div className="flex flex-col md:flex-row lg:flex-row gap-10 justify-center text-center relative">
-            <div className="relative">
+            <div className="relative hidden md:block">
               <img
                 id="seer"
                 src="/images/uploads/Seer_Cycle_wording_desktop.svg"
@@ -67,7 +67,18 @@ const Methodology = () => {
                 className="block "
               />
             </div>
-            <div className="relative py-4">
+            <div className="relative block md:hidden">
+              <img
+                id="seer"
+                src="/images/uploads/Seer_Cycle_wording_phone.svg"
+                height={840}
+                width={1000}
+                alt="seer methodology"
+                useMap="#methodology"
+                className="block "
+              />
+            </div>
+            <div className="relative py-4 px-4">
               <img
                 ref={imageRef}
                 id="seer"
@@ -97,7 +108,7 @@ const Methodology = () => {
                   height={840}
                   width={1448}
                   alt={`highlighted area ${activeArea + 1}`}
-                  className={`absolute  py-4 top-0 left-0 transition-opacity duration-300`}
+                  className={`absolute  py-4 px-4 top-0 left-0 transition-opacity duration-300`}
                   style={{
                     opacity: 1,
                     pointerEvents: "none",

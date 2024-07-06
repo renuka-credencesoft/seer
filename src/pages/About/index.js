@@ -5,8 +5,8 @@ import "./index.css";
 import MethodologyPhone from "../../components/MethodologyPhone";
 const index = () => {
   return (
-    <div className=" py-5 pt-4 about ">
-      <div className="bg-[#edeeff] pb-10">
+    <div className="about ">
+      <div className="bg-[#edeeff] pb-0 md:pb-10 md:pt-10 pt-0">
         <p className="text-center lg:text-2xl md:text-xl text-sm px-6 md:px-20 pt-10">
           Notwithstanding the hype around AI in recent years, quintessentially its
           ability to discern patterns and relationships across untenably large and
