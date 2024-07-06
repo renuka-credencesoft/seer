@@ -2,6 +2,7 @@ import React from "react";
 import MeetTheTeam from "../../components/MeetTheTeam";
 import Methodology from "../../components/Methodology";
 import "./index.css";
+import MethodologyPhone from "../../components/MethodologyPhone";
 const index = () => {
   return (
     <div className=" py-5 pt-4 about bg-[#edeeff]">
@@ -17,7 +18,10 @@ const index = () => {
         embarked on creating Stock Seer and Seer Insights.
       </p>
       <MeetTheTeam />
-      <Methodology />
+      <div className="">
+        <Methodology />
+      </div>
+      
     </div>
   );
 };
