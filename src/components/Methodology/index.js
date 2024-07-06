@@ -55,7 +55,7 @@ const Methodology = () => {
     <div>
       <div className="w-full mx-auto lg:mb-[-50px] mb-[-30px]  ">
         <div className="w-full mx-auto max-w-screen-3xl ">
-          <div className="flex md:flex-nowrap lg:flex-nowrap gap-10 justify-center text-center relative">
+          <div className="flex flex-col md:flex-row lg:flex-row gap-10 justify-center text-center relative">
             <div className="relative">
               <img
                 id="seer"
