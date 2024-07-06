@@ -23,7 +23,7 @@ const Blog = () => {
             <h1 className="" style={{ fontFamily: "gothic-book, sans-serif" }}>Blog</h1>
             <p
               style={{ fontFamily: "gothic-book, sans-serif" }}
-              className="text-lg lg:text-2xl font-light py-4"
+              className="text-lg lg:text-2xl font-light py-4 text-[#35435f]"
             >
               All the latest on what’s happening in retail plus some useful tips
               and trends to help streamline your business.
@@ -32,16 +32,16 @@ const Blog = () => {
           <div className="BlogBottomText">
             <p
               style={{ fontFamily: "gothic-book, sans-serif" }}
-              className="text-lg lg:text-2xl font-semibold py-4"
+              className="text-lg lg:text-2xl font-semibold py-4 text-[#35435f]"
             >
               How can artificial intelligence help retailers forecast demand?
             </p>
-            <p className="py-2" style={{ fontFamily: "roboto" }}>
+            <p className="py-2 text-[#35435f]" style={{ fontFamily: "roboto" }}>
               Are retailers on the verge of extinction? Confronted by supply
               chain issues, labour shortages, fickle demand, inflationary
               pressures and ri…{" "}
               <span
-                className="underline font-bold"
+                className="underline font-bold text-[#35435f]"
                 style={{ cursor: "pointer", fontFamily: "roboto" }}
                 onClick={handleButtonClick}
               >
@@ -51,7 +51,7 @@ const Blog = () => {
           </div>
         </div>
       ) : (
-        <div className="lg:px-20 md:px-20 sm:px-2">
+        <div className="lg:px-20 md:px-20 sm:px-2 text-[#35435f]">
           <p
             style={{ fontFamily: "gothic-book" }}
             className="lg:text-5xl md:text-4xl text-xl font-bold text-center lg:px-40 md:px-20 sm:px-2"
