@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-
 import ClientCard from "../ClientCard";
 import ClientCard2 from "../ClientCard2";
 import ClientCard3 from "../ClientCard3";
@@ -32,7 +31,7 @@ const ClientsCarousel = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const intervalRef = useRef(null);
   const cardCount = cards.length;
-  const duplicatedCards = duplicateCards(1000);
+  const duplicatedCards = duplicateCards(500);
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 768);
@@ -54,7 +53,7 @@ const ClientsCarousel = () => {
   };
 
   const startAutoScroll = () => {
-    intervalRef.current = setInterval(handleNext, 4000);
+    intervalRef.current = setInterval(handleNext, 3000);
   };
 
   const stopAutoScroll = () => {
@@ -73,20 +72,27 @@ const ClientsCarousel = () => {
   };
 
   const computeTransform = () => {
-    if (activeIndex >= cardCount * 1000) {
+    if (activeIndex >= cardCount * 3000) {
       setActiveIndex((prevIndex) => (prevIndex % cardCount) + cardCount);
     }
     if (activeIndex < 0) {
       setActiveIndex((prevIndex) => prevIndex + cardCount);
     }
     return `translateX(-${
-      (activeIndex % (cardCount * 1000)) * (100 / (isMobile ? 1 : 3))
+      (activeIndex % (cardCount * 3000)) * (100 / (isMobile ? 1 : 3))
     }%)`;
   };
 
   return (
-    <div className="carousel-container relative mb-10 bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'gothic-book' }} className=" text-[#35435f] flex font-semibold align-center mt-14 justify-center text-xl md:text-3xl lg:text-3xl">
+    <div
+      className="carousel-container relative mb-10 bg-[#edeeff]"
+      onMouseEnter={stopAutoScroll}
+      onMouseLeave={startAutoScroll}
+    >
+      <p
+        style={{ fontFamily: 'gothic-book' }}
+        className="text-[#35435f] flex font-semibold align-center mt-14 justify-center text-xl md:text-3xl lg:text-3xl"
+      >
         Partners Predicting Preparing and Prospering With SEER
       </p>
       <div className="relative overflow-hidden">
@@ -137,15 +143,13 @@ const ClientsCarousel = () => {
         </div>
       </div>
       <button
-        onClick={() => setActiveIndex((prevIndex) => prevIndex - 1)}
-        onMouseEnter={() => setActiveIndex((prevIndex) => prevIndex - 1)}
+        onClick={handlePrev}
         className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-sm md:text-xl lg:mt-20 md:mt-4 mt-20 hover:transition-all hover:duration-150"
       >
         <FaArrowLeft />
       </button>
       <button
-        onClick={() => setActiveIndex((prevIndex) => prevIndex + 1)}
-        onMouseEnter={() => setActiveIndex((prevIndex) => prevIndex + 1)}
+        onClick={handleNext}
         className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white p-3 rounded-full text-sm md:text-xl lg:mt-20 md:mt-4 mt-20 hover:transition-all hover:duration-150"
       >
         <FaArrowRight />
