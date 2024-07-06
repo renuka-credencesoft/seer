@@ -47,6 +47,7 @@
   font-size: 20px;
   text-align: center;
   font-weight: 600;
+  color: #35435f !important;
 }
 
 .transition-none {
@@ -59,6 +60,7 @@
       font-size: 20px;
       text-align: center;
       font-weight: 600;
+      color: #35435f !important;
   }
 }
 

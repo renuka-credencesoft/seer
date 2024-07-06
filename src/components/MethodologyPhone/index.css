@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  
+ 
 }
 
 .MethodologyLeftSection {
@@ -11,6 +13,8 @@
   justify-content: center;
   background: #3d4657;
   color: #fff;
+ 
+  
 }
 
 .MethodologyLeftSectionContent > img,
@@ -79,6 +83,7 @@ p {
     font-size: 14px;
   }
 }
+
 
 /* Adjustments for mobile view */
 @media (max-width: 768px) {

@@ -102,19 +102,19 @@ import I11 from "../../assets/images/I11.png";
 
 const cards = [
   {
-    img: I9,
+    img: "/images/uploads/I9_white.svg",
     title: "UNIVERSALLY ADOPTABLE",
     description:
       "Regardless of your size and vertical, you can seamlessly and economically link your ERP to our service – thanks to our proprietary APIs and cloud infrastructure.",
   },
   {
-    img: I10,
+    img: "/images/uploads/I10_white.svg",
     title: "ADAPTABLE TO ANY INVENTORY PROBLEM",
     description:
       "All your inventory decisions require prescience for what will sell, where and when. Our solution provides precisely this capability – alleviating manual effort, optimising stock levels and lifting the bottom line.",
   },
   {
-    img: I11,
+    img: "/images/uploads/I11_white.svg",
     title: "POWERED BY PRESCIENT, ACCURATE A.I. ALGORITHMS",
     description:
       "Swathes of transactions are analysed at light-speed, along with parameters like promotions, door counts and more. Powerful, predictive formulae are automatically derived to drive your decisions for every SKU, at every store.",
@@ -127,7 +127,7 @@ const SolutionVideo = () => {
 
   return (
     <div className="solution-video-container md:h-[600px] lg:h-[600px] sm:h-[1000px] ">
-      <h2 className="heading ">Predict. Prepare. Prosper With Stock Seer</h2>
+      <h2 className="heading ">Predict. Prepare. Prosper. With Stock Seer</h2>
 
       <div className="content-container">
         <div className="video-section">

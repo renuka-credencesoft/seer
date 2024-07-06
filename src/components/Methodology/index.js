@@ -1,14 +1,14 @@
 import React, { useState, useRef, useEffect } from "react";
 
 const originalAreas = [
-  { coords: "950,150,47" },
-  { coords: "1150,225,47" },
-  { coords: "1250,390,47" },
-  { coords: "1170,570,47" },
-  { coords: "950,670,47" },
-  { coords: "800,550,47" },
-  { coords: "755,400,47" },
-  { coords: "825,225,47" },
+  { coords: "700,100,70" },
+  { coords: "1150,200,70" },
+  { coords: "1250,400,70" },
+  { coords: "1150,640,70" },
+  { coords: "700,750,70" },
+  { coords: "350,640,70" },
+  { coords: "150,400,70" },
+  { coords: "320,190,70" },
 ];
 
 const Methodology = () => {
@@ -52,46 +52,70 @@ const Methodology = () => {
   };
 
   return (
-    <div className="w-full mx-auto relative pt-20 lg:mb-[-90px] mb-[-30px]  bg-white">
-      <div className="w-full mx-auto max-w-screen-3xl relative">
-        <div className="flex justify-center text-center relative">
-          <div className="relative">
-            <img
-              ref={imageRef}
-              id="seer"
-              src="/images/uploads/Seer_Cycle-01.svg"
-              height={840}
-              width={1448}
-              alt="seer methodology"
-              useMap="#methodology"
-              className="block"
-            />
-            <map name="methodology">
-              {areas.map((area, index) => (
-                <area
-                  key={index}
-                  shape="circle"
-                  coords={area.coords}
-                  alt={`area-${index + 1}`}
-                  onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave}
-                  onClick={() => handleClick(index)}
-                />
-              ))}
-            </map>
-            {activeArea !== null && (
+    <div>
+      <div className="w-full mx-auto mb-2 mb-2 ">
+        <div className="w-full mx-auto max-w-screen-3xl ">
+          <div className="flex flex-col md:flex-row lg:flex-row gap-10 justify-center text-center relative">
+            <div className="relative hidden md:block">
               <img
-                src={`/images/uploads/Seer_Cycle-0${activeArea + 2}.svg`}
+                id="seer"
+                src="/images/uploads/Seer_Cycle_wording_desktop.svg"
+                height={840}
+                width={1000}
+                alt="seer methodology"
+                useMap="#methodology"
+                className="block "
+              />
+            </div>
+            <div className="relative block md:hidden">
+              <img
+                id="seer"
+                src="/images/uploads/Seer_Cycle_wording_phone.svg"
+                height={840}
+                width={1000}
+                alt="seer methodology"
+                useMap="#methodology"
+                className="block "
+              />
+            </div>
+            <div className="relative py-4 px-4">
+              <img
+                ref={imageRef}
+                id="seer"
+                src="/images/uploads/Seer_Cycle-01_cycle_only.svg"
                 height={840}
                 width={1448}
-                alt={`highlighted area ${activeArea + 1}`}
-                className={`absolute top-0 left-0 transition-opacity duration-300`}
-                style={{
-                  opacity: 1,
-                  pointerEvents: "none",
-                }}
+                alt="seer methodology"
+                useMap="#methodology"
+                className="block"
               />
-            )}
+              <map name="methodology">
+                {areas.map((area, index) => (
+                  <area
+                    key={index}
+                    shape="circle"
+                    coords={area.coords}
+                    alt={`area-${index + 1}`}
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={handleMouseLeave}
+                    onClick={() => handleClick(index)}
+                  />
+                ))}
+              </map>
+              {activeArea !== null && (
+                <img
+                  src={`/images/uploads/Seer_Cycle-0${activeArea + 2}_cycle_only.svg`}
+                  height={840}
+                  width={1448}
+                  alt={`highlighted area ${activeArea + 1}`}
+                  className={`absolute  py-4 px-4 top-0 left-0 transition-opacity duration-300`}
+                  style={{
+                    opacity: 1,
+                    pointerEvents: "none",
+                  }}
+                />
+              )}
+            </div>
           </div>
         </div>
       </div>

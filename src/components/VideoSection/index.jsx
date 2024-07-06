@@ -3,7 +3,6 @@ import "./index.css";
 import ReactPlayer from "react-player";
 import icon1 from "../../assets/images/icon.jpg";
 
-import I1 from "../../assets/images/I1.png";
 import I2 from "../../assets/images/I2.png";
 import I3 from "../../assets/images/I3.png";
 
@@ -30,15 +29,15 @@ const VideoSection = () => {
         </span>
       </div>
 
-      <div className="videoSectionContainer pb-20">
+      <div className="videoSectionContainer pb-20 -pt-10">
         <div className="videoSectionLeftSection ">
           <p
             style={{ fontFamily:'Comfortaa, sans-serif' }}
             className="lg:text-lg text-sm text-white "
           >
-            <div className="flex item-start  items-center object-center py-4">
+            <div className="flex item-start  items-center object-center">
               <div className="mr-4">
-                <img src={I1} alt="" className="object-center w-1/5 " />
+                <img src="/images/uploads/I1_white.svg" alt="" className="object-center w-1/5 " />
               </div>
               <p
                 style={{ fontFamily: "roboto" }}
@@ -54,7 +53,7 @@ const VideoSection = () => {
             <div className="flex item-start  items-center object-center  py-4">
               <div className="mr-4">
                 <img
-                  src={I2}
+                  src="/images/uploads/I2_white.svg"
                   alt=""
                   className="object-center w-1/5"
                 />
@@ -74,7 +73,7 @@ const VideoSection = () => {
             <div className="flex item-start  items-center object-center  py-4">
               <div className="mr-4">
                 <img
-                  src={I3}
+                  src="/images/uploads/I3_white.svg"
                   alt=""
                   className="object-center w-1/5"
                 />

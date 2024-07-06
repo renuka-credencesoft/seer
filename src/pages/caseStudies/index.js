@@ -223,7 +223,7 @@ const CaseStudies = () => {
 
         <div className="flex flex-col items-center bg-[#303e58] text-white mb-[-80px] pb-20">
           <img
-            src={Seer2}
+            src="/images/uploads/client_animates_white.svg"
             alt="Animates"
             className="w-[250px] h-[38px] sm:w-[250px] sm:h-[38px] md:w-[250px] md:h-[38px] max-w-md mt-20 -mb-4"
           />

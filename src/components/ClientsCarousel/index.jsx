@@ -85,20 +85,10 @@ const ClientsCarousel = () => {
   };
 
   return (
-    <div
-      className="carousel-container relative bg-[#edeeff]"
-      onMouseEnter={stopAutoScroll}
-      onMouseLeave={startAutoScroll}
-    >
-      <div className="m-2 lg:m-0 md:m-0">
-        <p
-          style={{ fontFamily: "gothic-book" }}
-          className="flex align-center justify-center text-lg md:text-xl lg:text-2xl pt-12"
-        >
-          Partners Predicting Preparing and Prospering With SEER
-        </p>
-      </div>
-
+    <div className="carousel-container relative mb-10 bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
+      <p style={{ fontFamily: 'gothic-book' }} className=" text-[#35435f] flex font-semibold align-center mt-14 justify-center text-xl md:text-3xl lg:text-3xl">
+        Partners Predicting Preparing and Prospering With SEER
+      </p>
       <div className="relative overflow-hidden">
         <div
           className={`flex transition-transform duration-200`}
