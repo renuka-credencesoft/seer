@@ -183,7 +183,7 @@ const CaseStudies = () => {
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16  "
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16 text-[#35435f] "
           >
             With 60 locations across Australia and New Zealand, Glassons are
             renowned for quality fashion, winning value, and vibrant
@@ -200,7 +200,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12 text-[#35435f]"
           >
             To avoid polluting the store with out-of-stock items, the store
             racks the returns in the stock room and advises head office of the
@@ -275,7 +275,7 @@ const CaseStudies = () => {
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16"
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16 text-[#35435f]"
           >
             A 46-store strong, Australia/New Zealand based chain, Hallensteins
             provides quality clothing that's both stylish and affordable,
@@ -297,7 +297,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12 text-[#35435f]"
           >
             Once again, we deployed Stock Seer to automate this manual
             process—generating an accurate, weekly sales forecast with seasonal
