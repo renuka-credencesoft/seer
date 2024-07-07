@@ -17,19 +17,20 @@ const Demo = () => {
   return (
     <div className="bg-[#edeeff] pb-20 " >
       <h1
-        className="text-center text-[#35435f] lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-20 font-bold"
+        className="text-center text-[#141722] lg:text-3xl md:text-3xl text-xl px-10 lg:px-0 md:px-0 mt-20 font-bold"
         style={{ fontFamily: "gothic-book" }}
       >
         Prepare for every inventory challenge
       </h1>
+
       <div className="ContactContainer lg:mt-0 md:mt-0  sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Optimise} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#374151" }}>
             <span
-              className="text-lg lg:text-xl font-bold mr-2"
+              className="text-lg lg:text-xl font-bold mr-2 text-[#141722]"
               style={{ fontFamily: "gothic-book" }}
             >
               Optimize Store Inventory Levels
@@ -58,14 +59,15 @@ const Demo = () => {
           </button>
         </div>
       </div>
+
       <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Automate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: " #374151" }}>
             <span
-              className="text-lg lg:text-xl font-bold mr-2"
+              className="text-lg lg:text-xl font-bold mr-2 text-[#141722]"
               style={{ fontFamily: "gothic-book" }}
             >
               Automate Weekly Vendor Re<span style={{fontFamily:"roboto"}}>-</span>Orders.
@@ -94,14 +96,15 @@ const Demo = () => {
           </button>
         </div>
       </div>
+
       <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Reallocate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#374151" }}>
             <span
-              className="text-lg lg:text-xl font-bold mr-2"
+              className="text-lg lg:text-xl font-bold mr-2 text-[#141722]"
               style={{ fontFamily: "gothic-book" }}
             >
               Reallocate Stock Between Locations
@@ -129,14 +132,15 @@ const Demo = () => {
           </button>
         </div>
       </div>
+
       <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Gauge} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#374151" }}>
             <span
-              className="text-lg lg:text-xl font-bold mr-2"
+              className="text-lg lg:text-xl font-bold mr-2 text-[#141722]"
               style={{ fontFamily: "gothic-book" }}
             >
               Gauge Desirability of Potential Products.
@@ -165,14 +169,15 @@ const Demo = () => {
           </button>
         </div>
       </div>
+
       <div className="ContactContainer sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Simulate} alt="casestudies" class="glassons" className="rounded-xl" />
         </div>
         <div className="ContactRightSection">
-          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: "#35435f" }}>
+          <p className="text-lg lg:text-xl lg:mt-10" style={{ color: " #374151" }}>
             <span
-              className="text-lg lg:text-xl font-bold mr-2"
+              className="text-lg lg:text-xl font-bold mr-2 text-[#141722]"
               style={{ fontFamily: "gothic-book" }}
             >
               Simulate Long Term Demand for Perennial Lines.

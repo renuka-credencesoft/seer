@@ -85,7 +85,7 @@ const ClientsCarousel = () => {
 
   return (
     <div className="carousel-container relative mb-10 bg-[#edeeff]" onMouseEnter={stopAutoScroll} onMouseLeave={startAutoScroll}>
-      <p style={{ fontFamily: 'gothic-book' }} className=" text-[#35435f] text-center flex font-semibold align-center mt-14 justify-center text-xl md:text-3xl lg:text-3xl">
+      <p style={{ fontFamily: 'gothic-book' }} className=" text-[#141722] text-center flex font-semibold align-center mt-14 justify-center text-xl md:text-3xl lg:text-3xl">
         Partners Predicting Preparing and Prospering With SEER
       </p>
       <div className="relative overflow-hidden">

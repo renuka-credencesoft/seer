@@ -76,16 +76,14 @@
     text-align: left;
     color: #2d2c2c;
     /* padding: 10px 30px; */
-    margin: 40px 20px;
+    margin: 40px 5px;
 }
 
 .videoSectionLeftSection img{
     width: 85px;
     height: 85px;
-    /* border-radius: 50%;
-    background-color: aliceblue;
-    border: 2px solid white; */
-    
+    margin-right:30px;
+  
 }
 
 

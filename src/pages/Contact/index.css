@@ -20,7 +20,7 @@ text-shadow: none !important;
   }
 
 .ContactLeftSection > h1 {
-    color: #2C3C57;
+    color: #141721;
         
         font-weight: 800;
         font-size: 60px;
@@ -62,7 +62,7 @@ text-shadow: none !important;
 }
 
 .ContactLeftSection > p{
-    color: #4b5971;
+    color: #374151;
  
     font-weight: 500;
     font-size: 20px;
@@ -71,7 +71,7 @@ text-shadow: none !important;
 }
 
 .ContactLeftSectionContactDetails > p{
-    color: #4b5971;
+    color: #374151;
     font-weight: 500;
     font-size: 20px; 
     padding: 2px 2px;
@@ -94,7 +94,7 @@ text-shadow: none !important;
     cursor: pointer;
 }
 .ContactRightSection > p{
-    color: #4b5971;
+    color: #374151;
     font-weight: 500;
     font-size: 20px; 
     padding: 2px 0;
@@ -118,7 +118,7 @@ text-shadow: none !important;
 
 p.get-in{
     /* color: linear-gradient(to right, #090d14 10%, #35435f 90%); */
-    color: #35435f;
+    color: #141722;
 
     
     }
@@ -144,7 +144,7 @@ p.get-in{
     }
 
     .ContactLeftSectionContactDetails > p{
-        color: #4b5971;
+        color: #374151;
         font-weight: 500;
         font-size: 15px; 
         padding: 2px 2px;
@@ -164,7 +164,7 @@ p.get-in{
         flex-wrap: wrap;
     }
     .ContactRightSection > p{
-        color: #4b5971;
+        color: #374151;
         font-weight: 500;
         font-size: 15px; 
         padding: 2px 0;

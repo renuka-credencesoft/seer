@@ -43,32 +43,41 @@ const Contact = () => {
 
       <div className="ContactRightSection">
         <div className="flex bg-white rounded-xl border border-[#4b5971] pl-4">
-          <div className="w-2/3  text-[#35435f]">
+          <div className="w-2/3  text-[#374151]/">
             <p
               style={{ fontFamily: "gothic-book" }}
-              className="text-2xl get-in font-bold py-6"
+              className="text-2xl get-in font-bold py-6 text-[#141722]"
             >
               Get in touch
             </p>
-            <p className="py-2" style={{ fontFamily: "roboto" }}>
+            <p
+              className="py-2  text-[#374151]"
+              style={{ fontFamily: "roboto" }}
+            >
               Name:
             </p>
             <div className="mr-4">
               <input type="text" className="w-full border p-2 rounded-lg" />
             </div>
-            <p className="py-2" style={{ fontFamily: "roboto" }}>
+            <p
+              className="py-2  text-[#374151]"
+              style={{ fontFamily: "roboto" }}
+            >
               Email:
             </p>
             <div className="mr-4">
               <input type="email" className="w-full border p-2 rounded-lg" />
             </div>
-            <p className="py-2" style={{ fontFamily: "roboto" }}>
+            <p
+              className="py-2  text-[#374151]"
+              style={{ fontFamily: "roboto" }}
+            >
               Phone:
             </p>
             <div className="mr-4">
               <input type="text" className="w-full border p-2 rounded-lg" />
             </div>
-            <p className="py-2" style={{ fontFamily: "roboto" }}>
+            <p className="py-2 text-[#374151]" style={{ fontFamily: "roboto" }}>
               Enquiry:
             </p>
             <div className="mr-4">

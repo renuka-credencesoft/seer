@@ -41,7 +41,7 @@ const VideoSection = () => {
               </div>
               <p
                 style={{ fontFamily: "roboto" }}
-                className="w-4/5 lg:text-lg md:text-xs  text-sm text-white  "
+                className="w-4/5 lg:text-lg md:text-xs  text-sm text-[#cbced5]  "
               >
                 <span  style={{ fontFamily: "gothic-book" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
                 to large, is awash with millions of inventory decisions,
@@ -58,7 +58,7 @@ const VideoSection = () => {
                   className="object-center w-1/5"
                 />
               </div>
-              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
+              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-[#cbced5] ">
                 <span
                   style={{ fontFamily: "gothic-book" }}
                   className=" para lg:text-lg md:text-xs  text-sm text-white "
@@ -78,7 +78,7 @@ const VideoSection = () => {
                   className="object-center w-1/5"
                 />
               </div>
-              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-white">
+              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-[#cbced5] ">
                 <span
                   style={{ fontFamily: "gothic-book" }}
                   className="lg:text-lg md:text-xs  text-sm text-white "

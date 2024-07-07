@@ -183,7 +183,7 @@ const CaseStudies = () => {
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16 text-[#35435f] "
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16 text-[#374151] "
           >
             With 60 locations across Australia and New Zealand, Glassons are
             renowned for quality fashion, winning value, and vibrant
@@ -200,7 +200,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12 text-[#35435f]"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12  text-[#374151] "
           >
             To avoid polluting the store with out of stock items, the store
             racks the returns in the stock room and advises head office of the
@@ -229,7 +229,7 @@ const CaseStudies = () => {
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16"
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16  text-[#cbced5] "
           >
             With over 50 pet and vet stores throughout New Zealand, Animates are
             passionate about providing the best pet supplies, pet products, pet
@@ -255,7 +255,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12  text-[#cbced5]"
           >
             Animates chose Seer to eliminate this complex manual process and
             optimize stock levels across their store network. We deployed Stock
@@ -275,7 +275,7 @@ const CaseStudies = () => {
           />
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16 text-[#35435f]"
+            className="text-left text-lg leading-7 tracking-normal mt-8 p-4 sm:ml-16 sm:mr-16  text-[#374151] "
           >
             A 46-store strong, Australia/New Zealand based chain, Hallensteins
             provides quality clothing that's both stylish and affordable,
@@ -296,7 +296,7 @@ const CaseStudies = () => {
           </p>
           <p
             style={{ fontFamily: "roboto" }}
-            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12 text-[#35435f]"
+            className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12  text-[#374151] "
           >
             Once again, we deployed Stock Seer to automate this manual process
             generating an accurate, weekly sales forecast with seasonal

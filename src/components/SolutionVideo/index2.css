@@ -6,7 +6,7 @@
 
 .heading {
   font-family: 'Comfortaa', sans-serif;
-  color: #35435f;
+  color:#141722;
   text-align: center;
   margin-top: 45px;
   font-size: 2rem;
@@ -79,7 +79,7 @@
 
 .card-img img {
   max-width: 100%;
-  border-radius: 50%;
+ 
   
 }
 
@@ -94,7 +94,7 @@
   text-align: left;
   line-height: 1.5;
   font-size: 1rem;
-  color: #fff;
+  color:#cbced5;
   display: none;
 }
 

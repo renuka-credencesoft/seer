@@ -18,7 +18,7 @@ const Card = ({ imageSrc, description, description1 }) => (
       >
         {description}
       </p>
-      <p style={{ fontFamily: "roboto" }} className="text-white">
+      <p style={{ fontFamily: "roboto" }} className="text-[#cbced5]">
         {description1}
       </p>
     </div>

@@ -153,14 +153,14 @@ const SolutionVideo = () => {
                 </div>
 
                 <p
-                  className="card-title lg:-mt-1 text-center"
+                  className="card-title lg:-mt-1 text-center "
                   style={{ textAlign: "center" }}
                 >
                   {card.title}
                 </p>
               </div>
 
-              <div className="card-bottom-content lg:mt-4">
+              <div className="card-bottom-content lg:mt-4 text-[#cbced5]">
                 <p>{card.description}</p>
               </div>
             </div>

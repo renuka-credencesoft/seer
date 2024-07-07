@@ -29,32 +29,44 @@ const HeroSection = () => {
 
         <div className="ContactRightSectionHome lg:flex">
           <div className="cc flex bg-white rounded-lg pl-4  ">
-            <div className="w-2/3 text-[#35435f]">
-              <p
+            <div className="w-2/3 ">
+              <h1
                 style={{ fontFamily: "gothic-book" }}
-                className="text-2xl get-in font-bold py-6"
+                className="text-2xl text-[#141722] font-bold py-6"
               >
                 Get in touch
-              </p>
-              <p className="py-2" style={{ fontFamily: "roboto" }}>
+              </h1>
+              <p
+                className="py-2 text-[#374151]"
+                style={{ fontFamily: "roboto" }}
+              >
                 Name:
               </p>
               <div className="mr-4">
                 <input type="text" className="w-full border p-2 rounded-lg" />
               </div>
-              <p className="py-2" style={{ fontFamily: "roboto" }}>
+              <p
+                className="py-2  text-[#374151]"
+                style={{ fontFamily: "roboto" }}
+              >
                 Email:
               </p>
               <div className="mr-4">
                 <input type="email" className="w-full border p-2 rounded-lg" />
               </div>
-              <p className="py-2" style={{ fontFamily: "roboto" }}>
+              <p
+                className="py-2  text-[#374151]"
+                style={{ fontFamily: "roboto" }}
+              >
                 Phone:
               </p>
               <div className="mr-4">
                 <input type="text" className="w-full border p-2 rounded-lg" />
               </div>
-              <p className="py-2" style={{ fontFamily: "roboto" }}>
+              <p
+                className="py-2  text-[#374151]"
+                style={{ fontFamily: "roboto" }}
+              >
                 Enquiry:
               </p>
               <div className="mr-4">

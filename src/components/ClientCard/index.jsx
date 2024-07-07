@@ -13,14 +13,14 @@ const ClientCard = () => {
 
       <div className="ClientCardContent mt-8  ">
         
-        <p style={{fontFamily:'Roboto, sans-serif'}} className="text-center text-black  ">
+        <p style={{fontFamily:'Roboto, sans-serif'}} className="text-center text-[#374151]  ">
          " Out teams are spending days a week managing the parameters which drive
           our vendor re-order calculation. Seer AI Forecasts will help us
           automate the process, eliminate manual effort, and improve order
           accuracy."
         </p>
        
-        <h5 className="text-center pt-2 text-black"  style={{fontFamily:'gothic-book, sans-serif', mt:"10px"}}>
+        <h5 className="text-center pt-2 text-[#374151] "  style={{fontFamily:'gothic-book, sans-serif', mt:"10px"}}>
           <span style={{fontFamily:"roboto"}}>-</span>
          
           PHILLIP CHRISTOPHER, C.I.O., ANIMATES NZ
