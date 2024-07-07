@@ -13,7 +13,7 @@ const HeroSection = () => {
           <h1>
             Your accurate, intuitive
             <br />
-            <span className="sm:hidden block ">demand forecaster.</span>
+            <span className="">demand forecaster.</span>
           </h1>
           <p style={{ fontFamily: "roboto" }}>
             Helping inventory planners get the right stock, in the right

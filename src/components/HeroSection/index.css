@@ -158,7 +158,7 @@ p.get-in {
 @media screen and (max-width: 850px) {
     .HeroSectionLeftText {
         margin-top: 100px;
-        margin-left: 50px;
+        margin-left: 17px !important;
         width: 30%;
     }
     .HeroSectionLeftText > h1 {
