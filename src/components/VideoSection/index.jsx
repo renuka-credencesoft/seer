@@ -70,7 +70,7 @@ const VideoSection = () => {
               </p>
             </div>
 
-            <div className="flex item-start  items-center object-center  py-4">
+            <div className="flex item-start  items-center object-center  py-4 -mt-8">
               <div className="mr-4">
                 <img
                   src="/images/uploads/I3_white.svg"

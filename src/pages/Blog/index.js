@@ -20,7 +20,9 @@ const Blog = () => {
       {content == false ? (
         <div className="">
           <div className="BlogTopText pb-4">
-            <h1 className="" style={{ fontFamily: "gothic-book, sans-serif" }}>Blog</h1>
+            <h1 className="" style={{ fontFamily: "gothic-book, sans-serif" }}>
+              Blog
+            </h1>
             <p
               style={{ fontFamily: "gothic-book, sans-serif" }}
               className="text-lg lg:text-2xl font-light py-4 text-[#35435f]"
@@ -82,7 +84,7 @@ const Blog = () => {
               million store / SKU combinations) and the latter’s implications
               for the inventory planner. The sheer volume of data is mind
               boggling. Every stage of the stock life cycle, from building the
-              range to end-of-line sell through, calls for a level of detail in
+              range to end of line sell through, calls for a level of detail in
               execution that is constrained by available resource and the
               capacity of the human mind to process the myriad of data points
               simultaneously. Invariably, the planner compromises. They may
@@ -169,7 +171,7 @@ const Blog = () => {
               style={{ fontFamily: "roboto" }}
               className="lg:text-xl text-sm text-left py-4"
             >
-              An AI implementation entails identifying a problem - typically a
+              An AI implementation entails identifying a problem typically a
               labour intensive or inaccurate process. Pertinent data is
               replicated to a secure cloud using APIs, the algorithm is trained,
               and predictions are made which are autonomously applied to address

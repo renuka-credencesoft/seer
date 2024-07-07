@@ -169,7 +169,7 @@
 import React from "react";
 import Seer1 from "../../assets/images/client_glassons.png";
 import Seer2 from "../../assets/images/client_animates.png";
-import Seer3 from "../../assets/images/client_hallensteins.png"
+import Seer3 from "../../assets/images/client_hallensteins.png";
 
 const CaseStudies = () => {
   return (
@@ -189,27 +189,27 @@ const CaseStudies = () => {
             renowned for quality fashion, winning value, and vibrant
             stores.Their mission is to deliver exactly what their customers want
             when they want it; and pride themselves as a destination for what’s
-            new, what’s trending, must-have fashion pieces,wardrobe staples and
+            new, what’s trending, must have fashion pieces,wardrobe staples and
             everything in between! Glassons epitomises “fast fashion”. Most
             styles sell out within days or weeks of hitting stores. New lines
             appear each day and customers know if they don’t buy a desired item
             today, they will likely miss out tomorrow. With 25% of sales
-            transacted on-line however, and a proportion returned or exchanged
-            in store, a typical week can see up to 100 already sold-out items
+            transacted online however, and a proportion returned or exchanged in
+            store, a typical week can see up to 100 already sold out items
             returned to each store.
           </p>
           <p
             style={{ fontFamily: "roboto" }}
             className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12 text-[#35435f]"
           >
-            To avoid polluting the store with out-of-stock items, the store
+            To avoid polluting the store with out of stock items, the store
             racks the returns in the stock room and advises head office of the
             items and quantities. Head office manually reviews returns across
             all stores,runs reports to identify stock and sales by store, and
             applies operational rules to determine where each store should send
             its returns.The process is time consuming and error prone, resulting
             in many thousands of items languishing on racks in stock rooms or
-            transferred to sub-optimal locations. Glassons chose Seer to
+            transferred to sub optimal locations. Glassons chose Seer to
             automate and improve outcomes for this manual process. Each Sunday
             the store scans returns for the week. Using Seer’s API, the returns
             are uploaded to the Seer cloud and analysed by our AI algorithms to
@@ -238,11 +238,11 @@ const CaseStudies = () => {
             of stock and appropriate store stock levels to meet customer
             expectations and demand. Promotions form a key part of their
             marketing strategy and when combined with seasonal fluctuations,
-            require merchandisers to spend days a week maintaining re-order
-            points and safety stock to support accurate weekly vendor re-orders.
+            require merchandisers to spend days a week maintaining reorder
+            points and safety stock to support accurate weekly vendor reorders.
             With more than 5,000 products across 50 stores, it is impossible for
             merchandisers to accurately forecast sales and infer optimum stock
-            levels. The result is under, and over-stocked items and a
+            levels. The result is under, and over stocked items and a
             merchandise team constrained by excessive repetitive tasks,
             impacting financial performance and customer satisfaction. Animates
             chose Seer to eliminate this complex manual process and optimize
@@ -250,8 +250,8 @@ const CaseStudies = () => {
             to generate sales forecasts that accurately account for seasonal
             fluctuations and forecast promotions. Thereafter, statistical
             methods were applied to calculate optimum safety stock levels and
-            re-order points based on a nominated service level, and
-            automatically generated optimum purchase orders.
+            reorder points based on a nominated service level, and automatically
+            generated optimum purchase orders.
           </p>
           <p
             style={{ fontFamily: "roboto" }}
@@ -262,7 +262,7 @@ const CaseStudies = () => {
             Seer’s AI to generate sales forecasts that accurately account for
             seasonal fluctuations and forecast promotions. Thereafter,
             statistical methods were applied to calculate optimum safety stock
-            levels and re-order points based on a nominated service level, and
+            levels and reorder points based on a nominated service level, and
             automatically generated optimum purchase orders.
           </p>
         </div>
@@ -279,37 +279,35 @@ const CaseStudies = () => {
           >
             A 46-store strong, Australia/New Zealand based chain, Hallensteins
             provides quality clothing that's both stylish and affordable,
-            catering to the mod- ern man's evolving tastes. For Hallensteins, a
-            compelling in-store experience demands an optimum bal- ance between
-            stock quantity and space conservation, presenting visual ap- peal
-            and choice without clutter. Their central warehouse is key,
-            replenishing stores daily, and enabling the store to carry just the
-            right stock to meet antici- pated sales up to the next
-            replenishment. However, determining the ideal stock levels, week on
-            week, for some 276,000 product-store combinations, is an impossible
-            task for the human stock controller. A lack of resource, and the
-            inability of the human mind to accurately forecast evolving sales,
-            forces a reliance on crude averages that tend to over-allocate to
-            mitigate risk of stock-outs. The result: cluttered stores and lost
-            sales as the season progresses, with faster moving stores selling
-            out while product languishes in the quieter store. Costly
-            inter-store movements ensue.
+            catering to the modern man's evolving tastes. For Hallensteins, a
+            compelling in store experience demands an optimum balance between
+            stock quantity and space conservation, presenting visual appeal and
+            choice without clutter. Their central warehouse is key, replenishing
+            stores daily, and enabling the store to carry just the right stock
+            to meet anticipated sales up to the next replenishment. However,
+            determining the ideal stock levels, week on week, for some 276,000
+            product store combinations, is an impossible task for the human
+            stock controller. A lack of resource, and the inability of the human
+            mind to accurately forecast evolving sales, forces a reliance on
+            crude averages that tend to over-allocate to mitigate risk of stock
+            outs. The result: cluttered stores and lost sales as the season
+            progresses, with faster moving stores selling out while product
+            languishes in the quieter store. Costly inter store movements ensue.
           </p>
           <p
             style={{ fontFamily: "roboto" }}
             className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 mb-12 text-[#35435f]"
           >
-            Once again, we deployed Stock Seer to automate this manual
-            process—generating an accurate, weekly sales forecast with seasonal
+            Once again, we deployed Stock Seer to automate this manual process
+            generating an accurate, weekly sales forecast with seasonal
             fluctuations and planned promotions accounted for. As with Animates,
             the forecast was used, in conjunction with standard business rules,
             to determine more sensible target stock levels and safety stock
             buffers, with respect to the predicted demand. Thus far, we have
-            saved $500,000 thanks to mitigations in out-of-stocks and overstocks
+            saved $500,000 thanks to mitigations in out of stocks and overstocks
             via the A.I. driven process.
           </p>
         </div>
-
       </div>
     </div>
   );

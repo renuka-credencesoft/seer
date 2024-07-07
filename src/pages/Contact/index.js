@@ -88,13 +88,16 @@ const Contact = () => {
               </button>
             </div>
           </div>
-          <div className="w-1/3 bg-[#303e58] rounded-r-lg text-white">
+          <div className="w-1/3  rightsec rounded-r-lg text-white">
             <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-40">
               <div>
                 <MdEmail size={40} />
               </div>
               <div className="mb-10">
-                <p style={{ fontFamily: "roboto" }} className="text-white">
+                <p
+                  style={{ fontFamily: "roboto" }}
+                  className="text-white gmail"
+                >
                   seer@gmail.com
                 </p>
               </div>
@@ -102,7 +105,10 @@ const Contact = () => {
                 <MdContactPhone size={40} />
               </div>
               <div className="mb-10">
-                <p style={{ fontFamily: "roboto" }} className="text-white">
+                <p
+                  style={{ fontFamily: "roboto" }}
+                  className="text-white gmail"
+                >
                   9090909
                 </p>
               </div>
@@ -110,7 +116,10 @@ const Contact = () => {
                 <FaMapLocationDot size={40} />
               </div>
               <div className="mb-10">
-                <p style={{ fontFamily: "roboto" }} className="text-white">
+                <p
+                  style={{ fontFamily: "roboto" }}
+                  className="text-white gmail"
+                >
                   India
                 </p>
               </div>

@@ -1,10 +1,9 @@
-/* General Styles */
 .NavbarContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to right, #090d14 10%, #35435f 90%);
-  padding: 2.5rem;
+  padding: 2.5rem; 
   position: sticky;
   top: 0;
   width: 100%;
@@ -28,8 +27,8 @@
 .NavbarLinks {
   display: flex;
   justify-content: space-between;
-  width: 50%;
-  margin-right: 40px;
+  width: auto; 
+  margin-right: 20px; 
   font-family: 'gothic-book';
 }
 
@@ -55,93 +54,47 @@
   border-radius: 33px;
 }
 
-/* Define the active style */
 .NavbarLinks>li>a.active {
   border: 2px solid #ffffff;
-  /* Example background color for the active state */
   color: #ffffff;
-  /* Example text color for the active state */
-}
-
-/* Responsive Text Sizes */
-.NavbarLinkText {
-  font-family: 'Oswald, sans-serif';
 }
 
 @media screen and (min-width: 1300px) {
-  .NavbarLinks>li {
-  
-    /* Large devices */
+  .NavbarLinks>li>a {
+    font-size: 1.25rem; 
   }
-
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1299px) {
   .NavbarLinks>li>a {
-    font-size: 1.25rem;
-    /* Large devices */
-  }
-
-}
-
-@media screen and (max-width:1083) {
-  .NavbarLinks>li>a {
-    font-size: 1rem;
-    /* Large devices */
-  }
-  
-}
-
-@media screen and (min-width: 1017px) and (max-width: 1272px) {
-  .NavbarLinks>li>a {
-    font-size: 1rem;
-    /* Large devices */
+    font-size: 1.1rem; 
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .NavbarLinks>li>a {
-    /* font-size: 0.95rem; */
-    font-size: 16px;
-    /* Medium devices (slightly smaller) */
-  }
-
-  .NavbarLinks>li>a {
-    text-decoration: none;
-    border: 2px solid rgba(0, 0, 0, 0);
-    padding: 4px 4px;
-    color: #ffffff;
-    font-family: "font-gothic-book";
-    font-style: normal;
-    font-weight: 400;
-    transition: border 0.3s, font-size 0.3s;
+    font-size: 1rem; 
+    padding: 6px 10px; 
   }
 }
 
 @media screen and (max-width: 767px) {
   .NavbarLinks {
-    display: none;
+    display: none; 
   }
 
   .NavbarContainer>svg {
     display: block;
   }
 
-  .NavbarLinks>li>a {
-    font-size: 0.875rem;
-    /* Small devices */
-  }
-}
-
-@media screen and (max-width: 700px) {
   .NavbarLogo {
-    width: 35%;
+    width: 20%; 
   }
 }
 
 @media screen and (max-width: 600px) {
   .NavbarLinks>li>a {
-    font-size: 0.75rem;
-    /* Extra small devices */
+    font-size: 0.875rem; 
+    padding: 4px 8px; 
   }
 }

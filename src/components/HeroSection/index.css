@@ -1,84 +1,64 @@
-
-.HeroSectionContainer{
+.HeroSectionContainer {
     position: relative;
     overflow: hidden;
-
-   
 }
 
-.HeroSectionBgImg{
+.HeroSectionBgImg {
     z-index: -1;
-
 }
 
-.HeroSectionBgImg > img{
+.HeroSectionBgImg > img {
     width: 100%;
-  
 }
 
-
-
-
-  
-  .desktop-image {
+.desktop-image {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .mobile-image {
+}
+
+.mobile-image {
     display: none;
     width: 100%;
     height: auto;
-  }
-  
-  @media (max-width: 768px) {
-    .desktop-image {
-      display: none;
-    }
-  
-    .mobile-image {
-      display: block;
-    }
-  }
-  
+}
 
-.HeroSectionLeftText{
+@media (max-width: 768px) {
+    .desktop-image {
+        display: none;
+    }
+    .mobile-image {
+        display: block;
+    }
+}
+
+.HeroSectionLeftText {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
-    padding: 10px 10px;
+    padding: 10px;
     margin-top: 60px;
     margin-left: 50px;
     width: 40%;
 }
 
-.HeroSectionLeftText > h1{
-    /* font-family: 'Inter'; */
-    font-style:normal;
+.HeroSectionLeftText > h1 {
+    font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 54px;
     color: #35435f;
-    margin: 0px 0;
-    /* font-family: "Comfortaa", sans-serif; */
-    /* font-family: 'Comfortaa', 'cursive'; */
-    
- 
-    /* font-family: 'gothic book',sans-serif; */
-    font-family: gothic-book,sans-serif;
-
-    
+    margin: 0;
+    font-family: gothic-book, sans-serif;
 }
 
-.HeroSectionLeftText > h1 > span{
+.HeroSectionLeftText > h1 > span {
     color: #22bbff;
 }
 
-.HeroSectionLeftText > p{
-    /* font-family: 'Roboto', sans-serif; */
+.HeroSectionLeftText > p {
     font-family: "Roboto";
     font-style: normal;     
     font-weight: 300;
@@ -88,368 +68,301 @@
     margin: 0;
 }
 
-.rightsection{
+.rightsection {
     background: linear-gradient(to bottom, #090d14 10%, #35435f 90%);
 }
 
-/* .ContactRightSectionHome{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin-top: 60px;
-    margin-left: 1020px;
-    width: 31%;
-    height: 600px;
-}
-@media screen and (max-width: 1300px){
-    .ContactRightSectionHome{
-        width: 40%;
-        margin-left: 800px;
-        padding-bottom: 80px;
-        
-    }
-    .ContactRightSectionHome > p{
-        color: #4b5971;
-        font-size: 10px; 
-        padding: 2px 0;
-    }
-    
-    .ContactRightSectionHome > input{
-       
-        width: 80%;
-        padding: 2px 5px;
-        font-size: 20px;
-    }
-    
-  
-    
-} */
-
-.ContactRightSectionHome > p{
-    /* color: #4b5971; */
+.ContactRightSectionHome > p {
     color: #35435f;
     font-size: 20px; 
     padding: 2px 0;
 }
 
-
-.ContactRightSectionHome > input{
+.ContactRightSectionHome > input {
     border: 1px solid #808080;
     border-radius: 5px;
     width: 100%;
-    padding: 5px 5px;
+    padding: 5px;
     font-size: 20px;
 }
 
-.ContactRightSectionHome > textarea{
+.ContactRightSectionHome > textarea {
     border: 1px solid #808080;
     border-radius: 5px;
     width: 100%;
-    padding: 10px 10px;
+    padding: 10px;
     font-size: 20px;
-} 
-
-
-p.get-in{
-/* color: linear-gradient(to right, #090d14 10%, #35435f 90%); */
-color: #35435f;
-
 }
 
+p.get-in {
+    color: #35435f;
+}
 
-/* Mac Book - (1600-2500)px */
-@media screen and (min-width: 1600px) and (max-width: 2500px)  {
-   
-  
+@media screen and (min-width: 1600px) and (max-width: 2500px) {
     .ContactRightSectionHome {
-    
-      margin-left: 20px;
+        margin-left: 20px;
     }
-  }
-  
-
-
+}
 
 @media screen and (max-width: 1200px) {
-        
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 38px;
         line-height: 44px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 300;
         font-size: 20px;
         line-height: 27px;
     }
-   
+}
+
+@media screen and (min-width: 1300px) {
+    .ContactRightSectionHome {
+        padding-right: 110px;
+    }
+    .gmail {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ContactRightSectionHome {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .ContactRightSectionHome {
+        padding-right: 20px;
+        
+    }
 }
 
 
 
 
 @media screen and (max-width: 1000px) {
-        
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 32px;
         line-height: 38px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 300;
         font-size: 18px;
         line-height: 23px;
     }
 }
 
-@media screen and (max-width: 850px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 850px) {
+    .HeroSectionLeftText {
         margin-top: 100px;
         margin-left: 50px;
         width: 30%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 28px;
         line-height: 33px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
-    
 }
 
-@media screen and (max-width: 650px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 650px) {
+    .HeroSectionLeftText {
         margin-top: 80px;
         margin-left: 45px;
         width: 30%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 23px;
         line-height: 28px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
 }
 
-@media screen and (max-width: 550px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 550px) {
+    .HeroSectionLeftText {
         margin-top: 50px;
         margin-left: 35px;
         width: 30%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 18px;
         line-height: 23px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
 }
 
-@media screen and (max-width: 420px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 420px) {
+    .HeroSectionLeftText {
         margin-top: 30px;
         margin-left: 25px;
         width: 30%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 13px;
         line-height: 18px;
         padding-top: 15px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
+    .demand{
+        margin-left: 230px;
+    
+    }
+   
 }
 
-@media screen and (max-width: 330px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 330px) {
+    .HeroSectionLeftText {
         margin-top: 30px;
         margin-left: 20px;
         width: 30%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 10px;
         line-height: 18px;
     }
-
-     .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
+    
+    
 }
 
-@media screen and (max-width: 250px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 250px) {
+    .HeroSectionLeftText {
         margin-top: 30px;
         margin-left: 5px;
         width: 50%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 200;
         font-size: 8px;
         line-height: 10px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
 }
 
-@media screen and (max-width: 200px) {      
-    .HeroSectionLeftText{
+@media screen and (max-width: 200px) {
+    .HeroSectionLeftText {
         margin-top: 30px;
         margin-left: 0px;
         width: 70%;
     }
-    .HeroSectionLeftText > h1{
+    .HeroSectionLeftText > h1 {
         font-weight: 700;
         font-size: 5px;
         line-height: 6px;
     }
-
-    .HeroSectionLeftText > p{
+    .HeroSectionLeftText > p {
         font-weight: 0;
         font-size: 0;
         line-height: 0;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ContactRightSectionHome {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin-top: 60px;
-    margin-left: 1050px;
-    width: 31%;
-    height: 550px;
+    top: 60px;
+    right: 50px;
+    width: 25%;
+    height: auto;
 }
 
 @media screen and (max-width: 1300px) {
     .ContactRightSectionHome {
-        width: 100%;
-        margin-left: 890px;
-        padding-bottom:60px;
-        height: 1020px;
-        
+        right: 30px;
+        width: 30%;
     }
-
-
-    .ContactRightSectionHome > input {
-        width: 80%;
-        padding: 5px 5px;
-        font-size: 10px;
-        margin-bottom: 20px;
-    }
-    .gmail{
-        font-size: 13px;
-     }
-   
 }
-@media screen and (min-width: 1200px) and (max-width: 1270px) {
+
+@media screen and (max-width: 1300px) {
     .ContactRightSectionHome {
-      
-        margin-left: 865px;
-        width: 40%;
-       
+        padding-left: 120px;
+        width: 35%;
     }
-    .gmail{
-       font-size: 13px;
-    }
-    
-}
-@media screen and (min-width: 1200px) and (max-width: 1237px) {
-    .ContactRightSectionHome {
-      
-        margin-left: 845px;
-        width: 29%; 
-        height: 98%;
-       
+    .gmail {
+        font-size: 0.7rem;
     }
 }
-
 
 @media screen and (max-width: 1200px) {
     .ContactRightSectionHome {
-        margin-left: 820px; 
-        width: 305;
-     
-        
+        right: 20px;
+        width: 35%;
     }
-   
-}
-@media screen and (max-width: 1100px) {
-    .ContactRightSectionHome {
-        margin-left: 550px; 
+    .gmail{
+        font-size: 9px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .ContactRightSectionHome {
-        margin-left: 400px;
-        
-    }
-    .HeroSectionContainer{
-        height: 100%;
+        right: 10px;
+        width: 40%;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
     .ContactRightSectionHome {
-        margin-left: 290px; 
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .ContactRightSectionHome {
-        margin-left: 100px; 
         display: none;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .ContactRightSectionHome {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

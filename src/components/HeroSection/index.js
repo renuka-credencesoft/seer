@@ -13,7 +13,7 @@ const HeroSection = () => {
           <h1>
             Your accurate, intuitive
             <br />
-            <span>demand forecaster.</span>
+            <span className="sm:hidden block ">demand forecaster.</span>
           </h1>
           <p style={{ fontFamily: "roboto" }}>
             Helping inventory planners get the right stock, in the right
@@ -94,7 +94,10 @@ const HeroSection = () => {
                   <MdContactPhone className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
                 <div className="mb-20">
-                  <p style={{ fontFamily: "roboto" }} className="text-white">
+                  <p
+                    style={{ fontFamily: "roboto" }}
+                    className="text-white gmail"
+                  >
                     9090909
                   </p>
                 </div>
@@ -103,7 +106,10 @@ const HeroSection = () => {
                   <FaMapLocationDot className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
                 <div className="mb-20">
-                  <p style={{ fontFamily: "roboto" }} className="text-white">
+                  <p
+                    style={{ fontFamily: "roboto" }}
+                    className="text-white gmail"
+                  >
                     India
                   </p>
                 </div>
@@ -112,6 +118,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
       <div className="HeroSectionBgImg">
         <img src={HeroImg} alt="hero" className="desktop-image" />
         <img src={MobileImg} alt="hero" className="mobile-image" />

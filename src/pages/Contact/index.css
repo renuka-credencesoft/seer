@@ -123,6 +123,11 @@ p.get-in{
     
     }
 
+    .rightsec{
+        background: linear-gradient(to bottom, #090d14 10%, #35435f 90%);
+    }
+    
+
 @media screen and (max-width: 800px) {
     .ContactContainer{
         flex-direction: column;
