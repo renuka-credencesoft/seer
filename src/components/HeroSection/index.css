@@ -84,16 +84,16 @@
     border: 1px solid #808080;
     border-radius: 5px;
     width: 100%;
-    padding: 5px;
-    font-size: 20px;
+    padding: 2px;
+    font-size: 15px;
 }
 
 .ContactRightSectionHome > textarea {
     border: 1px solid #808080;
     border-radius: 5px;
     width: 100%;
-    padding: 10px;
-    font-size: 20px;
+    padding: 2px;
+    font-size: 15px;
 }
 
 p.get-in {
@@ -114,8 +114,8 @@ p.get-in {
     }
     .HeroSectionLeftText > p {
         font-weight: 300;
-        font-size: 20px;
-        line-height: 27px;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -126,11 +126,23 @@ p.get-in {
     .gmail {
         font-size: 11px;
     }
+    .ContactRightSectionHome > p {
+        color: #374151;
+        font-size: 0.9rem;
+        line-height: 1rem;
+        padding: 2px 0;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .ContactRightSectionHome {
         margin-right: 40px;
+    }
+    .ContactRightSectionHome > p {
+        color: #374151;
+        font-size: 0.9rem;
+        line-height: 1rem;
+        padding: 2px 0;
     }
 }
 
@@ -138,6 +150,12 @@ p.get-in {
     .ContactRightSectionHome {
         padding-right: 20px;
         
+    }
+    .ContactRightSectionHome > p {
+        color: #374151;
+        font-size: 0.9rem;
+        line-height: 1rem; 
+        padding: 2px 0;
     }
 }
 
@@ -152,8 +170,8 @@ p.get-in {
     }
     .HeroSectionLeftText > p {
         font-weight: 300;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -165,13 +183,13 @@ p.get-in {
     }
     .HeroSectionLeftText > h1 {
         font-weight: 200;
-        font-size: 28px;
-        line-height: 33px;
+        font-size: 20px;
+        line-height: 10px;
     }
     .HeroSectionLeftText > p {
         font-weight: 0;
-        font-size: 0;
-        line-height: 0;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -188,8 +206,8 @@ p.get-in {
     }
     .HeroSectionLeftText > p {
         font-weight: 0;
-        font-size: 0;
-        line-height: 0;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -294,17 +312,12 @@ p.get-in {
 .ContactRightSectionHome {
     position: absolute;
     top: 60px;
-    right: 50px;
+    right: 0px;
     width: 25%;
-    height: auto;
+    height: 530px;
 }
 
-@media screen and (max-width: 1300px) {
-    .ContactRightSectionHome {
-        right: 30px;
-        width: 30%;
-    }
-}
+
 
 @media screen and (max-width: 1300px) {
     .ContactRightSectionHome {
@@ -313,6 +326,16 @@ p.get-in {
     }
     .gmail {
         font-size: 0.7rem;
+    }
+    .ContactRightSectionHome > h1 {
+        font-weight: 700;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    .ContactRightSectionHome > p {
+        font-weight: 0;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
@@ -324,12 +347,32 @@ p.get-in {
     .gmail{
         font-size: 9px;
     }
+    .ContactRightSectionHome > h1 {
+        font-weight: 700;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    .ContactRightSectionHome > p {
+        font-weight: 0;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .ContactRightSectionHome {
         right: 10px;
         width: 40%;
+    }
+    .ContactRightSectionHome > h1 {
+        font-weight: 700;
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    .ContactRightSectionHome > p {
+        font-weight: 0;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
 }
 
