@@ -260,7 +260,7 @@ const CaseStudies = () => {
             Animates chose Seer to eliminate this complex manual process and optimize stock levels across their store
             network. We deployed Stock Seer (Our proprietary A.I.) to determine optimal re-order points and safety stock
             levels that robustly factor seasonal fluctuations and planned promotions. Initial trials have shown the potential
-            to save $6,000,000 +, principally from reductions in working capital (excess stock and labour).
+            to save $6,000,000+, principally from reductions in working capital (excess stock and labour).
           </p>
         </div>
 
