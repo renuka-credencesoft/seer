@@ -36,14 +36,17 @@ const HeroSection = () => {
               >
                 Get in touch
               </h1>
-              <p className=" text-[#374151]" style={{ fontFamily: "roboto" }}>
+              <p
+                className="py-2 text-[#374151]"
+                style={{ fontFamily: "roboto" }}
+              >
                 Name:
               </p>
               <div className="mr-4">
                 <input type="text" className="w-full border p-2 rounded-lg" />
               </div>
               <p
-                className="py-2  text-[#374151]"
+                className="py-2   text-[#374151]"
                 style={{ fontFamily: "roboto" }}
               >
                 Email:
@@ -52,7 +55,7 @@ const HeroSection = () => {
                 <input type="email" className="w-full border p-2 rounded-lg" />
               </div>
               <p
-                className="py-2  text-[#374151]"
+                className="py-2   text-[#374151]"
                 style={{ fontFamily: "roboto" }}
               >
                 Phone:
@@ -61,17 +64,25 @@ const HeroSection = () => {
                 <input type="text" className="w-full border p-2 rounded-lg" />
               </div>
               <p
-                className="py-2  text-[#374151]"
+                className="py-2   text-[#374151]"
                 style={{ fontFamily: "roboto" }}
               >
                 Enquiry:
               </p>
-              <div className="mr-4">
+              <div className="mr-4 hidden md:block">
                 <textarea
                   name=""
                   cols="30"
                   className="w-full border p-2 rounded-lg"
-                  rows="3"
+                  rows="2"
+                ></textarea>
+              </div>
+              <div className="mr-4 block md:hidden">
+                <textarea
+                  name=""
+                  cols="30"
+                  className="w-full border p-2 rounded-lg"
+                  rows="2"
                 ></textarea>
               </div>
               <div className="pt-2 pb-6  submit">
