@@ -32,14 +32,11 @@ const HeroSection = () => {
             <div className="w-2/3 ">
               <h1
                 style={{ fontFamily: "gothic-book" }}
-                className="text-2xl text-[#141722] font-bold py-6"
+                className="text-2xl text-[#141722] font-bold py-2"
               >
                 Get in touch
               </h1>
-              <p
-                className="py-2 text-[#374151]"
-                style={{ fontFamily: "roboto" }}
-              >
+              <p className=" text-[#374151]" style={{ fontFamily: "roboto" }}>
                 Name:
               </p>
               <div className="mr-4">
@@ -77,9 +74,9 @@ const HeroSection = () => {
                   rows="3"
                 ></textarea>
               </div>
-              <div className="pt-2 pb-6">
+              <div className="pt-2 pb-6  submit">
                 <button
-                  className="lg:text-lg text-white lg:bg-[#22bbff] lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block button"
+                  className="lg:text-lg  text-white lg:bg-[#22bbff] lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block button"
                   style={{ fontFamily: "gothic-book, sans-serif" }}
                 >
                   Submit

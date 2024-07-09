@@ -60,23 +60,25 @@
 
 .HeroSectionLeftText > p {
     font-family: "Roboto";
-    font-style: normal;     
+    font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 27px;
-    color:#374151;
+    color: #374151;
     margin: 0;
 }
 
 .rightsection {
     background: linear-gradient(to bottom, #090d14 10%, #35435f 90%);
 }
-.ContactRightSectionHome > h1{
-    color:  #141722;
+
+.ContactRightSectionHome > h1 {
+    color: #141722;
 }
+
 .ContactRightSectionHome > p {
     color: #374151;
-    font-size: 20px; 
+    font-size: 20px;
     padding: 2px 0;
 }
 
@@ -97,7 +99,7 @@
 }
 
 p.get-in {
-    color:  #141722;
+    color: #141722;
 }
 
 @media screen and (min-width: 1600px) and (max-width: 2500px) {
@@ -137,12 +139,8 @@ p.get-in {
 @media screen and (min-width: 1160px) {
     .ContactRightSectionHome {
         padding-right: 20px;
-        
     }
 }
-
-
-
 
 @media screen and (max-width: 1000px) {
     .HeroSectionLeftText > h1 {
@@ -228,11 +226,9 @@ p.get-in {
         font-size: 0;
         line-height: 0;
     }
-    .demand{
+    .demand {
         margin-left: 230px;
-    
     }
-   
 }
 
 @media screen and (max-width: 330px) {
@@ -251,8 +247,6 @@ p.get-in {
         font-size: 0;
         line-height: 0;
     }
-    
-    
 }
 
 @media screen and (max-width: 250px) {
@@ -320,8 +314,9 @@ p.get-in {
     .ContactRightSectionHome {
         right: 20px;
         width: 35%;
+        top: 8px;
     }
-    .gmail{
+    .gmail {
         font-size: 9px;
     }
 }
@@ -330,6 +325,7 @@ p.get-in {
     .ContactRightSectionHome {
         right: 10px;
         width: 40%;
+        bottom: 12px;
     }
 }
 
@@ -344,27 +340,4 @@ p.get-in {
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
