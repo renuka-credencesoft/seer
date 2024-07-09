@@ -384,3 +384,8 @@ p.get-in {
     }
 }
 
+@media screen and (min-width: 900px) and (max-width: 1028px) {
+    .ContactRightSectionHome {
+        display: none;
+    }
+}
