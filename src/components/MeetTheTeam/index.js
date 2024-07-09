@@ -31,7 +31,7 @@ const MeetTheTeam = () => {
     <div className="pb-16">
       <p
         style={{ fontFamily: "gothic-book" }}
-        className="lg:text-5xl md:text-4xl text-[#141722] text-xl text-center font-bold lg:mt-4 md:mt-4 py-4"
+        className="lg:text-5xl md:text-4xl text-[#000000] text-xl text-center font-bold lg:mt-4 md:mt-4 py-4"
       >
         Meet The Team
       </p>
@@ -45,19 +45,19 @@ const MeetTheTeam = () => {
               <div className="text-center mt-3">
                 <p
                   style={{ fontFamily: "gothic-book" }}
-                  className="lg:text-4xl md:text-4xl text-2xl text-[#141722] font-bold pb-2"
+                  className="lg:text-4xl md:text-4xl text-2xl text-[#000000] font-bold pb-2"
                 >
                   {s.name}
                 </p>
                 <p
                   style={{ fontFamily: "gothic-book" }}
-                  className="text-lg text-gray-700 font-semibold pb-2 text-[#141722]"
+                  className="text-lg text-gray-700 font-semibold pb-2 text-[#000000]"
                 >
                   {s.designation}
                 </p>
                 <p
                   style={{ fontFamily: "gothic-book" }}
-                  className="text-center text-[#374151] "
+                  className="text-center text-[#000000] "
                 >
                   <span style={{ fontFamily: "roboto" }}>
                     {" "}

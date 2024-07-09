@@ -28,12 +28,12 @@
 }
 
 .ClientCardContent > h4{
-    color: #374151;
+    color: #000000;
     font-size: 20px;
 }
 
 .ClientCardContent > p{
-    color: #374151;
+    color: #000000;
     padding: 10px 0;
     font-size: 20px;
 }
@@ -51,12 +51,12 @@
 }
 
 .ClientCardContent > h4{
-    color: #374151;
+    color: #000000;
     font-size: 10px;
 }
 
 .ClientCardContent > p{
-    color: #374151;
+    color: #000000;
     padding:  0;
     font-size: 20px;
 }
@@ -75,12 +75,12 @@
     }
     
     .ClientCardContent > h4{
-        color: #374151;
+        color: #000000;
         font-size: 10px;
     }
     
     .ClientCardContent > p{
-        color: #374151;
+        color: #000000;
         padding:  0;
         font-size: 20px;
     }
