@@ -32,7 +32,7 @@ color:white;
    
     
 }
-.card.description{
+.card .description{
     font-family: 'gothic-book';
     color: #ffffff;
 }

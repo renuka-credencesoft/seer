@@ -105,9 +105,11 @@ const Contact = () => {
               <div className="mb-10">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white gmail"
+                  className="gmail inc text-white pl-4 lg:pl-0"
                 >
-                  sales@seer-inc.com
+                  <a href="mailto:sales@seer-inc.com" className="text-white">
+                    sales@seer-inc.com
+                  </a>
                 </p>
               </div>
               <div>
@@ -118,7 +120,9 @@ const Contact = () => {
                   style={{ fontFamily: "roboto" }}
                   className="text-white gmail"
                 >
-                  +6498892409
+                  <a href="tel:+6498892409" className="text-white">
+                    +6498892409
+                  </a>
                 </p>
               </div>
               <div>

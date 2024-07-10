@@ -152,10 +152,7 @@ const SolutionVideo = () => {
                   <img src={card.img} alt={card.title} />
                 </div>
 
-                <p
-                  className="card-title lg:-mt-1 text-center ml-16"
-                  style={{ textAlign: "center" }}
-                >
+                <p className="card-title lg:-mt-1 text-left ml-16">
                   {card.title}
                 </p>
               </div>
