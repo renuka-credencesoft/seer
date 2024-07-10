@@ -410,3 +410,11 @@ p.get-in {
         padding-bottom: 10px;
     }
 }
+@media screen and (min-width:850px) and (max-width: 936px){
+ 
+    .HeroSectionLeftText > p {
+    
+        margin-right: 30px;
+    }
+   
+}
