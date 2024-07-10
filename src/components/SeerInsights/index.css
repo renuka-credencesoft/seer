@@ -32,7 +32,7 @@ color:white;
    
     
 }
-.card .description{
+ .description{
     font-family: 'gothic-book';
     color: #ffffff;
 }
@@ -48,6 +48,10 @@ color:white;
 .SeerInsightsImg > img{
     width: 100%;
    
+}
+
+.seer-description{
+    font-family: 'gothic-book';
 }
 
 @media screen and (max-width: 700px) {

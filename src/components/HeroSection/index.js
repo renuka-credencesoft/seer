@@ -107,7 +107,7 @@ const HeroSection = () => {
                     className="gmail inc text-white pl-4 lg:pl-0"
                   >
                     <a href="mailto:sales@seer-inc.com" className="text-white">
-                      sales@seer-inc.coms
+                      sales@seer-inc.com
                     </a>
                   </p>
                 </div>
