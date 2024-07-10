@@ -152,7 +152,7 @@ const SolutionVideo = () => {
                   <img src={card.img} alt={card.title} />
                 </div>
 
-                <p className="card-title lg:-mt-1 text-left ml-16">
+                <p className="card-title lg:-mt-1 text-left ml-0 md:ml-16">
                   {card.title}
                 </p>
               </div>
