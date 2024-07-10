@@ -5,7 +5,7 @@ import ClientCard3 from "../ClientCard3";
 import ClientCard4 from "../ClientCard4";
 
 import SeerLogo from "../../assets/images/client_animates.png";
-import SeerLogo2 from "../../assets/images/client_CUE.png";
+// import SeerLogo2 from "../../assets/images/client_CUE.png";
 import SeerLogo3 from "../../assets/images/client_glassons.png";
 import SeerLogo4 from "../../assets/images/client_hallensteins.png";
 
@@ -14,7 +14,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 const ClientsCarousel = () => {
   const cards = [
     { component: <ClientCard key="1" />, imageUrl: SeerLogo },
-    { component: <ClientCard2 key="2" />, imageUrl: SeerLogo2 },
+    // { component: <ClientCard2 key="2" />, imageUrl: SeerLogo2 },
     { component: <ClientCard3 key="3" />, imageUrl: SeerLogo3 },
     { component: <ClientCard4 key="4" />, imageUrl: SeerLogo4 },
   ];
