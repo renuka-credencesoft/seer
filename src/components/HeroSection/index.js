@@ -134,7 +134,7 @@ const HeroSection = () => {
                     style={{ fontFamily: "roboto" }}
                     className="text-white  gmail  pl-4 xl:pl-0 location"
                   >
-                    Auckland, New Zealand
+                    Auckland, <br /> New Zealand
                   </p>
                 </div>
               </div>
