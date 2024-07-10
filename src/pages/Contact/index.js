@@ -30,7 +30,7 @@ const Contact = () => {
             <span>Contact No:</span> +6498892409
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Addr/ess:</span> Auckland, New Zealand
+            <span>Address:</span> Auckland, New Zealand
           </p>
           <p style={{ fontFamily: "roboto" }}>
             <span>Email Id:</span>sales@seer-inc.com
