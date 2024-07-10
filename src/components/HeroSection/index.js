@@ -132,7 +132,7 @@ const HeroSection = () => {
                 <div className="mb-20">
                   <p
                     style={{ fontFamily: "roboto" }}
-                    className="text-white gmail pl-4"
+                    className="text-white  gmail  pl-4 xl:pl-0 location"
                   >
                     Auckland, New Zealand
                   </p>

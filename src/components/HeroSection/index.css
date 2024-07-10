@@ -418,3 +418,10 @@ p.get-in {
     }
    
 }
+@media screen and (min-width:1275px) and (max-width: 1505px){
+ 
+    .location{
+        padding-left: 18px;
+    }
+   
+}
