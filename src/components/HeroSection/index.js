@@ -104,9 +104,9 @@ const HeroSection = () => {
                 <div className="mb-20">
                   <p
                     style={{ fontFamily: "roboto" }}
-                    className=" gmail text-white"
+                    className=" gmail inc text-white pl-4 lg:pl-0 "
                   >
-                    seer@gmail.com
+                    sales@seer-inc.com
                   </p>
                 </div>
 
@@ -118,7 +118,7 @@ const HeroSection = () => {
                     style={{ fontFamily: "roboto" }}
                     className="text-white gmail"
                   >
-                    9090909
+                    +6498892409
                   </p>
                 </div>
 
@@ -128,9 +128,9 @@ const HeroSection = () => {
                 <div className="mb-20">
                   <p
                     style={{ fontFamily: "roboto" }}
-                    className="text-white gmail"
+                    className="text-white gmail pl-4"
                   >
-                    India
+                    Auckland, New Zealand
                   </p>
                 </div>
               </div>

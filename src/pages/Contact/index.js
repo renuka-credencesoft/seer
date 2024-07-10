@@ -107,7 +107,7 @@ const Contact = () => {
                   style={{ fontFamily: "roboto" }}
                   className="text-white gmail"
                 >
-                  seer@gmail.com
+                  sales@seer-inc.com
                 </p>
               </div>
               <div>
@@ -118,7 +118,7 @@ const Contact = () => {
                   style={{ fontFamily: "roboto" }}
                   className="text-white gmail"
                 >
-                  9090909
+                  +6498892409
                 </p>
               </div>
               <div>
@@ -127,9 +127,9 @@ const Contact = () => {
               <div className="mb-10">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white gmail"
+                  className="text-white gmail pl-4"
                 >
-                  India
+                  Auckland, New Zealand
                 </p>
               </div>
             </div>

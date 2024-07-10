@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+
+.cue-form{
+    width: 240px;
+    height: 120px;
+}
+
 .ClientCard > img{
     width: 50%;
     display: flex;

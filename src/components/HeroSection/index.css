@@ -389,3 +389,16 @@ p.get-in {
         display: none;
     }
 }
+
+
+
+@media screen and (min-width: 1029px) and (max-width: 1081px){
+    .inc{
+        padding-left: 15px;
+    }
+}
+@media screen and (min-width: 1203px) and (max-width: 1325px){
+    .inc{
+        padding-left: 15px;
+    }
+}

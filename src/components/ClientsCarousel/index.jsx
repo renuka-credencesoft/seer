@@ -5,7 +5,7 @@ import ClientCard3 from "../ClientCard3";
 import ClientCard4 from "../ClientCard4";
 
 import SeerLogo from "../../assets/images/client_animates.png";
-import SeerLogo2 from "../../assets/images/client_barkers.png";
+import SeerLogo2 from "../../assets/images/client_CUE.png";
 import SeerLogo3 from "../../assets/images/client_glassons.png";
 import SeerLogo4 from "../../assets/images/client_hallensteins.png";
 
