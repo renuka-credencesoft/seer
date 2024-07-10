@@ -51,7 +51,7 @@ const MeetTheTeam = () => {
                 </p>
                 <p
                   style={{ fontFamily: "gothic-book" }}
-                  className="text-lg text-gray-700 font-semibold pb-2 text-[#000000]"
+                  className="text-lg text-gray-700 font-semibold pb-2 text-black"
                 >
                   {s.designation}
                 </p>
