@@ -27,10 +27,10 @@ const Contact = () => {
         <div className="ContactLeftSectionContactDetails ml-1">
           <p style={{ fontFamily: "roboto" }}>Reach out to SEER</p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Contact No:</span> 9090909090
+            <span>Contact No:</span> +6498892409
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Email Id:</span>iugiyvyv@.com
+            <span>Email Id:</span>sales@seer-inc.com
           </p>
         </div>
         <div className="ContactLeftSectionIcons">
