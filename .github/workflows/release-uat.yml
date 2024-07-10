@@ -7,7 +7,7 @@ env:
   service_name: client_projects-seer-ui
   depl_cluster_name: bookone_core
 
-  AWS_ROLE: arn:aws:iam::246214346933:role/client_projects-seer-deployment-role
+  AWS_ROLE: arn:aws:iam::912195358089:role/client_projects-seer-deployment-role
   AWS_REGION: ap-south-1
   #   deployment_variables: uat_deployment_api_credentials
 
