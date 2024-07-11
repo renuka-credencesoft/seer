@@ -419,17 +419,77 @@ p.get-in {
    
 }
 @media screen and (min-width:1275px) and (max-width: 1505px){
+    .gamil{
+        padding-top: 10px;
+    }
+    .con{
+        padding-top: 10px;
+    }
  
     .location{
         padding-left: 18px;
+        padding-top: 10px;
     }
    
 }
 
 @media screen and (min-width: 1500px){
+    .gamil{
+        padding-top: 10px;
+    }
+    .con{
+        padding-top: 10px;
+    }
 
     .location{
         padding-left: 18px;
         text-align: center;
+        padding-top: 10px;
     }
 }
+
+
+
+@media screen and (min-width:1203px) and (max-width: 1319px){
+    .gmail{
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .con{
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+    .location{
+        padding-right: 2px;
+        padding-top: 10px;
+    }
+}
+
+
+
+@media screen and (min-width:1029px) and (max-width: 1080px){
+    .gmail{
+        padding-left: 17px;
+        padding-top: 10px;
+    }
+    .con{
+      padding-right: 14px;
+    }
+    .location{
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width:1085px) and (max-width: 1196px){
+    .gmail{
+      
+        padding-top: 10px;
+    }
+    .con{
+      padding-left: 6px;
+
+    }
+  
+}
+
+

@@ -120,7 +120,7 @@ const HeroSection = () => {
                     style={{ fontFamily: "roboto" }}
                     className="text-white gmail"
                   >
-                    <a href="tel:+6498892409" className="text-white">
+                    <a href="tel:+6498892409" className="text-white con">
                       +6498892409
                     </a>
                   </p>

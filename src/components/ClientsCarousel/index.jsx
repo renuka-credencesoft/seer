@@ -53,7 +53,7 @@ const ClientsCarousel = () => {
   };
 
   const startAutoScroll = () => {
-    intervalRef.current = setInterval(handleNext, 3000);
+    intervalRef.current = setInterval(handleNext, 5000);
   };
 
   const stopAutoScroll = () => {
@@ -72,14 +72,14 @@ const ClientsCarousel = () => {
   };
 
   const computeTransform = () => {
-    if (activeIndex >= cardCount * 3000) {
+    if (activeIndex >= cardCount * 5000) {
       setActiveIndex((prevIndex) => (prevIndex % cardCount) + cardCount);
     }
     if (activeIndex < 0) {
       setActiveIndex((prevIndex) => prevIndex + cardCount);
     }
     return `translateX(-${
-      (activeIndex % (cardCount * 3000)) * (100 / (isMobile ? 1 : 3))
+      (activeIndex % (cardCount * 5000)) * (100 / (isMobile ? 1 : 3))
     }%)`;
   };
 
