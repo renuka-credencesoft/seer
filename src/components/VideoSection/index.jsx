@@ -6,12 +6,7 @@ import icon1 from "../../assets/images/icon.jpg";
 import I2 from "../../assets/images/I2.png";
 import I3 from "../../assets/images/I3.png";
 
-
-
 const VideoSection = () => {
-
-
-
   const [playing, setPlaying] = useState(true);
 
   const togglePlaying = () => {
@@ -32,21 +27,30 @@ const VideoSection = () => {
       <div className="videoSectionContainer pb-20 -pt-10">
         <div className="videoSectionLeftSection ">
           <p
-            style={{ fontFamily:'Comfortaa, sans-serif' }}
+            style={{ fontFamily: "Comfortaa, sans-serif" }}
             className="lg:text-lg text-sm text-white "
           >
             <div className="flex item-start  items-center object-center">
               <div className="mr-4">
-                <img src="/images/uploads/I1_white.svg" alt="" className="object-center w-1/5 " />
+                <img
+                  src="/images/uploads/I1_white.svg"
+                  alt=""
+                  className="object-center w-1/5 "
+                />
               </div>
               <p
                 style={{ fontFamily: "roboto" }}
                 className="w-4/5 lg:text-lg md:text-xs  text-sm text-[#ffffff]  "
               >
-                <span  style={{ fontFamily: "gothic-book" }} className=" lg:text-lg md:text-sm  text-sm text-white "><b>RETAIL IS PERVASIVE DETAIL:</b></span> Every retailer, small
-                to large, is awash with millions of inventory decisions,
-                informed by time-consuming, manual analysis of vast swathes of
-                data.
+                <span
+                  style={{ fontFamily: "gothic-book" }}
+                  className=" lg:text-lg md:text-sm  text-sm text-white "
+                >
+                  <b>RETAIL IS PERVASIVE DETAIL:</b>
+                </span>{" "}
+                Every retailer, small to large, is awash with millions of
+                inventory decisions, informed by time-consuming, manual analysis
+                of vast swathes of data.
               </p>
             </div>
 
@@ -58,7 +62,10 @@ const VideoSection = () => {
                   className="object-center w-1/5"
                 />
               </div>
-              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-[#ffffff] ">
+              <p
+                style={{ fontFamily: "roboto" }}
+                className="w-4/5 lg:text-lg md:text-sm  text-sm text-[#ffffff] "
+              >
                 <span
                   style={{ fontFamily: "gothic-book" }}
                   className=" para lg:text-lg md:text-xs  text-sm text-white "
@@ -78,7 +85,10 @@ const VideoSection = () => {
                   className="object-center w-1/5"
                 />
               </div>
-              <p   style={{ fontFamily: "roboto" }} className="w-4/5 lg:text-lg md:text-sm  text-sm text-[#ffffff] ">
+              <p
+                style={{ fontFamily: "roboto" }}
+                className="w-4/5 lg:text-lg md:text-sm  text-sm text-[#ffffff] "
+              >
                 <span
                   style={{ fontFamily: "gothic-book" }}
                   className="lg:text-lg md:text-xs  text-sm text-white "
@@ -89,21 +99,19 @@ const VideoSection = () => {
                 and inter-store transfers.
               </p>
             </div>
-            
           </p>
         </div>
 
         <div className="videoSectionRightSection">
-          <ReactPlayer url="https://www.youtube.com/watch?v=9uXpgjIF-3c"   playing={playing}
-        controls={true}  />
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=9uXpgjIF-3c"
+            // playing={playing}
+            controls={true}
+          />
         </div>
-
-
-        
       </div>
     </div>
   );
 };
-
 
 export default VideoSection;

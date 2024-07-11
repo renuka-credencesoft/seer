@@ -127,14 +127,14 @@ const SolutionVideo = () => {
 
   return (
     <div className="solution-video-container md:h-[600px] lg:h-[600px] sm:h-[1000px] ">
-      <h2 className="heading ">Predict. Prepare. Prosper. With Stock Seer</h2>
+      <h2 className="heading"  style={{fontFamily:'gothic-book, sans-serif'}}>Predict. Prepare. Prosper. With Stock Seer</h2>
 
       <div className="content-container">
         <div className="video-section">
           <ReactPlayer
             url="https://youtu.be/Zne5QME3toI?si=Ba4J1VPGda6HpeOR"
             className="react-player"
-            playing={playing}
+             // playing={playing}
             controls={true}
           />
         </div>
@@ -152,7 +152,7 @@ const SolutionVideo = () => {
                   <img src={card.img} alt={card.title} />
                 </div>
 
-                <p className="card-title lg:-mt-1 text-left ml-16">
+                <p className="card-title lg:-mt-1 text-left ml-0 md:ml-16">
                   {card.title}
                 </p>
               </div>
