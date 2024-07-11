@@ -108,7 +108,7 @@ const Contact = () => {
               <div className="mb-36">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="gmail inc pt-1 text-white pl-[20px] lg:pl-0"
+                  className="gmail inc pt-2 text-white"
                 >
                   <a href="mailto:sales@seer-inc.com" className="text-white ">
                     sales@seer-inc.com
@@ -122,7 +122,7 @@ const Contact = () => {
               <div className="mb-10">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white pt-1 gmail"
+                  className="text-white pt-2 gmail"
                 >
                   <a href="tel:+6498892409" className="text-white">
                     +6498892409
@@ -135,7 +135,7 @@ const Contact = () => {
               <div className="">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white gmail pl-4 pt-1 pl-4"
+                  className="text-white gmail pt-2"
                 >
                   Auckland, New Zealand
                 </p>
