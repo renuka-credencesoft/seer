@@ -399,7 +399,7 @@ p.get-in {
 }
 @media screen and (min-width: 1203px) and (max-width: 1325px){
     .inc{
-        padding-left: 15px;
+        /* padding-left: 15px; */
     }
 }
 @media screen and (min-width: 600px) and (max-width: 848px){
@@ -427,7 +427,7 @@ p.get-in {
     }
  
     .location{
-        padding-left: 18px;
+        /* padding-left: 18px; */
         padding-top: 10px;
     }
    
@@ -452,15 +452,18 @@ p.get-in {
 
 @media screen and (min-width:1203px) and (max-width: 1319px){
     .gmail{
-        padding-left: 20px;
+        /* padding-left: 20px; */
+        text-align: center;
         padding-top: 10px;
     }
     .con{
-        padding-right: 15px;
+        /* padding-right: 15px; */
         padding-top: 10px;
+        text-align: center;
     }
     .location{
-        padding-right: 2px;
+        /* padding-right: 2px; */
+        text-align: center;
         padding-top: 10px;
     }
 }
