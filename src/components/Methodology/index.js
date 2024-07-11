@@ -16,28 +16,32 @@ const Methodology = () => {
   const [areas, setAreas] = useState(originalAreas);
   const imageRef = useRef(null);
 
+  const updateAreas = () => {
+    if (imageRef.current) {
+      const { width, height } = imageRef.current.getBoundingClientRect();
+      const widthRatio = width / 1448;
+      const heightRatio = height / 840;
+
+      const newAreas = originalAreas.map((area) => {
+        const [x, y, r] = area.coords.split(",").map(Number);
+        return {
+          coords: `${x * widthRatio},${y * heightRatio},${r * widthRatio}`,
+        };
+      });
+
+      setAreas(newAreas);
+    }
+  };
+
   useEffect(() => {
-    const updateAreas = () => {
-      if (imageRef.current) {
-        const { width, height } = imageRef.current.getBoundingClientRect();
-        const widthRatio = width / 1448;
-        const heightRatio = height / 840;
-
-        const newAreas = originalAreas.map((area) => {
-          const [x, y, r] = area.coords.split(",").map(Number);
-          return {
-            coords: `${x * widthRatio},${y * heightRatio},${r * widthRatio}`,
-          };
-        });
-
-        setAreas(newAreas);
-      }
-    };
-
     updateAreas();
     window.addEventListener("resize", updateAreas);
     return () => window.removeEventListener("resize", updateAreas);
   }, []);
+
+  useEffect(() => {
+    updateAreas();
+  }, [imageRef.current]);
 
   const handleMouseEnter = (index) => {
     setActiveArea(index);
@@ -53,8 +57,8 @@ const Methodology = () => {
 
   return (
     <div>
-      <div className="w-full mx-auto mb-2 mb-2 ">
-        <div className="w-full mx-auto max-w-screen-3xl ">
+      <div className="w-full mx-auto mb-2 mb-2">
+        <div className="w-full mx-auto max-w-screen-3xl">
           <div className="flex flex-col md:flex-row lg:flex-row gap-10 justify-center text-center relative">
             <div className="relative hidden md:block">
               <img
@@ -64,7 +68,7 @@ const Methodology = () => {
                 width={1000}
                 alt="seer methodology"
                 useMap="#methodology"
-                className="block "
+                className="block"
               />
             </div>
             <div className="relative block md:hidden">
@@ -75,7 +79,7 @@ const Methodology = () => {
                 width={1000}
                 alt="seer methodology"
                 useMap="#methodology"
-                className="block "
+                className="block"
               />
             </div>
             <div className="relative py-4 px-4">
@@ -88,6 +92,7 @@ const Methodology = () => {
                 alt="seer methodology"
                 useMap="#methodology"
                 className="block"
+                onLoad={updateAreas} // Update areas when the image is loaded
               />
               <map name="methodology">
                 {areas.map((area, index) => (
@@ -108,7 +113,7 @@ const Methodology = () => {
                   height={840}
                   width={1448}
                   alt={`highlighted area ${activeArea + 1}`}
-                  className={`absolute  py-4 px-4 top-0 left-0 transition-opacity duration-300`}
+                  className={`absolute py-4 px-4 top-0 left-0 transition-opacity duration-300`}
                   style={{
                     opacity: 1,
                     pointerEvents: "none",
