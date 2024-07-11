@@ -494,5 +494,16 @@ p.get-in {
     }
   
 }
+@media screen and (min-width:1326px) and (max-width: 1500px){
+    .gmail{
+      
+        padding-top: 10px;
+    }
+    .con{
+      padding-left: 6px;
+
+    }
+  
+}
 
 
