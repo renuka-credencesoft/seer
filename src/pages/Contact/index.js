@@ -101,11 +101,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-1/3  rightsec rounded-r-lg text-white">
-            <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-40">
-              <div>
+            <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-16">
+              <div className="">
                 <MdEmail size={40} />
               </div>
-              <div className="mb-10">
+              <div className="mb-36">
                 <p
                   style={{ fontFamily: "roboto" }}
                   className="gmail inc text-white pl-4 lg:pl-0"
@@ -115,6 +115,7 @@ const Contact = () => {
                   </a>
                 </p>
               </div>
+
               <div>
                 <MdContactPhone size={40} />
               </div>
@@ -128,10 +129,10 @@ const Contact = () => {
                   </a>
                 </p>
               </div>
-              <div>
+              <div className="mt-24">
                 <FaMapLocationDot size={40} />
               </div>
-              <div className="mb-10">
+              <div className="">
                 <p
                   style={{ fontFamily: "roboto" }}
                   className="text-white gmail pl-4"
