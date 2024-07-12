@@ -9,7 +9,7 @@ import { MdContactPhone, MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="ContactContainer  bg-[#edeeff] pb-10 md:pb-20 lg:pb-20">
+    <div className="ContactContainer  bg-[#edeeff] pb-10 md:pb-0 lg:pb-0">
       <div className="ContactLeftSection">
         <h1
           className="shadow-none"
@@ -26,10 +26,10 @@ const Contact = () => {
             <span>Phone:</span> +6498892409
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Address:</span>Auckland, New Zealand
+            <span>Address:</span> Auckland, New Zealand
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Email:</span>contact@seer-inc.com
+            <span>Email:</span> contact@seer-inc.com
           </p>
         </div>
         <div className="ContactLeftSectionIcons">
