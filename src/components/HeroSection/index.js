@@ -150,8 +150,8 @@ const HeroSection = () => {
       </div>
 
       <div className="HeroSectionBgImg">
-        <img src={HeroImg} alt="hero" className="desktop-image" />
-        <img src={MobileImg} alt="hero" className="mobile-image" />
+        <img src="https://bookonelocal.in/cdn/Seer_Oracle.svg" alt="hero" className="desktop-image" />
+        <img src="https://bookonelocal.in/cdn/Seer_Oracle_phone.svg" alt="hero" className="mobile-image" />
       </div>
     </div>
   );
