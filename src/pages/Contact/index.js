@@ -119,20 +119,20 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div>
+              <div className="">
                 <MdContactPhone size={60} />
               </div>
               <div className="mb-10">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white pt-2 gmail"
+                  className="text-white pt-2 gmail pr-2 lg:pr-4 md:pr-2"
                 >
-                  <a href="tel:+6498892409" className="text-white">
+                  <a href="tel:+6498892409" className="text-white ">
                     +6498892409
                   </a>
                 </p>
               </div>
-              <div className="mt-20 ">
+              <div className="mt-14 md:mt-20 lg:mt-20 ">
                 <FaMapLocationDot size={60} />
               </div>
               <div className="">
