@@ -9,7 +9,7 @@ import { MdContactPhone, MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="ContactContainer bg-[#edeeff] pb-10 md:pb-0 lg:pb-0">
+    <div className="ContactContainer  bg-[#edeeff] pb-10 md:pb-20 lg:pb-20">
       <div className="ContactLeftSection">
         <h1
           className="shadow-none"
@@ -18,25 +18,18 @@ const Contact = () => {
           Get In Touch
         </h1>
 
-        <p style={{ fontFamily: "roboto" }}>
-          Drop us a message and we will get back to you as soon as possible.
-        </p>
-        <p style={{ fontFamily: "roboto" }}>
-          Give us a shout we’ll make you a believer.
+        <p style={{ fontFamily: "roboto" }} className="md:mt-4 mt-2">
+          Tell us about your retail challenges.
         </p>
         <div className="ContactLeftSectionContactDetails ml-1">
-          <p style={{ fontFamily: "roboto" }}>Reach out to SEER</p>
           <p style={{ fontFamily: "roboto" }}>
-            Tell us about your retail challenges.
-          </p>
-          <p style={{ fontFamily: "roboto" }}>
-            <span>Contact Us:</span>Phone +6498892409
+            <span>Phone:</span> +6498892409
           </p>
           <p style={{ fontFamily: "roboto" }}>
             <span>Address:</span>Auckland, New Zealand
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Email Id:</span>contact@seer-inc.com
+            <span>Email:</span>contact@seer-inc.com
           </p>
         </div>
         <div className="ContactLeftSectionIcons">
@@ -48,8 +41,8 @@ const Contact = () => {
       </div>
 
       <div className="ContactRightSection">
-        <div className="flex bg-white rounded-xl border border-[#4b5971] pl-4">
-          <div className="w-2/3  text-[#374151]/">
+        <div className="flex rounded-l-lg  border border-[#4b5971]">
+          <div className="w-2/3 rounded-l-lg bg-white  text-[#374151]  pl-4">
             <p
               style={{ fontFamily: "gothic-book" }}
               className="text-2xl get-in font-bold py-6 text-[#141722]"
@@ -103,48 +96,43 @@ const Contact = () => {
               </button>
             </div>
           </div>
-          <div className="w-1/3  rightsec rounded-r-lg text-white">
-            <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center lg:pt-10 md:pt-4  pt-8">
-              <div className="mr-2">
+          <div className="flex rightsec justify-center rounded-r-lg items-center">
+            <div className=" px-2 md:10  text-[10px] md:text-[15px] rounded-r-lg text-white flex flex-col justify-center items-center text-center h-full space-y-10 lg:space-y-20 md:space-y-14">
+              <div className="flex flex-col items-center">
                 <MdEmail size={60} />
-              </div>
-              <div className="mb-32">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="gmail inc pt-1 text-white pl-[20px] lg:pl-0"
+                  className="pt-1 text-white text-[10px] md:text-[15px]"
                 >
-                  <a href="mailto:sales@seer-inc.com" className="text-white  ">
+                  <a href="mailto:sales@seer-inc.com" className="text-white text-[10px] md:text-[15px]">
                     contact@seer-inc.com
                   </a>
                 </p>
               </div>
-
-              <div className="">
+              <div className="flex flex-col items-center">
                 <MdContactPhone size={60} />
-              </div>
-              <div className="mb-10">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white pt-2 gmail pr-2 lg:pr-4 md:pr-2"
+                  className="text-white pt-2 text-[10px] md:text-[15px]"
                 >
-                  <a href="tel:+6498892409" className="text-white ">
+                  <a href="tel:+6498892409" className="text-white text-[10px] md:text-[15px]">
                     +6498892409
                   </a>
                 </p>
               </div>
-              <div className="mt-14 md:mt-20 lg:mt-20 ">
+              <div className="flex flex-col items-center">
                 <FaMapLocationDot size={60} />
-              </div>
-              <div className="">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white gmail pl-4 pt-1 pl-4"
+                  className="text-white pt-1 text-[10px] md:text-[15px]"
                 >
                   Auckland, New Zealand
                 </p>
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>
