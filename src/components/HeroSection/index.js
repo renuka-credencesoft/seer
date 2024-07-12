@@ -106,8 +106,11 @@ const HeroSection = () => {
                     style={{ fontFamily: "roboto" }}
                     className="gmail inc text-white pl-4 mt-2 lg:pl-0"
                   >
-                    <a href="mailto:sales@seer-inc.com" className="text-white">
-                      sales@seer-inc.com
+                    <a
+                      href="mailto:contact@seer-inc.com"
+                      className="text-white"
+                    >
+                      contact@seer-inc.com
                     </a>
                   </p>
                 </div>
@@ -120,7 +123,10 @@ const HeroSection = () => {
                     style={{ fontFamily: "roboto" }}
                     className="text-white gmail  mt-2"
                   >
-                    <a href="tel:+6498892409" className="text-white con">
+                    <a
+                      href="tel:+6498892409"
+                      className="text-white con md:pr-2"
+                    >
                       +6498892409
                     </a>
                   </p>
@@ -129,10 +135,10 @@ const HeroSection = () => {
                 <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <FaMapLocationDot className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
-                <div className="mb-20">
+                <div className="mb-20 ">
                   <p
                     style={{ fontFamily: "roboto" }}
-                    className="text-white text-center  gmail mt-1"
+                    className="text-white text-center  gmail mt-1 md:pr-2"
                   >
                     Auckland, <br /> New Zealand
                   </p>

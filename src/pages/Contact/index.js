@@ -27,13 +27,16 @@ const Contact = () => {
         <div className="ContactLeftSectionContactDetails ml-1">
           <p style={{ fontFamily: "roboto" }}>Reach out to SEER</p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Contact No:</span> +6498892409
+            Tell us about your retail challenges.
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Address:</span> Auckland, New Zealand
+            <span>Contact Us:</span>Phone +6498892409
           </p>
           <p style={{ fontFamily: "roboto" }}>
-            <span>Email Id:</span> sales@seer-inc.com
+            <span>Address:</span>Auckland, New Zealand
+          </p>
+          <p style={{ fontFamily: "roboto" }}>
+            <span>Email Id:</span>contact@seer-inc.com
           </p>
         </div>
         <div className="ContactLeftSectionIcons">
@@ -101,41 +104,41 @@ const Contact = () => {
             </div>
           </div>
           <div className="w-1/3  rightsec rounded-r-lg text-white">
-            <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center pt-16">
-              <div className="">
-                <MdEmail size={40} />
+            <div className="grid place-content-center place-items-center grid-cols-1 justify-center items-center lg:pt-10 md:pt-4  pt-8">
+              <div className="mr-2">
+                <MdEmail size={60} />
               </div>
-              <div className="mb-36">
+              <div className="mb-32">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="gmail inc pt-2 text-white"
+                  className="gmail inc pt-1 text-white pl-[20px] lg:pl-0"
                 >
-                  <a href="mailto:sales@seer-inc.com" className="text-white ">
-                    sales@seer-inc.com
+                  <a href="mailto:sales@seer-inc.com" className="text-white  ">
+                    contact@seer-inc.com
                   </a>
                 </p>
               </div>
 
-              <div>
-                <MdContactPhone size={40} />
+              <div className="">
+                <MdContactPhone size={60} />
               </div>
               <div className="mb-10">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white pt-2 gmail"
+                  className="text-white pt-2 gmail pr-2 lg:pr-4 md:pr-2"
                 >
-                  <a href="tel:+6498892409" className="text-white">
+                  <a href="tel:+6498892409" className="text-white ">
                     +6498892409
                   </a>
                 </p>
               </div>
-              <div className="mt-24">
-                <FaMapLocationDot size={40} />
+              <div className="mt-14 md:mt-20 lg:mt-20 ">
+                <FaMapLocationDot size={60} />
               </div>
               <div className="">
                 <p
                   style={{ fontFamily: "roboto" }}
-                  className="text-white gmail pt-2"
+                  className="text-white gmail pl-4 pt-1 pl-4"
                 >
                   Auckland, New Zealand
                 </p>

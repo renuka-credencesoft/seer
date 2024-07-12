@@ -402,7 +402,7 @@ p.get-in {
         top: 8px;
     }
     .gmail {
-        font-size: 9px;
+        font-size: 8px;
     }
     .ContactRightSectionHome > h1 {
         font-weight: 700;
@@ -560,12 +560,18 @@ p.get-in {
     .gmail{
       
         padding-top: 10px;
+        padding-left: 26px;
     }
     .con{
-      padding-left: 6px;
+      /* padding-left: 6px; */
+     
 
     }
   
 }
 
-
+/* @media screen and (min-width:1323px) and (max-width: 1458px){
+    .gamil{
+        padding-left: 10px;
+    }
+} */
