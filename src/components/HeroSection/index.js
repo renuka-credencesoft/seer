@@ -8,7 +8,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 const HeroSection = () => {
   return (
     <div className="HeroSectionContainer">
-      <div className="">
+      <div className="hidden md:block">
         <div className="HeroSectionLeftText">
           <h1>
             Your accurate, intuitive
@@ -146,6 +146,16 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="block md:hidden">
+        <div className="HeroSectionLeftText flex justify-between">
+
+            <h1 className="text-3xl">
+              Your<br />accurate,<br />intuitive
+            </h1>
+            <h2 className="text-3xl">demand<br />forecaster.</h2>
+
         </div>
       </div>
 
