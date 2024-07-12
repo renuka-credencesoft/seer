@@ -181,7 +181,7 @@ const Blog = () => {
               the problem. The process can then be repeated.
             </p>
 
-            {/* <p
+            <p
               style={{ fontFamily: "roboto" }}
               className="lg:text-xl text-sm text-left pb-4  text-[#000000]"
             >
@@ -189,7 +189,7 @@ const Blog = () => {
               be prepared to face the challenges the future will inevitably
               pose.
             </p>
-            <p
+            {/* <p
               style={{ fontFamily: "roboto" }}
               className="lg:text-xl text-sm text-left pb-4 text-[#000000]"
             >
