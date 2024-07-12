@@ -41,7 +41,7 @@ const Contact = () => {
       </div>
 
       <div className="ContactRightSection">
-        <div className="flex rounded-l-lg  border border-[#4b5971]">
+        <div className="flex rounded-l-lg">
           <div className="w-2/3 rounded-l-lg bg-white  text-[#374151]  pl-4">
             <p
               style={{ fontFamily: "gothic-book" }}
