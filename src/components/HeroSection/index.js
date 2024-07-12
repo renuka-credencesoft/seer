@@ -8,7 +8,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 const HeroSection = () => {
   return (
     <div className="HeroSectionContainer">
-      <div className="hidden md:block">
+      <div className="">
         <div className="HeroSectionLeftText">
           <h1>
             Your accurate, intuitive
@@ -104,12 +104,9 @@ const HeroSection = () => {
                 <div className="mb-20">
                   <p
                     style={{ fontFamily: "roboto" }}
-                    className="gmail inc text-white pl-4 mt-2 lg:pl-0"
+                    className="gmail inc text-white mt-2 lg:pl-0"
                   >
-                    <a
-                      href="mailto:contact@seer-inc.com"
-                      className="text-white"
-                    >
+                    <a href="mailto:contact@seer-inc.com" className="text-white">
                       contact@seer-inc.com
                     </a>
                   </p>
@@ -123,10 +120,7 @@ const HeroSection = () => {
                     style={{ fontFamily: "roboto" }}
                     className="text-white gmail  mt-2"
                   >
-                    <a
-                      href="tel:+6498892409"
-                      className="text-white con md:pr-2"
-                    >
+                    <a href="tel:+6498892409" className="text-white con">
                       +6498892409
                     </a>
                   </p>
@@ -135,10 +129,10 @@ const HeroSection = () => {
                 <div className="w-[50px] h-[50px] flex items-center justify-center rounded-full bg-gray-200 transition duration-300">
                   <FaMapLocationDot className="text-4xl text-black transition duration-300 hover:opacity-0" />
                 </div>
-                <div className="mb-20 ">
+                <div className="mb-20">
                   <p
                     style={{ fontFamily: "roboto" }}
-                    className="text-white text-center  gmail mt-1 md:pr-2"
+                    className="text-white text-center  gmail mt-1"
                   >
                     Auckland, <br /> New Zealand
                   </p>
@@ -148,28 +142,10 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="block md:hidden">
-        <div className="HeroSectionLeftText flex justify-between">
-
-            <h1 className="text-3xl">
-              Your<br />accurate,<br />intuitive
-            </h1>
-            <h2 className="text-3xl">demand<br />forecaster.</h2>
-
-        </div>
-      </div>
 
       <div className="HeroSectionBgImg">
-        <img
-          src="https://bookonelocal.in/cdn/Seer_Oracle.svg"
-          alt="hero"
-          className="desktop-image"
-        />
-        <img
-          src="https://bookonelocal.in/cdn/Seer_Oracle_phone.svg"
-          alt="hero"
-          className="mobile-image"
-        />
+        <img src="https://bookonelocal.in/cdn/Seer_Oracle.svg" alt="hero" className="desktop-image" />
+        <img src="https://bookonelocal.in/cdn/Seer_Oracle_phone.svg" alt="hero" className="mobile-image" />
       </div>
     </div>
   );
