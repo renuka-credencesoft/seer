@@ -127,6 +127,7 @@ p.get-in {
     }
     .gmail {
         font-size: 11px;
+        padding-right: 4px;
     }
     .ContactRightSectionHome > p {
         color: #374151;
