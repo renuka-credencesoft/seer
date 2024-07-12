@@ -331,7 +331,7 @@ const CaseStudies = () => {
             className="text-left text-lg leading-7 tracking-normal p-4 sm:ml-16 sm:mr-16 text-[#000000]"
           >
             Once again, we deployed Stock Seer to automate this manual
-            process—generating an accurate, weekly sales forecast with seasonal
+            process generating an accurate, weekly sales forecast with seasonal
             fluctuations and planned promotions accounted for. As with Animates,
             the forecast was used, in conjunction with standard business rules,
             to determine more sensible target stock levels and safety stock
