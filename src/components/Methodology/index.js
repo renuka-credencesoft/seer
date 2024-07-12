@@ -11,6 +11,8 @@ const originalAreas = [
   { coords: "320,190,70" },
 ];
 
+const RADIUS_MULTIPLIER = 2.5; // Adjust this multiplier to increase the hover area
+
 const Methodology = () => {
   const [activeArea, setActiveArea] = useState(null);
   const [areas, setAreas] = useState(originalAreas);
@@ -25,7 +27,7 @@ const Methodology = () => {
       const newAreas = originalAreas.map((area) => {
         const [x, y, r] = area.coords.split(",").map(Number);
         return {
-          coords: `${x * widthRatio},${y * heightRatio},${r * widthRatio}`,
+          coords: `${x * widthRatio},${y * heightRatio},${r * widthRatio * RADIUS_MULTIPLIER}`,
         };
       });
 
