@@ -1,16 +1,29 @@
 # Use official Node.js image as base
-FROM node:18 AS build
+FROM node:18-alpine AS build
 
-# FROM node:16
+# Set the working directory in the container
+WORKDIR /usr/src/app
 
+# Copy package.json and package-lock.json to container
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application
 COPY . .
-
-RUN npm i
-
-RUN npm i -g serve
 
 RUN npm run build
 
-CMD serve -s build
+# Stage 2: Use a small image for production
+# FROM node:18-alpine
+FROM nginx
 
-EXPOSE 3000
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the built Angular app from the previous stage
+COPY --from=build /usr/src/app/build /usr/share/nginx/html
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
