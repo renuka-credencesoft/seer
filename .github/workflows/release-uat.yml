@@ -11,7 +11,7 @@ env:
   AWS_REGION: ap-south-1
   #   deployment_variables: uat_deployment_api_credentials
 
-  #   BRANCH: main
+  BRANCH: release-uat
   depl_username: aa
   depl_password: aa
   depl_url: aa
@@ -44,7 +44,7 @@ jobs:
       - name: Build Container Image
         id: build-conatainer-image
         run: |
-          docker build -t $ECR_REPOSITORY:latest .
+          docker build --build-arg env=uat -t $ECR_REPOSITORY:latest .
 
       - name: Push Container Image to ECR
         id: upload-conatainer-image
