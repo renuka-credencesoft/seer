@@ -5,7 +5,7 @@ import "./index.css";
 import { MdContactPhone, MdEmail } from "react-icons/md";
 import { FaMapLocationDot } from "react-icons/fa6";
 
-const HeroSection = () => {
+const HeroSection = ({ scrollToDemo }) => {
   return (
     <div className="HeroSectionContainer">
       <div className="">
@@ -20,6 +20,7 @@ const HeroSection = () => {
             place,at <br /> the right time.
           </p>
           <button
+            onClick={scrollToDemo}
             className="lg:text-lg text-white mt-8 lg:bg-[#22bbff]  lg:px-4 lg:py-2 lg:rounded-3xl hidden lg:block "
             style={{ fontFamily: "gothic-book, sans-serif" }}
           >
