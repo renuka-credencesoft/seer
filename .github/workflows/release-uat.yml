@@ -1,9 +1,9 @@
-name: Release Prod
+name: Release UAT
 
 on: [workflow_dispatch]
 
 env:
-  ECR_REPOSITORY: 912195358089.dkr.ecr.ap-south-1.amazonaws.com/client-projects/seer/ui
+  ECR_REPOSITORY: 912195358089.dkr.ecr.ap-south-1.amazonaws.com/client-projects/seer/ui-uat
   service_name: client_projects-seer-ui
   depl_cluster_name: bookone_core
 
