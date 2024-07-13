@@ -1,7 +1,7 @@
 # Use official Node.js image as base
-FROM node:16-alpine AS build
+FROM node:18 AS build
 
-FROM node:16
+# FROM node:16
 
 COPY . .
 
