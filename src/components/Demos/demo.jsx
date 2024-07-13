@@ -23,7 +23,7 @@ const Demo = () => {
         Prepare for Every Inventory Challenge.
       </h1>
 
-      <div className="ContactContainer lg:mt-0 md:mt-0  sm:-mb-16">
+      <div className="ContactContainerDemo lg:mt-0 md:mt-0  sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Optimise} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -60,7 +60,7 @@ const Demo = () => {
         </div>
       </div>
 
-      <div className="ContactContainer sm:-mb-16">
+      <div className="ContactContainerDemo sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Automate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -97,7 +97,7 @@ const Demo = () => {
         </div>
       </div>
 
-      <div className="ContactContainer sm:-mb-16">
+      <div className="ContactContainerDemo sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Reallocate} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -133,7 +133,7 @@ const Demo = () => {
         </div>
       </div>
 
-      <div className="ContactContainer sm:-mb-16">
+      <div className="ContactContainerDemo sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Gauge} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -170,7 +170,7 @@ const Demo = () => {
         </div>
       </div>
 
-      <div className="ContactContainer sm:-mb-16">
+      <div className="ContactContainerDemo sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Simulate} alt="casestudies" class="glassons" className="rounded-xl" />
         </div>
