@@ -1,17 +1,17 @@
-name: Release UAT
+name: Release Prod
 
 on: [workflow_dispatch]
 
 env:
   ECR_REPOSITORY: 912195358089.dkr.ecr.ap-south-1.amazonaws.com/client-projects/seer/ui
   service_name: client_projects-seer-ui
-  depl_cluster_name: bookone_core
+  depl_cluster_name: aa
 
   AWS_ROLE: arn:aws:iam::912195358089:role/client_projects-seer-deployment-role
   AWS_REGION: ap-south-1
-  #   deployment_variables: uat_deployment_api_credentials
+  #   deployment_variables: aa
 
-  #   BRANCH: main
+  BRANCH: main
   depl_username: aa
   depl_password: aa
   depl_url: aa
