@@ -1,9 +1,7 @@
 .ContactContainer {
   display: flex;
-  /* height: 100%; */
-  min-height: 100vh;
-  margin: 0;
-  /* flex-grow: 1; */
+  min-height: 75vh;
+  margin: auto;
 }
 
 .ContactContainer > div {

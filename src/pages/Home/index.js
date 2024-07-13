@@ -7,9 +7,11 @@ import "./index.css";
 
 const Home = () => {
   const demoRef = useRef(null);
+  const offset = -200; // Adjust this value as needed
 
   const scrollToDemo = () => {
-    demoRef.current?.scrollIntoView({ behavior: "smooth" });
+    const top = demoRef.current.getBoundingClientRect().top + window.scrollY + offset;
+    window.scrollTo({ top, behavior: "smooth" });
   };
 
   return (
