@@ -34,7 +34,7 @@ const Footer = ({ setShowResponsiveNav, showResponsiveNav, responsiveNav }) => {
         </span>
       </span>
 
-      <ul className="NavbarLinks pt-4">
+      <ul className="NavbarLinks pt-4 md:pb-4 ">
         <li className="NavbarLink">
           <Link
             to="/"

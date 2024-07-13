@@ -112,8 +112,10 @@
   @media screen and (min-width: 772px) and (max-width:835px){
     .NavbarLinks>li>a {
       font-size: 0.7rem; 
+      padding: 4px 8px; 
      
     }
+    
   }
   @media screen and (min-width: 760px) and (max-width:772px){
     .NavbarLinks>li>a {
