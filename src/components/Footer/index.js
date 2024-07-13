@@ -9,8 +9,9 @@ const Footer = ({ setShowResponsiveNav, showResponsiveNav, responsiveNav }) => {
   return (
     <div className="FooterContainer bottom-0 left-0 right-0 absolute">
       <span style={{ fontFamily: "gothic-book" }}>
-        ©202<span style={{ fontFamily: "serif" }}>4</span> Seer Inc
-      </span>
+        ©202<span style={{ fontFamily: "serif" }}>4</span> Seer Inc <br />
+        Made with ❤️ by CredenceSoft
+      </span>{" "}
       <ul className="NavbarLinks">
         <li className="NavbarLink">
           <Link
