@@ -104,7 +104,7 @@ const Contact = () => {
                   style={{ fontFamily: "roboto" }}
                   className="pt-1 text-white text-[10px] md:text-[15px]"
                 >
-                  <a href="mailto:sales@seer-inc.com" className="text-white text-[10px] md:text-[15px]">
+                  <a href="mailto:contact@seer-inc.com" className="text-white text-[10px] md:text-[15px]">
                     contact@seer-inc.com
                   </a>
                 </p>
