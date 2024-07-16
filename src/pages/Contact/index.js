@@ -89,7 +89,8 @@ const Contact = () => {
             </div>
             <div className="pt-2 pb-6">
               <button
-                className="lg:text-lg text-white lg:bg-[#22bbff] lg:px-4 lg:py-1 lg:rounded-lg hidden lg:block "
+                className="text-lg text-white bg-[#22bbff] px-4 py-1 rounded-lg 
+                 lg:block "
                 style={{ fontFamily: "gothic-book" }}
               >
                 Submit
