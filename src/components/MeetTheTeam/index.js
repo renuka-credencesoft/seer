@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect ,useCallback} from "react";
 import Person1 from "../../assets/images/Joshua.webp";
 import Person2 from "../../assets/images/Roland.webp";
 import Person3 from "../../assets/images/damien.webp";
 import "./index.css";
+import { client } from "../../ClientCreate/ClientCreate";
 const MeetTheTeam = () => {
   const details = [
     {
@@ -27,6 +28,24 @@ const MeetTheTeam = () => {
         "A chartered accountant by qualification, Damien brings more than 35 years of retail technology experience to Seer, specialising in Data Design, Analytics, and Data Visualization. Damien's focus at Seer is Data Development, and he is a key contributor to product strategy and design.",
     },
   ];
+  const [data ,setData]=useState([])
+
+   console.log(data ,"data")
+    const getData = useCallback(async ()=>{
+      try{
+        const response = await client.getEntries({content_type : 'meetTheTeam'})
+        // console.log(response ,"response")
+        const responseData = response.items
+        // console.log(responseData ,"fields")
+        setData(responseData)
+      } catch (error){
+        console.log(error)
+      }
+    },[])
+  
+    useEffect(() =>{
+      getData()
+    },[getData])
   return (
     <div className="pb-16">
       <p
@@ -36,38 +55,32 @@ const MeetTheTeam = () => {
         Meet The Team
       </p>
       <div className="grid md:grid-cols-3 md:gap-16 lg:mt-10 md:mt-10 gap-5 mx-3 md:mx-10 justify-content-center ">
-        {details.map((s, i) => {
-          return (
-            <div key={i} className="lg:w-full md:px-0 px-10  ">
-              <div className="">
-                <img src={s.image} className=" w-full mx-auto rounded-xl" />
-              </div>
-              <div className="text-center mt-3">
-                <p
-                  style={{ fontFamily: "gothic-book" }}
-                  className="lg:text-4xl md:text-4xl text-2xl text-[#000000] font-bold pb-2"
-                >
-                  {s.name}
-                </p>
-                <p
-                  style={{ fontFamily: "gothic-book" }}
-                  className="text-lg text-gray-700 font-semibold pb-2 text-black"
-                >
-                  {s.designation}
-                </p>
-                <p
-                  style={{ fontFamily: "gothic-book" }}
-                  className="text-center text-[#000000] "
-                >
-                  <span style={{ fontFamily: "roboto" }}>
-                    {" "}
-                    {s.description}{" "}
-                  </span>
-                </p>
-              </div>
+      {data.map((s,i) => {
+     
+  
+        return (
+          <div key={i} className="lg:w-full md:px-0 px-10 ">
+            <div>
+            {/* <img src={s.image} className=" w-full mx-auto" /> */}
+              <img src={s.fields.img.fields.file.url} className=" w-full mx-auto h-80" />
+              {/* {s.fields.image.fields.title} */}
+              {/* {imgUrl && <img src={imgUrl} alt={data?.fields?.img?.fields?.title || 'Image'} />} */}
             </div>
-          );
-        })}
+            <div className="text-center mt-3">
+              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="lg:text-4xl md:text-4xl text-2xl font-bold pb-2">
+                {/* {s.name} */}
+                {s.fields.name}
+                </p>
+              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="text-lg text-gray-700 font-semibold pb-2 ">
+                {s.fields.designation}
+              </p>
+              <p style={{fontFamily:'Comfortaa, sans-serif'}} className="text-base text-gray-500 ">
+                {s.fields.description.content[0].content[0].value}
+                </p>
+            </div>
+          </div>
+        );
+      })}
       </div>
     </div>
   );

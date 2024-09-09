@@ -12,8 +12,29 @@ import Optimise from "../../assets/images/Optimise-store.png";
 import Reallocate from "../../assets/images/Reallocate-stock.png";
 import Simulate from "../../assets/images/Simulate-long.png";
 import { Link } from "react-router-dom";
+import { client } from "../../ClientCreate/ClientCreate";
+import  { useState ,useEffect ,useCallback} from "react";
 
 const Demo = () => {
+
+  const [data ,setData]=useState([])
+
+  console.log(data ,"data")
+    const getData = useCallback(async ()=>{
+      try{
+        const response = await client.getEntries({content_type : 'inventoryChallenge'})
+        // console.log(response ,"response")
+        const responseData = response.items
+        // console.log(responseData ,"fields")
+        setData(responseData)
+      } catch (error){
+        console.log(error)
+      }
+    },[])
+  
+    useEffect(() =>{
+      getData()
+    },[getData])
   return (
     <div className="bg-[#edeeff] pb-20 " >
       <h1
@@ -23,7 +44,7 @@ const Demo = () => {
         Prepare for Every Inventory Challenge.
       </h1>
 
-      <div className="ContactContainerDemo lg:mt-0 md:mt-0  sm:-mb-16">
+      {/* <div className="ContactContainerDemo lg:mt-0 md:mt-0  sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Optimise} alt="casestudies" class="glassons" className="rounded-xl"/>
         </div>
@@ -58,8 +79,61 @@ const Demo = () => {
             </Link>
           </button>
         </div>
-      </div>
+      </div> */}
 
+      {data.map((item,i)=>{
+        console.log(item.fields?.img?.fields?.file?.url ,"item.fields.Button")
+        return (
+       
+          <div key={i}>
+            
+               {/* <img src={item.fields.Button} alt="casestudies" class="glassons" className="rounded-xl"/>  */}
+          
+               <div className="ContactContainerDemo sm:-mb-16">
+          <div className="ContactLeftSection">
+            <img  src={`https:${item.fields?.img?.fields?.file?.url}`}  alt="casestudies" class="glassons" className="rounded-xl"/>
+          </div>
+          <div className="ContactRightSection">
+            <p className="text-lg lg:text-xl lg:mt-10" style={{ color: " #000000" }}>
+              {/* <span
+                className="text-lg lg:text-xl font-bold mr-2 text-[#000000]"
+                style={{ fontFamily: "gothic-book" }}
+              > */}
+                {/* Automate Weekly Vendor Re<span style={{fontFamily:"roboto"}}>-</span>Orders. */}
+              {/* </span> */}
+              <span
+                className="text-lg lg:text-xl lg:mt-10"
+                style={{ fontFamily: "roboto" }}
+              >
+                {/* Calculate safety stock with a desired confidence factor. Determine
+                reorder points and refill levels using Seer’s sales forecast, lead
+                time and demand variability, to achieve “just-in-time” order
+                fulfilment. */}
+                {item.fields?.description?.content[0].content[0].value}
+              </span>
+            </p>
+            <button
+              style={{ fontFamily: "gothic-book" }}
+              className="lg:text-xl text-sm text-white bg-[#22bbff]   px-4 py-2 rounded-3xl  lg:block lg:mt-5 mt-3 "
+            >
+              <Link
+                className="text-white"
+                style={{ textDecoration: "none", cursor: "pointer" }}
+                to="/solutions"
+              >
+                {item.fields.Button}
+              </Link>
+            </button>
+          </div>
+        </div>
+          </div>
+        )
+      })}
+      
+      
+
+
+{/* 
       <div className="ContactContainerDemo sm:-mb-16">
         <div className="ContactLeftSection">
           <img src={Automate} alt="casestudies" class="glassons" className="rounded-xl"/>
@@ -204,7 +278,9 @@ const Demo = () => {
             </Link>
           </button>
         </div>
-      </div>
+      </div> */}
+
+
     </div>
   );
 };
